@@ -1,0 +1,180 @@
+T1	BrandName 124 135	Miller PS 1
+T2	Company 155 175	MILLER ECONOMICS LTD
+R1	Produced_by Arg1:T1 Arg2:T2	
+T3	Company 199 226	Ferring Pharmaceuticals A/S
+T4	Substance 547 552	FM 85
+T5	Company 554 560	Nestlé
+R2	Produced_by Arg1:T4 Arg2:T5	
+T6	Substance 583 598	preterm formula
+T7	BrandName 600 608	Humana 0
+T8	Company 610 621	Humana GmbH
+R3	Of_type Arg1:T7 Arg2:T6	
+R4	Produced_by Arg1:T7 Arg2:T8	
+R5	Produced_by Arg1:T6 Arg2:T8	
+T9	Substance 709 719	aminoacids
+T10	Substance 721 727	lipids
+T11	Company 759 765	Baxter
+T12	BrandName 729 741	Aminopäd 10%
+T13	BrandName 743 757	Intralipid 20%
+R6	Produced_by Arg1:T13 Arg2:T11	
+R7	Produced_by Arg1:T12 Arg2:T11	
+R8	Of_type Arg1:T12 Arg2:T9	
+R9	Of_type Arg1:T13 Arg2:T10	
+R10	Produced_by Arg1:T10 Arg2:T11	
+R11	Produced_by Arg1:T9 Arg2:T11	
+T14	Company 847 868	Pharmacia-Upjohn GmbH
+T15	BrandName 815 824	Peditrace
+T16	BrandName 826 835	Soluvit N
+T17	BrandName 837 845	Vitintra
+R12	Produced_by Arg1:T17 Arg2:T14	
+R13	Produced_by Arg1:T16 Arg2:T14	
+R14	Produced_by Arg1:T15 Arg2:T14	
+T18	Company 1018 1030	Grampian Ltd
+T19	Substance 1106 1109	DNA
+T20	Substance 1172 1180	16S rDNA
+T21	Device 1205 1217	thermocycler
+T22	Company 1219 1229	Techne LTD
+R15	Produced_by Arg1:T21 Arg2:T22	
+T23	Substance 1256 1263	primers
+T24	Substance 1264 1267	FD1
+T25	Substance 1308 1311	RD1
+T26	BrandName 1451 1469	Micro Dismembrator
+T27	Company 1471 1506	B. Braun Biotech International GmbH
+R16	Produced_by Arg1:T26 Arg2:T27	
+T28	Substance 1637 1649	Nonidet P-40
+T29	Substance 1651 1656	NP-40
+T30	Substance 1678 1683	NaDOC
+T31	Substance 1690 1693	SDS
+T32	Substance 1701 1709	Tris-HCl
+T33	Substance 1727 1731	NaCl
+T34	Substance 1738 1742	EDTA
+T35	Substance 1758 1761	NaF
+T36	BrandName 1767 1803	Complete Protease Inhibitor Cocktail
+T37	Company 1805 1832	Roche Molecular Biochemical
+R17	Produced_by Arg1:T36 Arg2:T37	
+T38	Substance 1877 1881	urea
+T39	Substance 1901 1910	thio-urea
+T40	Substance 1983 1987	Tris
+T41	Device 2109 2129	laser Doppler imager
+T42	BrandName 2131 2138	MoorLDI
+R18	Of_type Arg1:T42 Arg2:T41	
+T43	Company 2140 2160	Moor Instruments Ltd
+R19	Produced_by Arg1:T42 Arg2:T43	
+R20	Produced_by Arg1:T41 Arg2:T43	
+T44	Device 2181 2198	helium-neon laser
+T45	Procedure 2033 2061	Skin microvascular perfusion
+T46	Property 2293 2305	average size
+T47	Property 2310 2327	size distribution
+T48	Device 2431 2454	image analysis software
+T49	BrandName 2455 2468	AnalySIS Auto
+T50	Company 2470 2494	Soft Imaging System GmbH
+R21	Of_type Arg1:T49 Arg2:T48	
+R22	Produced_by Arg1:T48 Arg2:T50	
+T51	Property 2386 2394	diameter
+R23	Measures Arg1:T48 Arg2:T51	
+T52	Device 2623 2640	particle analyzer
+T53	BrandName 2648 2656	NANOPHOX
+T54	Company 2658 2671	Sympatec GmbH
+R24	Produced_by Arg1:T53 Arg2:T54	
+R25	Of_type Arg1:T53 Arg2:T52	
+R26	Produced_by Arg1:T52 Arg2:T54	
+T55	Property 2506 2527	Hydrodynamic diameter
+T56	Property 2532 2549	size distribution
+R27	Measures Arg1:T52 Arg2:T56	
+R28	Measures Arg1:T52 Arg2:T55	
+T57	Company 2755 2764	IsoSep AB
+T58	Substance 2940 2953	pH 4.5 buffer
+T59	Substance 2961 2975	sodium acetate
+T60	Substance 3001 3033	almond b-glucosidase EC 3.2.1.21
+T61	Company 3035 3055	NBS Biologicals Ltd.
+R29	Produced_by Arg1:T60 Arg2:T61	
+T62	Substance 3156 3168	ethylacetate
+T63	Device 3291 3323	semi automated microcell counter
+T64	BrandName 3325 3330	F-800
+R30	Of_type Arg1:T64 Arg2:T63	
+T65	Company 3332 3343	Sysmex GmbH
+R31	Produced_by Arg1:T64 Arg2:T65	
+R32	Produced_by Arg1:T63 Arg2:T65	
+T66	Procedure 3419 3423	PFGE
+T67	Substance 3563 3570	R1-agar
+T68	Substance 3588 3598	CBS-buffer
+T69	Substance 3607 3611	Tris
+T70	Substance 3619 3623	EDTA
+T71	Substance 3678 3686	Lysozyme
+T72	Company 3688 3710	Roche Diagnostics GmbH
+R33	Produced_by Arg1:T71 Arg2:T72	
+T73	Device 4043 4057	jet nebulizers
+T74	BrandName 4147 4159	LC ® -Sprint
+T75	Company 4161 4170	PARI GmbH
+R34	Produced_by Arg1:T74 Arg2:T75	
+R35	Of_type Arg1:T74 Arg2:T73	
+R36	Produced_by Arg1:T73 Arg2:T75	
+T76	Substance 4241 4248	insulin
+T77	BrandName 4308 4315	Exubera
+T78	Substance 4483 4486	DNA
+T79	Substance 4503 4510	primers
+T80	Substance 4532 4536	dNTP
+T81	Company 4538 4549	BIORON GmbH
+R37	Produced_by Arg1:T80 Arg2:T81	
+T82	BrandName 4574 4592	Taq DNA polymerase
+T83	Company 4594 4616	Roche Diagnostics GmbH
+R38	Produced_by Arg1:T82 Arg2:T83	
+T84	Device 4734 4771	oscillometric blood pressure recorder
+T85	BrandName 4773 4780	Dinamap
+T86	Company 4782 4794	Critikon Ltd
+R39	Produced_by Arg1:T85 Arg2:T86	
+R40	Produced_by Arg1:T84 Arg2:T86	
+T87	Property 4820 4834	blood pressure
+R41	Measures Arg1:T84 Arg2:T87	
+T88	BrandName 5053 5071	Promethion FG 1000
+T89	BrandName 5076 5082	FG 250
+T90	Device 5083 5098	flow generators
+R42	Of_type Arg1:T89 Arg2:T90	
+R43	Of_type Arg1:T88 Arg2:T90	
+T91	Company 5100 5125	Sable Systems Europe GmbH
+R44	Produced_by Arg1:T90 Arg2:T91	
+R45	Produced_by Arg1:T89 Arg2:T91	
+R46	Produced_by Arg1:T88 Arg2:T91	
+T92	Device 5287 5319	Di erential Scanning Calorimeter
+T93	BrandName 5321 5328	TA 8500
+R47	Of_type Arg1:T93 Arg2:T92	
+T94	Company 5330 5349	Mettler Toledo GmbH
+R48	Produced_by Arg1:T93 Arg2:T94	
+R49	Produced_by Arg1:T92 Arg2:T94	
+T95	Device 5428 5442	aluminium pans
+T96	Property 5479 5488	scan rate
+T97	Device 5542 5554	freeze dryer
+T98	BrandName 5562 5572	Lyovac GT4
+T99	Company 5574 5591	GEA Lyophil GmbH,
+R50	Of_type Arg1:T98 Arg2:T97	
+R51	Produced_by Arg1:T97 Arg2:T99	
+R52	Produced_by Arg1:T98 Arg2:T99	
+T100	Substance 5830 5850	FcR Blocking Reagent
+T101	Company 5863 5883	Miltenyi Biotec GmbH
+R53	Produced_by Arg1:T100 Arg2:T101	
+T102	Device 6047 6071	piezoelectric motor unit
+T103	BrandName 6073 6079	IW-801
+R54	Of_type Arg1:T103 Arg2:T102	
+T104	Company 6103 6116	EXFO Burleigh
+R55	Produced_by Arg1:T103 Arg2:T104	
+R56	Produced_by Arg1:T102 Arg2:T104	
+T105	BrandName 6189 6196	TSE-150
+T106	Company 6198 6211	Exfo Burleigh
+T107	Device 6165 6187	integral encoder stage
+R57	Of_type Arg1:T105 Arg2:T107	
+R58	Produced_by Arg1:T107 Arg2:T106	
+R59	Produced_by Arg1:T105 Arg2:T106	
+T108	Device 6228 6254	incremental linear encoder
+T109	BrandName 6256 6264	EXE 650B
+R60	Of_type Arg1:T109 Arg2:T108	
+T110	Company 6266 6294	Dr. Johannes Heidenhain GmbH
+R61	Produced_by Arg1:T108 Arg2:T110	
+R62	Produced_by Arg1:T109 Arg2:T110	
+T111	Procedure 6371 6414	Confocal laser scanning microscopic imaging
+T112	Device 6443 6462	confocal microscope
+R63	Used_for Arg1:T112 Arg2:T111	
+T113	BrandName 6464 6470	TCSSPE
+R64	Of_type Arg1:T113 Arg2:T112	
+T114	Company 6472 6499	Leica Microsystems CMS GmbH
+R65	Produced_by Arg1:T113 Arg2:T114	
+R66	Produced_by Arg1:T112 Arg2:T114	

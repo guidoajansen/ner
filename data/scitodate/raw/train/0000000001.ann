@@ -1,0 +1,147 @@
+T1	Company 78 99	Harlan Netherlands BV
+T3	Device 159 164	cages
+T4	BrandName 266 280	Variomag HP 15
+T5	Device 248 264	magnetic stirrer
+T7	BrandName 355 378	Variomag Telemodul 40 S
+T9	Procedure 425 459	Reverse transcriptase PCR analysis
+T12	Substance 588 595	reagent
+T11	Company 597 612	Biogenesis Ltd.
+T13	Device 771 785	muffle furnace
+T14	BrandName 787 800	mls 1200 pyro
+T15	Company 802 810	MLS GmbH
+T17	Company 931 942	Qiagen GmbH
+T18	Procedure 1003 1017	cDNA synthesis
+T19	BrandName 1054 1090	First-Strand cDNA Synthesis Supermix
+T20	Company 1092 1100	TransGen
+T22	Company 1233 1244	Qiagen GmbH
+T23	Company 1324 1338	Generi Biotech
+T24	Substance 1385 1398	TaqMan probes
+T25	Company 1433 1455	Roche Diagnostics GmbH
+T26	BrandName 1539 1550	LightCycler
+T27	Company 1552 1574	Roche Diagnostics GmbH
+T28	Device 1852 1863	bioreactors
+T29	Company 1865 1880	Electrolab Ltd.
+T30	Company 2144 2159	Invitrogen GmBH
+T31	Company 2221 2230	Biosource
+T32	Company 2447 2472	Sigma-Aldrich Chemie Gmbh
+T33	Substance 2545 2565	adhesive wound paste
+T34	BrandName 2567 2599	Solcoseryl Dental Adhesive Paste
+T35	Company 2601 2638	MEDA Pharmaceuticals Switzerland GmbH
+T36	Company 2876 2899	Radiometer Physics GmbH
+T37	Device 2778 2798	frequency multiplier
+T39	Device 2813 2837	dual-directional coupler
+T40	Device 2852 2861	receivers
+T41	Device 2982 2994	synthesizers
+T43	Company 2996 3003	AnaPico
+T46	Company 3142 3152	GAMPT GmbH
+T48	Substance 2408 2419	antagonists
+T50	BrandName 3339 3348	Genejuice
+T49	BrandName 3350 3357	Novagen
+T51	Company 3370 3389	Merck Chemicals Ltd
+T52	BrandName 3508 3516	Atlas.ti
+T53	Company 3525 3561	Scientific Software Development GmbH
+T54	Substance 3655 3679	Dy633 succinimidyl ester
+T55	Company 3701 3713	Dyomics GmbH
+T56	Device 4050 4078	heart rate monitoring device
+T57	BrandName 4080 4090	Polar S810
+T58	Company 4092 4108	Polar Electro Oy
+T59	Device 4356 4367	restrainers
+T60	Company 4369 4380	AgnTho's AB
+T61	Device 4545 4576	imaging chlorophyll fluorometer
+T62	BrandName 4578 4594	Walz Imaging PAM
+T63	Company 4596 4605	Walz GmbH
+T64	Device 4973 5001	panoramic stitching software
+T65	BrandName 5003 5008	PTGui
+T66	Company 5010 5040	New House Internet Services BV
+T67	Device 5286 5298	CHART RUNNER
+T68	Company 5313 5334	PQ Systems Europe Ltd
+T47	Device 3260 3272	microbubbles
+T69	Device 31 42	BALB/c mice
+R1	Produced_by Arg1:T69 Arg2:T1	
+R3	Of_type Arg1:T4 Arg2:T5	
+T70	Substance 482 485	RNA
+R9	Of_type Arg1:T14 Arg2:T13	
+R10	Produced_by Arg1:T14 Arg2:T15	
+T71	Substance 891 894	RNA
+R13	Used_for Arg1:T19 Arg2:T18	
+R14	Produced_by Arg1:T19 Arg2:T20	
+T72	Substance 1311 1318	primers
+R16	Produced_by Arg1:T72 Arg2:T23	
+R17	Produced_by Arg1:T24 Arg2:T25	
+R18	Produced_by Arg1:T26 Arg2:T27	
+R19	Produced_by Arg1:T28 Arg2:T29	
+T73	Substance 2139 2142	B27
+R20	Produced_by Arg1:T73 Arg2:T30	
+T74	Substance 2191 2214	epidermal growth factor
+T75	Substance 2216 2219	EGF
+R21	Produced_by Arg1:T75 Arg2:T31	
+R22	Produced_by Arg1:T74 Arg2:T31	
+T76	Substance 2262 2272	penicillin
+T77	Substance 2288 2300	streptomycin
+T78	Device 2338 2347	incubator
+R23	Produced_by Arg1:T48 Arg2:T32	
+R24	Of_type Arg1:T34 Arg2:T33	
+R25	Produced_by Arg1:T34 Arg2:T35	
+R28	Produced_by Arg1:T39 Arg2:T36	
+R29	Produced_by Arg1:T40 Arg2:T36	
+T79	Device 3177 3209	pulsed ultrasonic Doppler system
+R34	Produced_by Arg1:T50 Arg2:T51	
+R35	Produced_by Arg1:T49 Arg2:T51	
+R36	Produced_by Arg1:T52 Arg2:T53	
+R37	Produced_by Arg1:T54 Arg2:T55	
+T80	Substance 3738 3751	anhydrous DMF
+T81	Substance 3793 3851	18-chloro-3,6,9,12-tetraoxaoctadecan-1-amine hydrochloride
+T82	Substance 3875 3878	DMF
+T83	Substance 3911 3932	diisopropylethylamine
+T84	Property 3955 3965	Heart rate
+R38	Measures Arg1:T57 Arg2:T84	
+R39	Of_type Arg1:T57 Arg2:T56	
+R40	Produced_by Arg1:T57 Arg2:T58	
+R41	Produced_by Arg1:T59 Arg2:T60	
+T85	Property 4472 4506	chlorophyll a (Chl a) fluorescence
+R42	Measures Arg1:T62 Arg2:T85	
+R43	Of_type Arg1:T62 Arg2:T61	
+R44	Produced_by Arg1:T62 Arg2:T63	
+T86	Substance 4900 4915	Panorama images
+R45	Of_type Arg1:T65 Arg2:T64	
+R46	Extracts Arg1:T65 Arg2:T86	
+R47	Produced_by Arg1:T65 Arg2:T66	
+T87	Procedure 5071 5090	fluorescent imaging
+R48	Produced_by Arg1:T67 Arg2:T68	
+T2	BrandName 146 158	Macrolon III
+R2	Of_type Arg1:T2 Arg2:T3	
+T6	Company 300 323	H+P Labortechnique Gmbh
+R4	Produced_by Arg1:T4 Arg2:T6	
+T8	Company 380 403	H+P Labortechnique GmbH
+R5	Produced_by Arg1:T7 Arg2:T8	
+T88	Property 463 474	mRNA levels
+T89	Substance 1044 1047	RNA
+T10	BrandName 581 587	RNABee
+R6	Of_type Arg1:T10 Arg2:T12	
+R7	Extracts Arg1:T10 Arg2:T70	
+R8	Produced_by Arg1:T10 Arg2:T11	
+R49	Produced_by Arg1:T12 Arg2:T11	
+T16	BrandName 914 925	RNeasy Mini
+T90	Device 926 929	kit
+R11	Of_type Arg1:T16 Arg2:T90	
+R12	Produced_by Arg1:T16 Arg2:T17	
+R50	Produced_by Arg1:T90 Arg2:T17	
+R51	Extracts Arg1:T90 Arg2:T71	
+T21	BrandName 1204 1227	QuantiTect Probe RT-PCR
+T91	Device 1228 1231	kit
+R15	Of_type Arg1:T21 Arg2:T91	
+R52	Produced_by Arg1:T91 Arg2:T22	
+R53	Produced_by Arg1:T21 Arg2:T22	
+T42	BrandName 2973 2981	ABSYN420
+R30	Of_type Arg1:T42 Arg2:T41	
+R31	Produced_by Arg1:T42 Arg2:T43	
+R54	Produced_by Arg1:T41 Arg2:T43	
+T38	BrandName 2799 2807	AFM6-110
+R26	Of_type Arg1:T38 Arg2:T37	
+R27	Produced_by Arg1:T38 Arg2:T36	
+R55	Produced_by Arg1:T37 Arg2:T36	
+T45	BrandName 3134 3140	BCC200
+T44	Device 3119 3132	Bubble Counte
+R32	Of_type Arg1:T45 Arg2:T44	
+R33	Produced_by Arg1:T44 Arg2:T46	
+R56	Produced_by Arg1:T45 Arg2:T46	

@@ -1,0 +1,200 @@
+T1	Property 1 9	Serum LH
+T2	Property 11 14	FSH
+T3	Property 20 47	testosterone concentrations
+T4	Substance 65 87	chemiluminescent assay
+T5	BrandName 97 104	ACS:180
+T6	Device 105 117	autoanalyzer
+T7	Company 119 147	Bayer Corp. Diagnostics GmbH
+R1	Of_type Arg1:T5 Arg2:T6	
+R2	Produced_by Arg1:T5 Arg2:T7	
+R3	Produced_by Arg1:T6 Arg2:T7	
+R4	Measures Arg1:T6 Arg2:T3	
+R5	Measures Arg1:T6 Arg2:T1	
+R6	Measures Arg1:T6 Arg2:T2	
+T8	Substance 193 197	DHEA
+T9	Substance 199 229	dehydroepiandrosterone-sulfate
+T10	Substance 231 236	DHEAS
+T11	Substance 242 257	androstenedione
+T12	Procedure 277 288	RIA methods
+T13	Company 290 300	Immunotech
+T14	BrandName 353 373	CST Microwave Studio
+T15	BrandName 375 395	CST MICROWAVE STUDIO
+T16	Company 397 405	CST GmbH
+R7	Produced_by Arg1:T14 Arg2:T16	
+R8	Produced_by Arg1:T15 Arg2:T16	
+T17	Device 344 352	software
+R9	Of_type Arg1:T14 Arg2:T17	
+R10	Of_type Arg1:T15 Arg2:T17	
+T18	BrandName 584 591	ATR19-8
+T19	Device 592 633	amplifier/constant fraction discriminator
+T20	Company 641 654	Roentdek GmbH
+R11	Of_type Arg1:T18 Arg2:T19	
+R12	Produced_by Arg1:T19 Arg2:T20	
+R13	Produced_by Arg1:T18 Arg2:T20	
+T21	BrandName 679 685	TDC8HP
+T22	Device 686 711	time-to-digital converter
+T23	Device 713 716	TDC
+R14	Of_type Arg1:T21 Arg2:T22	
+R15	Of_type Arg1:T21 Arg2:T23	
+T24	Device 718 726	PCI card
+R16	Of_type Arg1:T21 Arg2:T24	
+T25	Company 728 741	Roentdek GmbH
+R17	Produced_by Arg1:T21 Arg2:T25	
+R18	Produced_by Arg1:T22 Arg2:T25	
+R19	Produced_by Arg1:T24 Arg2:T25	
+T26	BrandName 981 1005	Fisher Scientific FP-300
+T27	Device 1013 1020	balance
+T28	Company 1022 1044	Fisher Scientific Ltd.
+R20	Of_type Arg1:T26 Arg2:T27	
+R21	Produced_by Arg1:T27 Arg2:T28	
+R22	Produced_by Arg1:T26 Arg2:T28	
+T29	Property 909 920	body weight
+T30	Property 925 937	water intake
+R23	Measures Arg1:T26 Arg2:T30	
+R24	Measures Arg1:T26 Arg2:T29	
+T31	Substance 1409 1420	BG11 medium
+T32	BrandName 1479 1501	Clark oxygen electrode
+T33	Company 1503 1529	Hansatech Instruments Ltd.
+R25	Produced_by Arg1:T32 Arg2:T33	
+T34	BrandName 1788 1796	C57Bl/6J
+T35	Device 1804 1808	mice
+R26	Of_type Arg1:T34 Arg2:T35	
+T36	Company 1810 1820	Envigo Ltd
+R27	Produced_by Arg1:T35 Arg2:T36	
+R28	Produced_by Arg1:T34 Arg2:T36	
+T37	Device 2028 2048	aluminum planchettes
+T38	Company 2075 2110	Engineering Office M. Wohlwend GmbH
+R29	Produced_by Arg1:T37 Arg2:T38	
+T39	BrandName 2267 2289	Maltron BioScan 920-II
+T40	Company 2291 2316	Maltron International Ltd
+R30	Produced_by Arg1:T39 Arg2:T40	
+T41	BrandName 2426 2438	Stats Direct
+T42	Company 2440 2457	Stats Direct Ltd.
+R31	Produced_by Arg1:T41 Arg2:T42	
+T43	Procedure 2476 2495	Chi square analysis
+T44	Substance 2620 2652	Dulbecco's modified Eagle medium
+T45	Substance 2654 2658	DMEM
+T46	Substance 2661 2671	penicillin
+T47	Substance 2673 2685	streptomycin
+T48	Substance 2687 2698	L-glutamine
+T49	Substance 2700 2756	Hank's calcium-and magnesium-free balanced salt solution
+T50	Substance 2769 2785	fetal calf serum
+T51	Company 2812 2841	GIBCO Life Technologies, Ltd.
+R32	Produced_by Arg1:T44 Arg2:T51	
+R33	Produced_by Arg1:T45 Arg2:T51	
+R34	Produced_by Arg1:T46 Arg2:T51	
+R35	Produced_by Arg1:T47 Arg2:T51	
+R36	Produced_by Arg1:T48 Arg2:T51	
+R37	Produced_by Arg1:T49 Arg2:T51	
+R38	Produced_by Arg1:T50 Arg2:T51	
+T52	Substance 2847 2856	Halothane
+T53	Company 2873 2892	May and Baker, Ltd.
+R39	Produced_by Arg1:T52 Arg2:T53	
+T54	Substance 2922 2930	Betadine
+T55	Company 2965 2988	Napp Laboratories, Ltd.
+R40	Produced_by Arg1:T54 Arg2:T55	
+T56	Substance 3038 3048	EACAM1 PCR
+T59	Company 3141 3169	Qiagen, VWR International AB
+T60	Substance 3218 3221	DNA
+T61	BrandName 3285 3295	BigDye mix
+T62	Company 3297 3315	Applied Biosystems
+R44	Produced_by Arg1:T61 Arg2:T62	
+T63	Substance 3376 3383	CEACAM1
+T64	Substance 3384 3390	primer
+T65	Substance 3436 3439	DNA
+T66	Procedure 3450 3470	antisense sequencing
+T67	Substance 3472 3475	PCR
+T68	BrandName 3523 3532	Quiaex II
+T69	Device 3533 3551	gel extraction kit
+R45	Of_type Arg1:T68 Arg2:T69	
+R46	Used_for Arg1:T68 Arg2:T66	
+T70	Company 3553 3565	Quiagen GmbH
+R47	Produced_by Arg1:T69 Arg2:T70	
+R48	Produced_by Arg1:T68 Arg2:T70	
+T57	BrandName 3112 3120	QIAquick
+T58	Device 3121 3139	Gel Extraction kit
+R41	Produced_by Arg1:T58 Arg2:T59	
+R42	Produced_by Arg1:T57 Arg2:T59	
+T71	BrandName 3650 3659	BigDye TM
+T72	Device 3660 3706	terminator cycle sequencing ready reaction kit
+R43	Of_type Arg1:T71 Arg2:T72	
+T73	Company 3708 3726	Applied Biosystems
+R49	Produced_by Arg1:T72 Arg2:T73	
+R50	Produced_by Arg1:T71 Arg2:T73	
+T74	BrandName 3750 3766	ABI Prism TM 377
+T75	Device 3767 3780	DNA sequencer
+T76	Company 3782 3800	Applied Biosystems
+R51	Of_type Arg1:T74 Arg2:T75	
+R52	Produced_by Arg1:T74 Arg2:T76	
+R53	Produced_by Arg1:T75 Arg2:T76	
+T77	Substance 3916 3924	fentanyl
+T78	BrandName 3926 3934	Fentanyl
+T79	Company 3936 3949	Pharmalink AB
+R54	Of_type Arg1:T78 Arg2:T77	
+R55	Produced_by Arg1:T77 Arg2:T79	
+R56	Produced_by Arg1:T78 Arg2:T79	
+T80	Substance 3982 3989	glucose
+T81	BrandName 4153 4162	Unit E500
+T82	Company 4164 4186	Polaron Equipment Ltd.
+R57	Produced_by Arg1:T81 Arg2:T82	
+T83	Procedure 4220 4223	SEM
+T84	BrandName 4225 4232	1430 VP
+T85	Company 4234 4262	LEO Electron Microscopy Ltd.
+R58	Produced_by Arg1:T84 Arg2:T85	
+R59	Used_for Arg1:T84 Arg2:T83	
+T86	Device 4321 4333	diamond disk
+T87	Device 4357 4372	cutting machine
+T88	BrandName 4374 4385	Isomet 4000
+T89	Company 4387 4399	Buehler GmbH
+R60	Of_type Arg1:T88 Arg2:T87	
+R61	Produced_by Arg1:T87 Arg2:T89	
+R62	Produced_by Arg1:T88 Arg2:T89	
+T90	Substance 4524 4531	Primers
+T91	BrandName 4564 4578	Primer Premier
+T92	Device 4556 4563	program
+T93	Company 4580 4595	Premier Biosoft
+R63	Of_type Arg1:T91 Arg2:T92	
+R64	Produced_by Arg1:T92 Arg2:T93	
+R65	Produced_by Arg1:T91 Arg2:T93	
+T94	Device 4626 4645	DNA/RNA Synthesizer
+T95	BrandName 4646 4661	OligoMaker 48/6
+T96	Company 4663 4677	OligoMaker ApS
+R66	Of_type Arg1:T95 Arg2:T94	
+R67	Produced_by Arg1:T95 Arg2:T96	
+R68	Produced_by Arg1:T94 Arg2:T96	
+T97	Procedure 4850 4859	MALDI-TOF
+T98	BrandName 4861 4880	Autoflex II TOF/TOF
+R69	Used_for Arg1:T98 Arg2:T97	
+T99	Company 4882 4903	Bruker Daltonics GmbH
+R70	Produced_by Arg1:T98 Arg2:T99	
+T100	Substance 5016 5029	p53 wild-type
+T101	Substance 5053 5064	p53 mutated
+T102	Company 5116 5120	DSMZ
+T103	Company 5122 5181	Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH
+R71	Produced_by Arg1:T101 Arg2:T103	
+R72	Produced_by Arg1:T100 Arg2:T103	
+T104	Substance 5249 5265	RPMI-1640 medium
+T105	Company 5267 5276	Gibco BRL
+R73	Produced_by Arg1:T104 Arg2:T105	
+T106	Procedure 5303 5330	secondary PCR amplification
+T107	Substance 5338 5352	D3S1581 marker
+T108	BrandName 5365 5379	MegaMix-double
+T109	Company 5381 5395	Microzone Ltd.
+R74	Produced_by Arg1:T108 Arg2:T109	
+T110	Substance 5457 5464	D3S1581
+T111	Substance 5465 5471	primer
+T112	Property 5554 5570	Hb concentration
+T113	BrandName 5594 5609	HemoCue Hb 201+
+T114	Device 5610 5618	analyzer
+R75	Of_type Arg1:T113 Arg2:T114	
+T115	Company 5659 5669	HemoCue AB
+R76	Produced_by Arg1:T114 Arg2:T115	
+R77	Produced_by Arg1:T113 Arg2:T115	
+T116	Property 5703 5706	Hct
+T117	Device 5772 5798	heparinized capillary tube
+T118	BrandName 5840 5848	ZIPocrit
+T119	Device 5849 5859	centrifuge
+R78	Of_type Arg1:T118 Arg2:T119	
+T120	Company 5861 5879	LW Scientific Inc.
+R79	Produced_by Arg1:T119 Arg2:T120	
+R80	Produced_by Arg1:T118 Arg2:T120	

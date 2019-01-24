@@ -1,0 +1,74 @@
+
+One microlitre of extracted DNA solution was added to the PCR mixture containing 2.5 U of Dream Taq DNA polymerase (Fermentas Life Technologies, Helsingborg Sweden), 250 mM dNTPs, 0.8 mM forward primer ITS1F and 0.5 mM reverse primer ITS4A, and 1 ml of BSA (Roche, Diagnostics GmbH, Mannheim, Germany) in 25 ml of 1¥ reaction buffer (Clontech, Mountain View, USA).
+
+
+Serum 25(OH)D 3 and parathyroid hormone (PTH) were analysed using chemoluminescence on a Cobas e602 unit (Roche Diagnostics Scandinavia AB, Bromma, Sweden). Calcium levels were measured on a KonelabTM PRIME 30i equipment (Thermo Fischer Scientific Inc, Waltham, MA, USA).
+
+
+G (Zimmer Surgical, Dover, OH, USA); Refobacin Ò Bone Cement R40 (Biomet); Simplex TM P with Tobramycin (Stryker Orthopaedics, Limerick, Ireland); SmartSet GHV Gentamicin (DePuy Ltd., Blackpool, UK); and SmartSet GMV Gentamicin (DePuy Ltd.).
+
+
+Peritoneal Macrophages-Peritoneal macrophages from C3H/HeN and C3H/HeJ mice (Harlan Ltd., Oxon, UK) were collected by lavage 4 days after intraperitoneal injections of 3 ml of 3% thioglycollate (Difco, Detroit, MI).
+
+
+The England Finders were positioned in Quadriperm culture flasks (Greiner Bio-One GmbH, Frickenhausen, Germany) in which cells were incubated with 6 ml of Dulbecco's modified Eagle's medium (DMEM cell culture; Gibco-Invitrogen, Paisley, UK) supplemented with 10% fetal calf serum, 100 U/ml penicillin, 100 mg/ml streptomycin, and 2 mMol/ml glutamine (all from Biochrom, Berlin, Germany) at 37 C in a humidified atmosphere of 5% CO 2 .
+
+
+All of the cements were tested in their proprietary forms with pre-mixed gentamicin and also with the addition of 1 g vancomycin and 2 g vancomycin. The vancomycin (Alpharma Ltd, Barnstaple, United Kingdom) was mixed into the cement polymer as a powder, manually using a metal spatula as done in clinical practice, prior to adding the monomer.
+
+
+The PCR products were analyzed by electrophoresis in a 1% low-melting-temperature agarose gel and subsequently purified by using a QIAquick gel extraction kit (Qiagen Ltd., Crawley, United Kingdom). Purified amplicons were sequenced by using an ABI PRISM BigDye terminator cycle sequencing ready reaction kit (version 3.0) and an ABI PRISM 3100 genetic analyzer (Applied Biosystems) according to the manufacturer's instructions.
+
+
+Samples were analysed using a PDZ Europa ANCA-GSL elemental analyzer interfaced to a PDZ Europa 20-20 isotope ratio mass spectrometer (Sercon Ltd., Cheshire, UK). The samples were reacted with chromium oxide and silvered copper oxide at 1000 °C, the oxides were removed, and N 2 and CO 2 were trapped and separated on a Carosieve GC column before the IRMS.
+
+
+Mycobacteria were identified by 16S rRNA gene sequence analysis, as previously described (18) and analyzed using SmartGene IDNS software (SmartGene GmbH, Zug, Switzerland).
+
+Genotypic resistance testing. Mycobacterium tuberculosis clinical isolates were analyzed for antibiotic resistance mutations by DNA sequencing.
+
+
+HR was recorded continuously during the test by Team2 Pro (Polar Electro Oy, Kempele, Finland).
+
+Statistical analyses
+
+Statistical analyses were performed using IBM SPSS v.20.0 (SPSS, Chicago, USA).
+
+
+Labelling efficiency was measured using instant thin layer chromatography strips (ITLC-SA) (Varian Medical Systems UK, Ltd., Crawley, UK) with a mobile phase of 0.1 M citrate buffer, pH 5 and analysed using a gamma ray TLC scanner (Lablogic, UK).
+
+
+Microdialysis pumps (CMA 106; CMA Microdialysis AB, Solna, Sweden) were used at a constant flow rate of 0.3 ml/min.
+
+
+The inlet tube was connected to a zero-air generator (Peak Scientific) and the outlet to the PTR-ToFMS (8000, Ionicon Analitic GmbH, Innsbruck, Austria). Care was taken to maintain constant temperature and humidity during measurements as chemical reactions are very sensitive to changes of such parameters ( Mancuso et al., 2015).
+
+
+The plasma FFA concentration was measured spectrophotometrically (Wako Chemicals Gmbh, Neuss, Germany). The 3-[ 3 H]glucose-specific activity was measured on barium hydroxide/zinc sulfate-deproteinized plasma samples.
+
+
+NOV. 137 algorithm was implemented as part of the program package SAGE (Technoma GmbH, Heidelberg, Germany).
+
+Chemotaxonomic analysis. Quinones were extracted and analyzed as described by Auling et al. (3).
+
+
+Superfect reagent for transfection was purchased from Qiagen (Qiagen GmbH, Germany). iNOS, COX-2, TNF-α, IL-6, and β-actin oligonucleotide primers were purchased from Bioneer (Seoul, South Korea). 3-(4,5-dimethylthiazol-2-yl)-2,5-Diphenyl-tetrazolium bromide (MTT), aprotinin, leupeptin, phenylmethyl sulfonylfluoride (PMSF), dithiothreitol, L-N6-(1-iminoethyl)lysine (L-NIL), Triton X100, Escherichia coli LPS, and all other chemicals were purchased from Sigma Chemical Co.
+
+
+Particle size measurement and emulsifying activity EPS (50% w/v) samples dissolved in water were sonicated for 5 min, and the particle size distributions were measured by laser diffraction (Malvern Mastersizer 2000, Malvern Ltd, Worcestershire, UK). Lyophilised EPS (1 mg) was dissolved in 0.5 ml deionised water, heated to 1008C for 15 min and allowed to cool to room temperature (25 + 28C).
+
+
+In the present study, twelve short-glassfibre-reinforced (SGFR) third-generation composite replicate femurs (Sawbones Europe AB, Malmö, Sweden) were used in two configurations: (1) MDF SP: singleplane oblique medial closing-wedge SCO fixated with a medial angle stable implant (Tomofix, Synthes, Bettlach, Swiss) and (2) MDF BP: bi-plane oblique medial closingwedge SCO (Fig. 1).
+
+
+The 10 lL reaction mixture prepared in a LightCycler Ò 480 Multiwell Plate 96 contained LightCycler Ò 480 Probes Master reaction mixture (Roche Diagnostics, GmbH, Mannheim, Germany), 2.5 pmol of each primer, 1 pmol of UPL probe, 4 mM MgCl 2 , and 1 lL cDNA.
+
+
+PGI32 modElInG thE Cost-EffECtIvEnEss of thE all oRal, dIRECt-aCtInG antIvIRal REGImEn daClatasvIR Plus sofosBuvIR In PatIEnts Co-InfECtEd WIth hEPatItIs C vIRus (hCv) and hIv
+
+
+
+McEwan P 1 , Ward T 1 , Webster S 1 , Kalsekar A 2 , Brenner M 3 , Yuan Y 2 1 Health Economics and Outcomes Research Ltd, Monmouth, UK, 2 Bristol-Myers Squibb Pharmaceuticals Ltd, Princeton, NJ, USA, 3 Bristol-Myers Squibb Pharmaceuticals Ltd, Uxbridge, UK
+
+objeCtives: Compared to infection with hepatitis C virus (HCV) alone, patients co-infected with HIV have faster disease progression, decreased quality of life and increased rates of mortality.
+

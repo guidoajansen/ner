@@ -1,0 +1,184 @@
+T1	Substance 225 240	complete medium
+T2	BrandName 253 258	Gibco
+T3	Company 260 281	Life Technologies Ltd
+T4	Substance 335 352	foetal calf serum
+T5	Substance 354 357	FCS
+T6	Company 359 368	Euroclone
+T7	Substance 385 396	l-glutamine
+T8	BrandName 398 403	Gibco
+T9	BrandName 433 438	Gibco
+T10	Substance 421 431	gentamycin
+T11	Device 462 479	planar transducer
+T12	BrandName 462 491	planar transducer (model V308
+T13	Company 527 547	Panametrics NDT Ltd.
+T14	Substance 731 745	nitrocellulose
+T15	Company 747 759	Sartorius AG
+T16	Substance 688 709	SDSpolyacrylamide gel
+T17	Substance 821 828	primers
+T18	Company 849 864	Microsynth GmbH
+T19	BrandName 1112 1129	Sartorius balance
+T21	Company 1131 1152	Tillquist Analysis AB
+T22	Device 1446 1502	SiLi ZYP yttrium oxide stabilized zirconia milling beads
+T23	Company 1547 1567	Sigmund Lindner GmbH
+T24	Device 1737 1746	ball mill
+T25	BrandName 1748 1759	DynoMill RL
+T26	BrandName 1809 1817	ATLAS.ti
+T27	Company 1831 1844	ATLAS.ti GmbH
+T28	Substance 2018 2037	blocking buffer-TBS
+T29	Substance 2213 2216	hCG
+T30	Company 2218 2226	DAKO A/S
+T31	Substance 2287 2294	LH/hCGR
+T32	Company 2296 2321	Biotrend Chemikalien GmbH
+T33	Device 2406 2424	humidified chamber
+T34	Device 2493 2503	spirometer
+T35	BrandName 2505 2518	Master Screen
+T36	Company 2520 2537	Erich Jaeger GmbH
+T37	Substance 2618 2629	Maleic acid
+T38	Company 2673 2698	Sigma-Aldrich Chemie GmbH
+T39	Substance 2721 2734	Sodium oleate
+T40	Company 2777 2791	Riedel-de Haën
+T41	BrandName 3023 3030	SIMCA-P
+T42	Device 3037 3053	software package
+T43	Company 3055 3066	Umetrics AB
+T44	Substance 3250 3253	BSA
+T45	Substance 3255 3275	Bovine Serum Albumin
+T47	BrandName 3322 3358	Phusion High-Fidelity DNA Polymerase
+T48	Company 3360 3372	Finnzymes OY
+T49	BrandName 3397 3414	Phusion HF Buffer
+T50	Device 3508 3539	isotope ratio mass spectrometer
+T51	Substance 3541 3545	IRMS
+T52	Company 3547 3559	Isoprime Ltd
+T53	Company 3950 3963	Digitimer Ltd
+T54	Company 3986 4008	Gould Electronics Inc.
+T55	Substance 4267 4287	penta-His antibodies
+T56	Company 4289 4301	Qiagen, GmbH
+T57	Device 4493 4505	oscilloscope
+T58	BrandName 4507 4514	TDS 210
+T59	Company 4516 4534	Tektronix, UK Ltd.
+T60	BrandName 4636 4657	AM413T5 Dino-Lite Pro
+T61	Device 4616 4634	digital microscope
+T62	Company 4659 4687	AnMo Electronics Corporation
+T63	Device 4771 4781	CT scanner
+T64	BrandName 4783 4800	CT Definition AS+
+T65	Company 4802 4825	Siemens Healthcare GmbH
+T66	Device 4894 4921	integrated circuit detector
+T67	BrandName 4923 4930	Stellar
+T68	Company 4932 4950	Siemens Healthcare
+T69	BrandName 5083 5098	EpiTect MSP kit
+T70	Company 5100 5111	QIAGEN GmbH
+T71	BrandName 5427 5436	GOSSIP 27
+T72	Device 5457 5473	software package
+T73	Company 5738 5757	MicroDiscovery GmbH
+T74	BrandName 5934 5948	SuperScript II
+T75	Company 5950 5960	Invitrogen
+T76	Substance 5976 5986	Erdosteine
+T77	Substance 5988 6007	Erdostin suspension
+T78	Company 6027 6054	Ilsan-iltas Pharmaceuticals
+T79	Substance 6079 6082	ALA
+T80	Company 6101 6126	Sigma-Aldrich Chemie GmbH
+T81	Substance 6149 6171	Ketamine hydrochloride
+T82	Company 6209 6215	Pfizer
+T83	Substance 6230 6252	xylasine hydrochloride
+T85	BrandName 6254 6260	Rompun
+T86	Company 6280 6285	Bayer
+T87	BrandName 6654 6671	Zetasizer Nano ZS
+T88	Company 6673 6698	Malvern Instruments, Ltd.
+T89	Procedure 159 204	FicollHypaque density gradient centrifugation
+T90	Procedure 209 221	re-suspended
+R1	Used_for Arg1:T2 Arg2:T90	
+R2	Of_type Arg1:T2 Arg2:T1	
+R3	Produced_by Arg1:T2 Arg2:T3	
+R4	Produced_by Arg1:T5 Arg2:T6	
+R5	Produced_by Arg1:T4 Arg2:T6	
+R6	Of_type Arg1:T8 Arg2:T7	
+R7	Of_type Arg1:T9 Arg2:T10	
+R8	Of_type Arg1:T12 Arg2:T11	
+R9	Produced_by Arg1:T12 Arg2:T13	
+R10	Produced_by Arg1:T14 Arg2:T15	
+R11	Produced_by Arg1:T17 Arg2:T18	
+T91	Property 1020 1032	Semen volume
+R12	Measures Arg1:T19 Arg2:T91	
+R14	Produced_by Arg1:T19 Arg2:T21	
+T92	Device 1311 1334	airdisplacement pipette
+T93	Substance 1364 1375	benzamidine
+R15	Produced_by Arg1:T22 Arg2:T23	
+T94	Procedure 1656 1694	Fenofibrate nanosuspension preparation
+R16	Used_for Arg1:T25 Arg2:T94	
+R17	Of_type Arg1:T25 Arg2:T24	
+R18	Produced_by Arg1:T26 Arg2:T27	
+T95	Substance 2065 2073	Tris-HCl
+T96	Substance 2080 2084	NaCl
+T97	Substance 2092 2100	Tween-20
+T98	Substance 2117 2137	bovine serum albumin
+T99	Substance 2176 2204	rabbit polyclonal antibodies
+R19	Produced_by Arg1:T29 Arg2:T30	
+T100	Substance 2251 2278	sheep polyclonal antibodies
+R20	Produced_by Arg1:T31 Arg2:T32	
+T101	Substance 2102 2107	TBS-T
+T102	Substance 2450 2455	TBS-T
+T103	Property 2459 2476	Spirometry: FEV 1
+R21	Of_type Arg1:T35 Arg2:T34	
+R22	Measures Arg1:T35 Arg2:T103	
+R23	Produced_by Arg1:T35 Arg2:T36	
+R24	Produced_by Arg1:T37 Arg2:T38	
+R25	Produced_by Arg1:T39 Arg2:T40	
+R26	Of_type Arg1:T41 Arg2:T42	
+R27	Produced_by Arg1:T41 Arg2:T43	
+R29	Produced_by Arg1:T47 Arg2:T48	
+T104	Substance 3433 3439	MgCl 2
+T105	Property 3444 3470	Expired 13 CO 2 enrichment
+R30	Measures Arg1:T50 Arg2:T105	
+R31	Measures Arg1:T51 Arg2:T105	
+R32	Produced_by Arg1:T51 Arg2:T52	
+R33	Produced_by Arg1:T50 Arg2:T52	
+T106	Substance 4070 4101	Immunodepletion of DNA helicase
+T107	Substance 4106 4128	ssDNA-dependent ATPase
+T108	Substance 4250 4263	preimmune IgG
+R34	Produced_by Arg1:T55 Arg2:T56	
+T109	Procedure 4313 4328	Immunodepletion
+T110	Substance 4370 4387	A-Sepharose beads
+T111	Substance 4422 4437	Tris-HCl buffer
+T112	Property 4462 4469	voltage
+R35	Measures Arg1:T58 Arg2:T112	
+R36	Of_type Arg1:T58 Arg2:T57	
+R37	Produced_by Arg1:T58 Arg2:T59	
+T113	Property 4552 4571	Microscopy pictures
+R38	Measures Arg1:T60 Arg2:T113	
+R39	Of_type Arg1:T60 Arg2:T61	
+R40	Produced_by Arg1:T60 Arg2:T62	
+T114	Procedure 4709 4725	Twin-beam DE-CTA
+R41	Used_for Arg1:T64 Arg2:T114	
+R42	Of_type Arg1:T64 Arg2:T63	
+R43	Produced_by Arg1:T64 Arg2:T65	
+T115	Device 4862 4874	split-filter
+R44	Of_type Arg1:T67 Arg2:T66	
+R45	Produced_by Arg1:T67 Arg2:T68	
+T116	Procedure 4975 4978	PCR
+T117	Substance 5007 5014	primers
+R46	Used_for Arg1:T117 Arg2:T116	
+T118	Substance 5054 5065	genomic DNA
+R47	Produced_by Arg1:T69 Arg2:T70	
+T119	Procedure 5379 5406	Gene Ontology (GO) analysis
+R48	Used_for Arg1:T71 Arg2:T119	
+R49	Of_type Arg1:T71 Arg2:T72	
+T120	Procedure 5778 5792	cDNA Synthesis
+T121	Procedure 5794 5820	Quantitative Real-Time PCR
+T123	Procedure 5888 5909	reverse transcription
+T122	Procedure 5825 5850	Statistical Analysis cDNA
+R50	Produced_by Arg1:T74 Arg2:T75	
+R51	Used_for Arg1:T74 Arg2:T123	
+R52	Produced_by Arg1:T77 Arg2:T78	
+R53	Produced_by Arg1:T76 Arg2:T78	
+R54	Produced_by Arg1:T79 Arg2:T80	
+T84	BrandName 6173 6180	Ketalar
+R55	Of_type Arg1:T84 Arg2:T81	
+R56	Produced_by Arg1:T84 Arg2:T82	
+R57	Of_type Arg1:T85 Arg2:T83	
+R58	Produced_by Arg1:T85 Arg2:T86	
+T124	Property 6347 6368	Entrapment efficiency
+T125	Property 6379 6400	drug loading capacity
+T126	Property 6580 6593	mean diameter
+T127	Property 6598 6612	zeta-potential
+R59	Produced_by Arg1:T87 Arg2:T88	
+T128	Device 4143 4148	PfH45
+T129	Company 4389 4397	Amersham

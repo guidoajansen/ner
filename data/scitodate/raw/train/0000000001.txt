@@ -1,0 +1,63 @@
+Specified pathogen-free female BALB/c mice (5-6 weeks old) were obtained from Harlan Netherlands BV (Horst, The Netherlands). Mice were housed in Macrolon III cages with food and water ad libitum.
+
+
+The stirring device is a 15 position submersible magnetic stirrer (Variomag HP 15, art no 41500 from H+P Labortechnique Gmbh, Munich Germany) controlled by Variomag Telemodul 40 S (H+P Labortechnique GmbH, Munich, Germany).
+
+
+Reverse transcriptase PCR analysis of mRNA levels
+
+Total RNA was extracted from normoxic control and 48 h CH SH-SH5Y cells grown in 6-well plates using the RNABee reagent (Biogenesis Ltd., Poole, UK) according to the manufacturer's instructions.
+
+
+After removal of the solvent in vacuo, the catalyst precursor was calcined for 2 h at 300 8C in a muffle furnace (mls 1200 pyro; MLS GmbH, Leutkirch, Germany), to afford a catalyst with a loading of 1 wt % Pd.
+
+
+Total RNA was extracted with RNeasy Mini kit (Qiagen GmbH, Hilden, Germany) according to the manufacturer's protocol. cDNA synthesis was performed with 500 ng RNA using First-Strand cDNA Synthesis Supermix (TransGen, Beijing, China).
+
+
+The amplifications of the samples were carried out in a final volume of 20 l using QuantiTect Probe RT-PCR kit (Qiagen GmbH, Hilden, Germany) according to manufacturer's specifications with primers from Generi Biotech (Hradec Králové, Czech Republic) and specific TaqMan probes from the Universal Probe Library (Roche Diagnostics GmbH, Mannheim, Germany) that are listed in Table 1. The amplifications were run on the LightCycler (Roche Diagnostics GmbH, Mannheim, Germany) according the following program: reverse transcription at 50 • C for 20 min and initial activation step at 95 • C for 15 min, followed by 40 cycles at 95 • C for 0 s and 60 • C for 60 s.
+
+
+Batch and fed-batch cultures were carried out in 2-l round-bottomed bioreactors (Electrolab Ltd., Cytotechnology Tewkesbury, UK) with a starting volume of 1 l. Exponentially growing cells were inoculated in suspension at 2-3 9 10 5 cells/ml.
+
+
+Human and rodent neurospheres were cultured in proliferation medium [DMEM and Hams F12 (3:1) supplemented with B27 (Invitrogen GmBH, Karlsruhe, Germany), 20 ng/mL epidermal growth factor (EGF; Biosource, Karlsruhe, Germany), 100 U/mL penicillin, and 100 lg/mL streptomycin] in a humidified 92.5% air/7.5% CO 2 incubator at 37 °C in suspension culture.
+
+
+In the present study, all antagonists were ordered commercially (Sigma-Aldrich Chemie Gmbh, Germany), and were freshly prepared and dissolved in 0.9% saline.
+
+
+An adhesive wound paste (Solcoseryl Dental Adhesive Paste, MEDA Pharmaceuticals Switzerland GmbH, Wangen-Brüttisellen, Switzerland) was then applied postoperatively, and patients were instructed to apply it twice daily (Fig. 1c).
+
+
+The frequency multiplier AFM6-110, the dual-directional coupler and the three receivers all stem from Radiometer Physics GmbH, Meckenheim, Germany. For the generation of the K u band frequencies two ABSYN420 synthesizers (AnaPico, Zurich, Switzerland) were used in steps of 250 MHz.
+
+
+The applied diagnostic medical device was the non-invasive, Bubble Counter BCC200 (GAMPT GmbH, Merseburg, Germany), a pulsed ultrasonic Doppler system with a transmission frequency of 2 MHz, measuring microbubbles in the range of 10-500 µm .
+
+
+HEK293 cells were transfected using Genejuice (Novagen supplied by Merck Chemicals Ltd, Nottingham, UK; 70967-6) as recommended by the manufacturers instructions.
+
+
+All coded transcripts were entered into Atlas.ti 5.0.66 (Scientific Software Development GmbH, Berlin, Germany) to facilitate review, analysis, and reporting.
+
+
+To a stirring solution of Dy633 succinimidyl ester (10 mg, 0.012 mmol) (Dyomics GmbH, Jena, Germany) in 1 mL anhydrous DMF (stored over molecular sieves) was added 18-chloro-3,6,9,12-tetraoxaoctadecan-1-amine hydrochloride as a 0.5 M solution in DMF (34 µL, 0.017 mmol) followed by diisopropylethylamine (5 µL, 0.024 mmol).
+
+
+Heart rate, as an indicator for autonomic stress responsiveness, was measured using a portable heart rate monitoring device (Polar S810, Polar Electro Oy, Kempele, Finland), with aggregated beat-to-beat analyses in 1-min intervals (beats/min) from À5 to +5 min relative to the stressor (20 units).
+
+
+Starting on PND 123-126, the MS15, MS360 and AFR males were placed in adjustable transparent plastic restrainers (AgnTho's AB, Stockholm, Sweden) with a size appropriate to induce immobilization for 30 min.
+
+
+In vivo chlorophyll a (Chl a) fluorescence of whole plants was recorded using an imaging chlorophyll fluorometer (Walz Imaging PAM, Walz GmbH, Effeltrich, Germany) by exposing plants to actinic light (50 lmol photons m À2 s À1 ) and after 10 min a saturating light flash (0.8 s, 4000 lmol photons m À2 s À1 ) to obtain the fluorescence-based effective quantum yield of photosystem II (PSII) in the light (U II ) (Genty et al., 1989).
+
+
+Panorama images were assembled from a series of images and combined by a panoramic stitching software (PTGui, New House Internet Services BV, Rotterdam, Netherlands). For fluorescent imaging, erythrocytes were incubated with 300 nM nile red (a hydrophobic probe for membrane detection) at room temperature for 20 min in HBSS.
+
+
+Analysis and data presentation
+
+Data were displayed using CHART RUNNER, version 3.0 (PQ Systems Europe Ltd, Formby, UK). The standard control chart method was used to interpret patterns of variation in data over time.
+

@@ -1,0 +1,78 @@
+
+The instrument was an Elzone model 8OXY (Particle Data Ltd., Cheltenham, Gloucs., UK). The analyzer was fitted with a 30-pm orifice tube and calibrated using latex standards of sizes 2.02, 5.00, and 10.18 p m to give a size range 1.00-15.01 p m divided into 128 channels.
+
+
+Statistical analysis
+
+
+
+Multivariate analysis: OPLS-DA
+
+Orthogonal projections to latent structures discriminant analysis (OPLS-DA) was performed in SIMCA-P? 12.0 (Umetrics AB, Umeå, Sweden) on mean centered and unit variance scaled metabolite responses from the original data set.
+
+
+To visualize double-stranded DNA, sections were counterstained with DAPI (10236276001, 1:1,000) (Roche Diagnostics GmbH, Mannheim, Germany) for 10 min. Finally, sections were mounted with glass coverslips using Fluorescent Mounting Medium (DAKO Ltd, Cambridgeshire, UK).
+
+
+Flow cytometry was performed on a Dako CyAn ADP platform (Beckman-Coulter Ltd., UK) and analyzed using Summit v4.3 software.
+
+Isolation and culture of BMDC/BMM
+
+BMDC were prepared by culturing bone marrow cells obtained from the femurs and tibia of mice in RPMI 1640 medium in the presence of granulocyte macrophage-colony stimulating factor (GM-CSF) (50 ng/mL).
+
+
+For chromatography, heparin-agarose was purchased from Sigma, and diethylaminoethyl (DEAE)-Sephacel and carboxymethyl (CM)-Sepharose were purchased from Pharmacia AB (Uppsala, Sweden). For immunohistochemical staining, an avidin-biotin-horseradish peroxidase complex system (Vectastain, Vector Lab., Burlingame, CA) was used with 3,3'-diaminobenzidine as substrate; specific rabbit polyclonal antibody for HBGF-1 (no. 06-101) was purchased from Upstate Biotechnology (Lake Placid, NY); and specific rabbit polyclonal antibody for HBGF-2 was obtained from A.
+
+
+NIR fluorescence emission at 700 nm was collected and detected with a fast photomultiplier tube (Hamamatsu, Japan) and time-correlated single photon counting system (Becker and Hickl GmbH, Berlin, Germany).
+
+In vivo magnetic resonance images were obtained using a MRI scanner at 3.0-T field strength (Tim Trio; Siemens, Erlangen, Germany), after the probe was intravenously injected into the mice prepared as described above.
+
+
+Animals received humane care in compliance with the Principles of Laboratory Animal Care formuAnimals were premedicated with an intramuscular injection of 0.1-0.5 mg/kg xylazin (Rompun 2%, Bayer lated by the National Society for Medical Research and the Guide for the Care and Use of Laboratory Animals Vital GmbH, Leverkusen, Germany) and 10-20 mg/kg Ketamin 10% (Bela-Pharm GmbH & Co.
+
+
+The ability of the fibroblasts to contract the floating gels was determined by quantifying the area of the gels daily using an LAS4000 image analyzer (GE Healthcare Bio-Science AB, Uppsela, Sweden). Data are expressed as the percentage of gel area compared with the original gel size.
+
+
+Each expansion medium was supplemented with 5% human serum type AB (Biochrom AG, Berlin, Germany) and 1000 IU/ml of IL-2 (Proleukin S, Novartis Pharma GmbH, Nürnberg, Germany). In addition, NK MACS contained 2% NK MACS supplement ® (Miltenyi Biotec, Bergisch Gladbach, Germany).
+
+
+Hindlimb ischemia was induced by ligating the right femoral artery and blood flow of the ischemic limb was estimated with a laser Doppler perfusion imager (LDPI; Moor Instruments Ltd., Devon, UK) to confirm the angiogenic effect of AM-Tg mice.
+
+
+For analysis of gel electrophoresis the Blue Light Table and Stain Clear G were used, purchased from Serva Electrophoresis GmbH (Heidelberg, Germany). All oligonucleotides were synthesised by Eurofins Genomics (Ebersberg, Germany), purchased in lyophilized form and dissolved in nuclease-free water.
+
+
+Light emission of the samples were measured by a luminometer (Berthold Detection Systems, GmbH, Germany). The residual activities were plotted versus urea concentration.
+
+
+The electrospray ionization (ESI) mass spectrometry experiments were performed on an Electronspray MS-LCQDeca (Thermo Finnigan Ltd., Hertfordshire, UK), low flow, and mass spectrometer. Samples were dissolved in a small volume of HPLC grade methanot/water (70:30, v/v) 0.01 M in ammonium acetate.
+
+
+The binding of the secondary antibody was detected with peroxidase-labelled sheep anti-human IgG (The Binding Site Ltd, Birmingham UK). Serum IgG titres from individual animals were calculated from the standard curve as mg of specific IgG per mL serum, using Titretek software from which geometric mean titres (GMT) and standard errors of the mean (sem) were determined per treatment group.
+
+
+Materials
+
+CSA (Novartis Pharma, AG, Basel, Switzerland), Indo (European Egyptian Pharmaceutical Industries, Alexandria, Egypt), cremophor EL (Sigma-Aldrich, MO, USA) and thiopental sodium (Biochemie GmbH, Vienna, Austria) were purchased from commercial vendors.
+
+
+Data processing was carried out using Proteome Discoverer 1.4 (Thermo Scientific), and database searching was conducted on an inhouse installation of Mascot Server 2.5 (Matrix Science Ltd.; London, United Kingdom). Mascot settings were as follows: precursor mass tolerance, 3 ppm; fragment mass tolerance, 0.5 Da; maximum missed cleavage sites, 2; ion score or expected cut-off, 20; significance threshold, P < 0.01; cysteine carbamidomethylation (CAM-C) was chosen as fixed posttranslational modification (PTM), whereas methionine oxidation (Met-Ox) was chosen as variable PTM.
+
+
+On day 2, samples were submerged in Tissue-Tek OCT compound (Sakura Finetek, Torrance, CA) and frozen at À 80 °C before being sectioned at 12 mm on a Microm HM 500 M cryostat (Microm International GmbH, Walldorf, Germany). Sections were collected on SuperFrost Plus slides (Fisher Scientific) and dried for 30 min at RT, then fixed in 4% paraformaldehyde in.03% PBT at RT for 30 min.
+
+
+From the residue, 10 mg were used for NMR analysis ( 1 H and 13 C NMR) (Advance 500, Bruker Biospin GmbH, Rheinstetten, Germany).
+
+Kinetic analysis of α-and β-ionone conversion
+
+For the estimation of the kinetic constants, increasing concentrations of the ionones (0-150 μM) with fixed concentrations of CYP109D1 (1 μM), Adx (10 μM), and AdR (1 μM) were used.
+
+
+To visualize and capture the tooth image, white light from a special arc lamp Philips bv, Eindhoven, the Netherlands based on xenon technology was filtered through a blue-transmitting bandpass filter Philips bv with a peak intensity of 370 nm and a bandwidth of 80 nm, to illuminate the tooth with a blue-violet light with an intensity of 13 mW/cm 2 .
+
+
+Images were obtained by a BZ-8000 fluorescence microscope (Keyence Deutschland GmbH, Germany) and analysed via CellProfiler 2.0 r11710 (Broad Institute of MIT and Harvard, USA).
+

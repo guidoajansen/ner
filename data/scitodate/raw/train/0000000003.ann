@@ -1,0 +1,237 @@
+T1	BrandName 91 115	Dream Taq DNA polymerase
+T3	Company 117 144	Fermentas Life Technologies
+T4	Substance 254 257	BSA
+T5	Company 259 282	Roche, Diagnostics GmbH
+T6	Substance 318 333	reaction buffer
+T7	Company 335 343	Clontech
+T8	BrandName 457 472	Cobas e602 unit
+T9	Company 474 506	Roche Diagnostics Scandinavia AB
+T10	BrandName 559 578	KonelabTM PRIME 30i
+T11	Company 590 619	Thermo Fischer Scientific Inc
+T12	Company 645 660	Zimmer Surgical
+T13	Substance 29 41	DNA solution
+T14	Procedure 59 62	PCR
+R2	Produced_by Arg1:T1 Arg2:T3	
+T15	Substance 188 208	forward primer ITS1F
+T16	Substance 220 240	reverse primer ITS4A
+R3	Produced_by Arg1:T4 Arg2:T5	
+R4	Produced_by Arg1:T6 Arg2:T7	
+T17	Substance 368 383	Serum 25(OH)D 3
+T18	Substance 388 407	parathyroid hormone
+T19	Substance 409 412	PTH
+T20	Procedure 434 451	chemoluminescence
+R5	Used_for Arg1:T8 Arg2:T20	
+R6	Produced_by Arg1:T8 Arg2:T9	
+T21	Property 525 539	Calcium levels
+R7	Measures Arg1:T10 Arg2:T21	
+R8	Produced_by Arg1:T10 Arg2:T11	
+T22	Substance 679 706	Refobacin Ò Bone Cement R40
+T23	Company 708 714	Biomet
+R9	Produced_by Arg1:T22 Arg2:T23	
+T24	Substance 717 729	Simplex TM P
+T25	Company 747 767	Stryker Orthopaedics
+R10	Produced_by Arg1:T24 Arg2:T25	
+T27	Substance 802 812	Gentamicin
+T28	Company 814 824	DePuy Ltd.
+T30	Substance 859 869	Gentamicin
+T31	Company 871 881	DePuy Ltd.
+T32	Substance 886 908	Peritoneal Macrophages
+T33	Substance 909 931	Peritoneal macrophages
+T35	BrandName 937 944	C3H/HeN
+T36	Device 957 961	mice
+T37	Company 963 974	Harlan Ltd.
+T38	Substance 1065 1079	thioglycollate
+T39	Company 1081 1086	Difco
+R18	Produced_by Arg1:T38 Arg2:T39	
+T42	Company 1170 1190	Greiner Bio-One GmbH
+T43	Substance 1279 1293	Eagle's medium
+T44	BrandName 1295 1312	DMEM cell culture
+T45	Company 1314 1330	Gibco-Invitrogen
+R21	Of_type Arg1:T44 Arg2:T43	
+R22	Produced_by Arg1:T44 Arg2:T45	
+T46	Substance 1367 1383	fetal calf serum
+T47	Substance 1394 1404	penicillin
+T48	Substance 1416 1428	streptomycin
+T49	Substance 1444 1453	glutamine
+T50	Company 1464 1472	Biochrom
+R23	Produced_by Arg1:T46 Arg2:T50	
+R24	Produced_by Arg1:T47 Arg2:T50	
+R25	Produced_by Arg1:T48 Arg2:T50	
+R26	Produced_by Arg1:T49 Arg2:T50	
+T51	Substance 1552 1559	cements
+T52	Substance 1614 1624	gentamicin
+T53	Substance 1659 1669	vancomycin
+T54	Substance 1678 1688	vancomycin
+T55	Substance 1694 1704	vancomycin
+T56	Company 1706 1718	Alpharma Ltd
+R27	Produced_by Arg1:T55 Arg2:T56	
+T57	Substance 1767 1781	cement polymer
+T58	Device 1812 1825	metal spatula
+T59	Substance 1876 1883	monomer
+T60	Procedure 1891 1894	PCR
+T61	Procedure 1921 1936	electrophoresis
+T62	Substance 1969 1980	agarose gel
+T64	Device 2027 2045	gel extraction kit
+T65	Company 2047 2058	Qiagen Ltd.
+T66	BrandName 2132 2159	ABI PRISM BigDye terminator
+T67	Device 2183 2195	reaction kit
+R30	Of_type Arg1:T66 Arg2:T67	
+T68	BrandName 2217 2231	ABI PRISM 3100
+T69	Device 2232 2248	genetic analyzer
+R31	Of_type Arg1:T68 Arg2:T69	
+T70	Company 2250 2268	Applied Biosystems
+R32	Produced_by Arg1:T68 Arg2:T70	
+T72	BrandName 2403 2419	PDZ Europa 20-20
+T73	Device 2420 2451	isotope ratio mass spectrometer
+R33	Of_type Arg1:T72 Arg2:T73	
+T74	Company 2453 2464	Sercon Ltd.
+R34	Produced_by Arg1:T72 Arg2:T74	
+T75	Device 2368 2386	elemental analyzer
+T76	Substance 2511 2525	chromium oxide
+T77	Substance 2530 2551	silvered copper oxide
+T78	Procedure 2669 2673	IRMS
+T79	Substance 2638 2657	Carosieve GC column
+T81	Procedure 2709 2740	16S rRNA gene sequence analysis
+T82	BrandName 2790 2804	SmartGene IDNS
+T83	Device 2805 2813	software
+R37	Of_type Arg1:T82 Arg2:T83	
+T84	Company 2815 2829	SmartGene GmbH
+T85	Procedure 2979 2993	DNA sequencing
+T86	Property 2997 2999	HR
+T87	BrandName 3045 3054	Team2 Pro
+T88	Company 3056 3072	Polar Electro Oy
+R38	Produced_by Arg1:T87 Arg2:T88	
+R39	Measures Arg1:T87 Arg2:T86	
+T89	Procedure 3116 3136	Statistical analyses
+T90	BrandName 3158 3166	IBM SPSS
+R40	Used_for Arg1:T90 Arg2:T89	
+T91	Company 3175 3179	SPSS
+R41	Produced_by Arg1:T90 Arg2:T91	
+T93	Property 3198 3218	Labelling efficiency
+T94	Substance 3257 3278	chromatography strips
+T95	BrandName 3280 3287	ITLC-SA
+R43	Of_type Arg1:T95 Arg2:T94	
+T96	Company 3290 3315	Varian Medical Systems UK
+R44	Produced_by Arg1:T95 Arg2:T96	
+R45	Measures Arg1:T95 Arg2:T93	
+T97	Device 3407 3428	gamma ray TLC scanner
+T98	Property 3381 3383	pH
+T99	Company 3430 3438	Lablogic
+R46	Produced_by Arg1:T97 Arg2:T99	
+R47	Measures Arg1:T97 Arg2:T98	
+T100	Device 3447 3466	Microdialysis pumps
+T101	BrandName 3468 3475	CMA 106
+T102	Company 3477 3497	CMA Microdialysis AB
+R48	Produced_by Arg1:T101 Arg2:T102	
+R49	Of_type Arg1:T101 Arg2:T100	
+T103	Device 3599 3617	zero-air generator
+T104	Company 3619 3634	Peak Scientific
+R50	Produced_by Arg1:T103 Arg2:T104	
+T105	BrandName 3658 3667	PTR-ToFMS
+T106	Company 3675 3696	Ionicon Analitic GmbH
+R51	Produced_by Arg1:T105 Arg2:T106	
+T107	Property 3902 3926	plasma FFA concentration
+T108	Procedure 3940 3962	spectrophotometrically
+T109	Company 3964 3983	Wako Chemicals Gmbh
+T110	BrandName 4184 4188	SAGE
+T111	Device 4168 4183	program package
+R52	Of_type Arg1:T110 Arg2:T111	
+T112	Company 4190 4203	Technoma GmbH
+R53	Produced_by Arg1:T110 Arg2:T112	
+T113	Substance 4253 4261	Quinones
+T114	Substance 4327 4344	Superfect reagent
+T115	Company 4389 4400	Qiagen GmbH
+R54	Produced_by Arg1:T114 Arg2:T115	
+T116	Substance 4412 4416	iNOS
+T117	Substance 4418 4423	COX-2
+T118	Substance 4425 4430	TNF-α
+T119	Substance 4432 4436	IL-6
+T120	BrandName 4442 4465	β-actin oligonucleotide
+T121	Substance 4466 4473	primers
+T122	Company 4494 4501	Bioneer
+R55	Of_type Arg1:T120 Arg2:T121	
+R60	Produced_by Arg1:T120 Arg2:T122	
+R61	Produced_by Arg1:T119 Arg2:T122	
+R62	Produced_by Arg1:T118 Arg2:T122	
+R63	Produced_by Arg1:T117 Arg2:T122	
+R64	Produced_by Arg1:T116 Arg2:T122	
+T123	Substance 4524 4585	3-(4,5-dimethylthiazol-2-yl)-2,5-Diphenyl-tetrazolium bromide
+T124	Substance 4587 4590	MTT
+T125	Substance 4593 4602	aprotinin
+T126	Substance 4604 4613	leupeptin
+T127	Substance 4615 4644	phenylmethyl sulfonylfluoride
+T128	Substance 4646 4651	PMSF)
+T129	Substance 4653 4667	dithiothreitol
+T130	Substance 4669 4694	L-N6-(1-iminoethyl)lysine
+T131	Substance 4696 4701	L-NIL
+T132	BrandName 4704 4715	Triton X100
+T133	Substance 4717 4737	Escherichia coli LPS
+T134	Company 4783 4801	Sigma Chemical Co.
+R65	Produced_by Arg1:T123 Arg2:T134	
+R66	Produced_by Arg1:T124 Arg2:T134	
+R67	Produced_by Arg1:T125 Arg2:T134	
+R68	Produced_by Arg1:T126 Arg2:T134	
+R69	Produced_by Arg1:T127 Arg2:T134	
+R70	Produced_by Arg1:T128 Arg2:T134	
+R71	Produced_by Arg1:T129 Arg2:T134	
+R72	Produced_by Arg1:T130 Arg2:T134	
+R73	Produced_by Arg1:T131 Arg2:T134	
+R74	Produced_by Arg1:T132 Arg2:T134	
+R75	Produced_by Arg1:T133 Arg2:T134	
+T135	Procedure 4901 4910	sonicated
+T136	Property 4930 4943	particle size
+T137	Procedure 4975 4992	laser diffraction
+T138	BrandName 4994 5018	Malvern Mastersizer 2000
+T139	Company 5020 5031	Malvern Ltd
+R76	Produced_by Arg1:T138 Arg2:T139	
+R77	Used_for Arg1:T138 Arg2:T137	
+R78	Measures Arg1:T138 Arg2:T136	
+T141	Company 5308 5326	Sawbones Europe AB
+T142	Device 5429 5432	SCO
+T143	Company 5477 5484	Tomofix
+R80	Produced_by Arg1:T142 Arg2:T143	
+T145	Device 5640 5655	Multiwell Plate
+T146	BrandName 5669 5700	LightCycler Ò 480 Probes Master
+T147	Device 5701 5717	reaction mixture
+R81	Of_type Arg1:T146 Arg2:T147	
+T148	Company 5719 5742	Roche Diagnostics, GmbH
+R82	Produced_by Arg1:T146 Arg2:T148	
+T149	Substance 5781 5787	primer
+T150	Substance 5803 5808	probe
+T151	Company 6098 6140	Health Economics and Outcomes Research Ltd
+T152	Company 6158 6198	Bristol-Myers Squibb Pharmaceuticals Ltd
+T153	Company 6222 6262	Bristol-Myers Squibb Pharmaceuticals Ltd
+T80	Device 5290 5306	replicate femurs
+R79	Produced_by Arg1:T80 Arg2:T141	
+T2	BrandName 789 801	SmartSet GHV
+R1	Of_type Arg1:T2 Arg2:T27	
+R11	Produced_by Arg1:T2 Arg2:T28	
+R12	Produced_by Arg1:T27 Arg2:T28	
+R13	Produced_by Arg1:T30 Arg2:T31	
+T26	BrandName 846 858	SmartSet GMV
+R14	Of_type Arg1:T26 Arg2:T30	
+R56	Produced_by Arg1:T26 Arg2:T31	
+T29	BrandName 949 956	C3H/HeJ
+R15	Of_type Arg1:T35 Arg2:T36	
+R16	Of_type Arg1:T29 Arg2:T36	
+R17	Produced_by Arg1:T36 Arg2:T37	
+R57	Produced_by Arg1:T29 Arg2:T37	
+R58	Produced_by Arg1:T35 Arg2:T37	
+T34	BrandName 1143 1153	Quadriperm
+T40	Device 1154 1168	culture flasks
+R19	Of_type Arg1:T34 Arg2:T40	
+R20	Produced_by Arg1:T40 Arg2:T42	
+R59	Produced_by Arg1:T34 Arg2:T42	
+T41	BrandName 2018 2026	QIAquick
+R28	Of_type Arg1:T41 Arg2:T64	
+R29	Produced_by Arg1:T64 Arg2:T65	
+R84	Produced_by Arg1:T41 Arg2:T65	
+T63	BrandName 2348 2367	PDZ Europa ANCA-GSL
+R35	Of_type Arg1:T63 Arg2:T75	
+R36	Produced_by Arg1:T75 Arg2:T74	
+R85	Produced_by Arg1:T63 Arg2:T74	
+R86	Produced_by Arg1:T73 Arg2:T74	
+T71	BrandName 5622 5639	LightCycler Ò 480
+R42	Of_type Arg1:T71 Arg2:T145	
+R83	Produced_by Arg1:T145 Arg2:T148	
+R87	Produced_by Arg1:T71 Arg2:T148	

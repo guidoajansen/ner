@@ -1,0 +1,76 @@
+
+., Kyunggi-do, Korea) and the SNAP Kombi Plus FeLV Antigen/FIV Antibody Test (IDEXX GmbH, Ludwigsburg, Germany), according to manufacturers' instructions.
+
+
+Transfection was carried out using PolyMAG according to the instructions of the manufacturer (Chemicell GmBH, Germany).
+
+Cell culture and adipogenic differentiation 3T3-L1 (American Type Culture Collection, catalog no.
+
+
+Plasma glucose concentration was measured by the enzymatic hexokinase method using the automatic analyzer Konelab 60 (Thermo Clinical Labsystem Oy, Espoo, Finland). C-peptide and insulin in serum were analyzed by a chemiluminescent immunometric technique using the commercial sets Immulite 2000 C-peptide and Immulite 2000 insulin (DPC, Los Angeles, CA).
+
+
+It was sliced to a thickness of 2-3 µm and the slice was further cropped to fit onto an IR ZnSe window (8.0 mm diam., 1.0 mm thickness, from Crystran LTD. UK) within a home-designed, sealed sample holder. An optical microscope image of the sample is shown in Figure 1a where the intense yellow of the ZnSe window has been digitally reduced.
+
+
+Genital mucosal tissues were cut into small pieces (maximum size of 10 ¥ 10 ¥ 5 mm), and placed in 1·2 U/ml Dispase II (Boehringer Mannheim, GmbH, Germany) in complete RPMI medium (3 ml per piece). The tissue-dispase II mixture was incubated in a water bath shaker (New Brunswick Scientific, Inc., Edison, NJ, USA) for 2 h at 37°C and 200 r.p.m.
+
+
+., MN, USA; 26 mm graft; Gelweave, Vascutek Ltd., Inchinnan, Scotland, UK). The coronary arteries were reattached with a polyester interposition graft (10 mm; Gelweave, Vascutek Ltd.).
+
+
+PLPs and target oligonucleotides, listed in Tables 2 and 5, were synthesized by Eurogentec SA (Seraing, Belgium).
+
+Padlock probe design
+
+Relevant nucleic acid sequences derived from GenBank and from independent sequencing studies were aligned by using ClustalW, implemented in BioEdit (http://www.mbio.ncsu. edu/BioEdit/ bioedit.html).
+
+
+For pelleting of MVs, the supernatants were subjected to an ultracentrifuge (Optima LE-80K, fixed-angle rotor 45Ti, Beckman Coulter GmbH, Krefeld, Germany) and centrifuged at 100,000 g at 4 °C for 60 min.
+
+
+Hardware
+
+Experiments were performed on a Varian 7 T DDR system with G max ¼ 17.5 G/cm, S max ¼ 87.5 G/cm/ms, with an actively detuned transmit/surface receive setup consisting of a 72 mm dual-tuned 1 H/ 13 C proton/carbon birdcage volume coil with a 40 mm two-channel 13 C surface receive array with an integrated preamp (Rapid Biomedical GMBH, Rimpar, Germany). A home-made combined RF shield and animal handling system was required to ameliorate undesired electrostatic standing wave interactions occurring inside the magnet bore.
+
+
+., 2010) at both 9 and 18 months of age were selected, and community DNA was extracted on the Maxwell ® 16 system using the Maxwell ® 16 DNA Tissue DNA purification kit (Promega Biotech AB, Sweden). In all cases, the DNA concentrations were determined fluorometrically (Qubit ® dsDNA HS assay; Invitrogen) and adjusted to 1 ng lL À1 prior to use as template in qPCR.
+
+
+Lipoid E80 (egg lecithin, approx. 80% phosphatidylcholine (PC)), Phospholipon ® 90H (hydrogenated soy lecithin, min. 90% PC), Lipoid S100 (soy lecithin, min. 94% PC), and Soluthin® S90 (soy lechitin, min. 83%, associated with calcium chloride) were kindly provided by Lipoid GmbH (Ludwigshafen, Germany). The 6 pig ears used in drug release experiments and bioadhesion testing were purchased from Nortura AS (Bardufoss, Norway).
+
+
+DMSO was purchased from Sigma Chemical Company Ltd. (Poole, United Kingdom).
+
+Cell Lines. RT112 is a human bladder tumor cell line. 2T10 cell lines were prepared from RT112 cells transfected with full cDNA for human TP and characterized by overexpression of the TP level.
+
+
+To determine arterial stiffness, photoplethysmography (Pulse Trace 2000, Cardinal Health/Micro Medical Ltd., United Kingdom) was used. The measured peak-to-peak time was adjusted to the body size to determine the arterial stiffness index.
+
+
+(v) SBP as defined by gold standard (> 250 PMN/mm 3 ) or positive cultures were associated with systemic signs of inflammation or cytokine release such as an increase in WBC and CRP in the peripheral blood, whereas this was not the case in patients with DNA positivity, and (vi) standard definition of SBP, diagnosed once at admission, is associated with a trend towards reduced survival, whereas detection of DNA using the LightCycler SeptiFast Kit Mgrade (Roche Diagnostics GmbH, Grenzach-Wyhlen, Germany) was not.
+
+These results contrast with pioneer findings mainly from a Spanish group, which introduced determination of bacterial DNA in ascitic fluid and published some landmark findings, namely that positive bacterial DNA in ascites is associated with increased cytokine liberation and shortened survival [10,12].
+
+
+RNA concentrations and purity from paraffin tissues and cultured cells were measured with a NanoDrop device (Peqlab Biotechnologie GmbH, Erlangen, Germany). Complementary DNA was generated by reverse transcription as described previously .
+
+
+The randomisation list was held by staff at the Contract Research Organisation (CRO) Pharmalog Institut f€ ur klinische Forschung GmbH, Munich, Germany, which was not involved in the study conduct.
+
+
+Measurement of bacterial growth on prebiotics
+
+Fifteen bifidobacterial and 10 clostridial strains were tested for their growth on the following prebiotics: raffinose, stachyose, lactulose (Sigma-Aldrich, CZ), inulin (Frutafit s , Hages, SK), OF (Raftilose s P85 and P95, Orafti, BE), and galactooligosaccharides (Vivinal s , obtained via Humana GmbH, Germany).
+
+Overnight cultures of bifidobacteria and clostridia grown in Wilkins-Chalgren broth (Oxoid, UK) were injected (0.3 mL) into 10 mL of basal medium (BM) containing tryptone (10 g), nutrient broth no. 2 (10 g), tween 80 (1 mL), L-cysteine hydrochloride (0.5 g), distilled water (1 L), pH ¼ 7.
+
+
+Ten nonconsecutive random microscopic fields were analyzed per animal on a light DMRBE Leica microscope (Leica Microsystems GmbH, Wetzlar, Germany), using an Infinity 1-5c camera (Lumenera Co., Ottawa, ON, Canada).
+
+
+A Biotronik stimulator (UHS 20 universal heart stimulator, Biotronik GmbH, Berlin, Germany) was used to deliver constant current rectangular impulses with pulse widths of 2 ms at twice diastolic threshold.
+
+
+As for the 22K-hGH sample, a commercially supplied recombinant one with an authentic amino acid sequence (Genotropin, Amersham Pharmacia Biotech, and Upjohn AB, Sweden) was used. IL-3-dependent mouse pro B cell line (Ba/F3) was from the RIKEN Cell Bank (Ibaraki, Japan).
+

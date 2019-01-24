@@ -1,0 +1,88 @@
+
+., Canada) and an AlphaGUARD PQ2000Pro radon monitor (Saphymo Gmbh, Germany) as a reference were used.
+
+The grab sampling method using Lucas scintillation cells (1 dm 3 Lucas covered by ZnS(Ag), M EV Ltd., Hungary) and an EMI photomultiplier were used to determine the radon concentrations.
+
+
+Materials and methods
+
+
+
+Activated sludge samples and DNA extraction
+
+Activated sludge samples were collected from one industria l WWTP (plant A) and seven domestic WWTPs (plants B-H) located in Japan (Table SMTotal DNA of each activated sludge sample was extracted as follows: each activated sludge sample was centrifuged at 4000 g for 15 min and the total DNA of each sample was extracted from 250 mg of the wet precipita te using a NucleoSpin Soil kit (MACHEREY-NAG EL GmbH, KG, Germany). The DNA extract was cleaned up using a NucleoSpin gDNA Clean-up kit (MACHEREY-NAGEL GmbH, KG).
+
+
+The jugular vein was cannulated and the cannulae were subsequently kept patent using a saline solution (50 units of heparin per milliliter saline, Multiparin, CP Pharmaceuticals Ltd, Wrexham, UK +300 mg crystapen antibiotic per 500 ml, Biochemie GmbH, Tirol, Austria).
+
+
+., Hitchin, Hertfordshire, UK; EGFR Y845 and c-Src Y418 were from BioSource Europe S.A. (Fleures, Belgium), ErbB2 Y1248 was from Upstate Biotechnology (Lake Placid, NY); and -actin was from Sigma-Aldrich.
+
+
+The absorbance was read at 540 nm with a EZ 400 microplate reader (Biochrom Ltd, Cambridge, UK) and the optical densities used to determine cell viability and to calculate IC 50 .
+
+
+Cubes of cellular rigid polyurethane foam (Sawbones Europe AB, Malmö, Sweden) 50×50 mm with three different qualities were used to simulate "severely osteoporotic bone" (160 kg/m -3 ), "mildly osteoporotic bone" (240 kg/m -3 ), and "normal bone" (320 kg/m -3 ).
+
+
+Subsequently, CD4  T cells were separated by high gradient magnetic sorting using the Variomacs technique (Miltenyi Biotec GmbH, Bergisch-Gladbach, Germany). PBMC were incubated with saturating concentrations of CD4 mAb conjugated with paramagnetic microbeads for 15 min on ice, washed in PBS supplemented with 0.5% bovine serum albumin, and 5 mM EDTA and separated according to the manufacturer's instructions.
+
+
+The cross-sectional images obtained by pQCT were analyzed using BonAlyse software (BonAlyse Oy, Jyvaskyla, Finland), which automatically identifies cortical and trabecular bone and assesses its density.
+
+
+AcKnOwLEdgEMEnt
+
+Alexander geurts was supported by an unrestricted grant from Ipsen Farmaceutica BV in the netherlands.
+
+REFEREncES
+
+
+ELISA and multiplex analyses
+
+Serum levels of the following endothelial markers were measured by ELISA: sCD141 (soluble thrombomodulin, Diaclone, Besançone, France), suppressor of tumorigenicity-2 (ST2), interleukin-33 (R&D Systems Europe Ltd, Abingdon, UK) and vascular endothelial growth factor (R&D Systems).
+
+
+Briefly, A172 and T98G glioblastoma cells and primary-cultured astrocytes were cultured in different 96-well plates (Greiner Bio-One GmbH, Frickenhausen, Germany) at a density of 5x10 3 cells/ well.
+
+
+After identifying the origin of the occluded mesenteric artery, an attempt was made to cross the occlusion from below, using a Simonds shape catheter and 0.035 guide wire (Terumo Sweden AB, Sweden). If this failed, an attempt was made at using the same technique from the arm with a 4F Headhunter catheter (COOK Europe, Bjaereskov, Denmark) and 0.035 guide wire.
+
+
+DNA Extraction
+
+Paraffin-embedded tissues were macrodissected based on hematoxylin and eosin staining evaluations to ensure a minimum of 75% of tumor cells. 6,7 Corresponding slides were digested using proteinase K (Roche Diagnostics GmbH, Mannheim, Germany) overnight before DNA extraction using standard methods.
+
+
+C-reactive protein was measured with a high-sensitivity reagent kit (CP 3847, Randox Laboratories Ltd, Crumlin, United Kingdom).
+
+Definitions of Outcome Measures
+
+Patients were followed up by telephone interviews and by medical records at 1 year.
+
+
+Group D received pentobarbitone (Nembutal; Abbot BV, Amstelveen, The Netherlands) diluted to 15 mg/ml injected into an ear vein.
+
+
+Color
+
+Fillet surface color (CIE Lab) was assessed on all the fillets in the design (n = 80) by a digital photo imaging color-measuring system (DigiEye full system, VeriVide Ltd., Leicester, UK) after 7 d of storage. The fillets were placed in a standardized lightbox with daylight (6400 K) and photographed with a calibrated digital camera (Nikon D80, 35 mm lens, Nikon Corp., Japan).
+
+
+NE tissue content was measured using a NE research ELISA kit (Demeditec Diagnostics GmbH, Kiel, Germany), fol-lowing the manufacturer's instructions.
+
+
+The need for electrocauterization (Martin ME 82, KLS Martin Group, Tuttlingen, Germany) and/or for suturing (Seralon 5-0, Serag Wiessner GmbH & Co., Naila, Germany) to stop the bleeding was recorded separately.
+
+
+Specific-IgE Measurements
+
+Serum sIgE levels were determined by a screening method (ImmunoCAP, Phadiatop Infant™, Pharmacia Diagnostics AB, Uppsala, Sweden) against the same panel of inhalant and food allergens as listed above for SPT.
+
+
+Internalization was analyzed using a LEICA TCS SP8 confocal microscope and the corresponding software (Leica Microsystems GmbH, Wetzlar, Germany).
+
+Colorimetric XTT cell proliferation assay
+
+The cytotoxic activity of 425(scFv)-ETA′ against three different RMS cell lines (RD, FL-OH1 and TE-671) was determined using a cell proliferation assay based on XTT as previously described (Schiffer et al. 2013).
+

@@ -1,0 +1,131 @@
+T2	Company 55 67	Saphymo Gmbh
+T5	Substance 825 840	NucleoSpin gDNA
+T6	Company 855 874	MACHEREY-NAGEL GmbH
+T8	Company 1042 1064	CP Pharmaceuticals Ltd
+T9	Substance 1086 1106	crystapen antibiotic
+T10	Company 1119 1133	Biochemie GmbH
+T11	Company 1428 1440	Biochrom Ltd
+T12	Company 1586 1604	Sawbones Europe AB
+T13	Company 1915 1935	Miltenyi Biotec GmbH
+T14	Company 2305 2316	BonAlyse Oy
+T15	Company 2505 2526	Ipsen Farmaceutica BV
+T16	Company 2673 2695	soluble thrombomodulin
+T17	Company 2992 3003	Greiner Bio
+T18	Device 3359 3381	4F Headhunter catheter
+T19	Procedure 3441 3444	DNA
+T20	Procedure 3445 3455	Extraction
+T21	Procedure 3457 3465	Paraffin
+T22	Company 3657 3679	Roche Diagnostics GmbH
+T23	Company 3836 3859	Randox Laboratories Ltd
+T24	Company 4050 4058	Abbot BV
+T26	Company 4303 4316	VeriVide Ltd.
+T28	BrandName 4480 4489	Nikon D80
+T29	Company 4588 4614	Demeditec Diagnostics GmbH
+T31	BrandName 4986 5003	Phadiatop Infant™
+T32	Company 5005 5029	Pharmacia Diagnostics AB
+T33	BrandName 5166 5199	LEICA TCS SP8 confocal microscope
+T34	Company 5232 5255	Leica Microsystems GmbH
+T1	BrandName 19 53	AlphaGUARD PQ2000Pro radon monitor
+T35	Device 40 52	radon monito
+T36	Procedure 109 122	grab sampling
+T37	Device 136 161	Lucas scintillation cells
+T3	Company 196 204	M EV Ltd
+T39	Property 270 290	radon concentrations
+T40	Substance 348 351	DNA
+T41	Substance 510 513	DNA
+T4	Company 750 770	MACHEREY-NAG EL GmbH
+T42	Substance 652 655	DNA
+T43	Substance 708 720	precipita te
+T44	BrandName 729 748	NucleoSpin Soil kit
+T45	Substance 790 793	DNA
+T46	Procedure 904 914	cannulated
+T47	Substance 970 985	saline solution
+T7	BrandName 1030 1040	Multiparin
+T48	Company 1220 1240	BioSource Europe S.A
+T49	Company 1283 1304	Upstate Biotechnology
+T50	Company 1344 1357	Sigma-Aldrich
+T51	Substance 1262 1273	ErbB2 Y1248
+T52	Substance 1185 1194	EGFR Y845
+T53	Substance 1199 1209	c-Src Y418
+T54	BrandName 1402 1426	EZ 400 microplate reader
+T55	Device 1409 1426	microplate reader
+R1	Produced_by Arg1:T1 Arg2:T2	
+R2	Used_for Arg1:T37 Arg2:T36	
+R3	Produced_by Arg1:T37 Arg2:T3	
+T38	Device 223 242	EMI photomultiplier
+R4	Measures Arg1:T38 Arg2:T39	
+R5	Extracts Arg1:T44 Arg2:T42	
+R6	Produced_by Arg1:T44 Arg2:T4	
+R8	Produced_by Arg1:T7 Arg2:T8	
+R9	Produced_by Arg1:T9 Arg2:T10	
+R10	Produced_by Arg1:T52 Arg2:T48	
+R11	Produced_by Arg1:T53 Arg2:T48	
+R12	Produced_by Arg1:T51 Arg2:T49	
+R13	Produced_by Arg1:T54 Arg2:T11	
+T56	Property 1465 1482	optical densities
+T57	Device 1567 1584	polyurethane foam
+R14	Produced_by Arg1:T57 Arg2:T12	
+T58	Procedure 1853 1883	high gradient magnetic sorting
+T59	BrandName 1894 1913	Variomacs technique
+R15	Produced_by Arg1:T59 Arg2:T13	
+T60	Device 1821 1834	CD4  T cells
+T61	Property 1991 2016	saturating concentrations
+T62	Substance 1966 1970	PBMC
+T63	Substance 2020 2027	CD4 mAb
+T64	Device 2044 2067	paramagnetic microbeads
+T65	Substance 2097 2100	PBS
+T66	Substance 2124 2144	bovine serum albumin
+T67	Substance 2155 2159	EDTA
+T68	Procedure 2261 2265	pQCT
+T69	BrandName 2286 2303	BonAlyse software
+R16	Produced_by Arg1:T69 Arg2:T14	
+T70	Property 2416 2423	density
+T71	Property 2591 2603	Serum levels
+T72	Substance 2621 2640	endothelial markers
+T73	BrandName 2658 2671	ELISA: sCD141
+R17	Produced_by Arg1:T73 Arg2:T16	
+R18	Measures Arg1:T73 Arg2:T71	
+T74	Substance 2727 2763	suppressor of tumorigenicity-2 (ST2)
+T75	Substance 2765 2779	interleukin-33
+T76	Company 2781 2803	R&D Systems Europe Ltd
+T77	Substance 2823 2857	vascular endothelial growth factor
+T78	Company 2859 2870	R&D Systems
+T79	BrandName 825 853	NucleoSpin gDNA Clean-up kit
+R19	Produced_by Arg1:T79 Arg2:T6	
+T25	Device 4236 4280	digital photo imaging color-measuring system
+T80	BrandName 4282 4301	DigiEye full system
+R7	Produced_by Arg1:T25 Arg2:T26	
+R20	Produced_by Arg1:T80 Arg2:T26	
+T27	Device 4464 4478	digital camera
+R21	Of_type Arg1:T28 Arg2:T27	
+R22	Of_type Arg1:T80 Arg2:T25	
+T81	Company 4503 4514	Nikon Corp.
+R23	Produced_by Arg1:T28 Arg2:T81	
+T82	BrandName 4565 4586	NE research ELISA kit
+R24	Produced_by Arg1:T82 Arg2:T29	
+T83	Property 4529 4543	tissue content
+R25	Measures Arg1:T82 Arg2:T83	
+T84	Procedure 4691 4711	electrocauterization
+T85	BrandName 4713 4725	Martin ME 82
+R26	Used_for Arg1:T85 Arg2:T84	
+T86	Company 4727 4743	KLS Martin Group
+R27	Produced_by Arg1:T85 Arg2:T86	
+T87	Procedure 4777 4785	suturing
+T88	BrandName 4787 4798	Seralon 5-0
+R28	Used_for Arg1:T88 Arg2:T87	
+T30	Company 4800 4825	Serag Wiessner GmbH & Co.
+R29	Produced_by Arg1:T88 Arg2:T30	
+T89	Property 4924 4935	sIgE levels
+T90	Procedure 4975 4984	ImmunoCAP
+R30	Used_for Arg1:T31 Arg2:T90	
+R32	Produced_by Arg1:T31 Arg2:T32	
+T91	Property 5129 5144	Internalization
+R33	Measures Arg1:T33 Arg2:T91	
+T92	Device 5180 5199	confocal microscope
+R34	Produced_by Arg1:T33 Arg2:T34	
+T93	Property 5324 5342	cytotoxic activity
+T94	Substance 5346 5359	425(scFv)-ETA
+T95	Substance 5401 5403	RD
+T96	Substance 5405 5411	FL-OH1
+T97	Substance 5416 5422	TE-671
+T98	Procedure 5447 5471	cell proliferation assay

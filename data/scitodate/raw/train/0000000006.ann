@@ -1,0 +1,148 @@
+T2	Company 115 123	Amersham
+T3	Company 125 146	GE Healthcare UK Ltd.
+T4	Device 263 293	rotating-hinge knee prosthesis
+T5	Company 319 337	Waldemar LINK GmbH
+T6	BrandName 448 458	AxioVision
+T9	Company 689 711	RB Pharmaceuticals Ltd
+T10	BrandName 829 838	KAP-meter
+T11	Company 840 858	RTI Electronics AB
+T12	BrandName 904 920	Gafchromic XRRV2
+T13	Substance 987 1027	glyceraldehyde-3-phosphate dehydrogenase
+T14	Substance 1029 1034	GAPDH
+T15	Company 1045 1056	Serotec Ltd
+T16	Company 1128 1142	Dakocytomation
+T18	Device 1177 1197	ultrasound apparatus
+T20	Company 1244 1269	Langford Electronics Ltd.
+T21	Property 1311 1324	energy output
+T23	Company 1431 1460	Thermo Fisher Scientific GmbH
+T24	Substance 1539 1549	nanopure H
+T27	Device 1744 1767	integrated pupillograph
+T28	Company 1769 1780	AMTech GmbH
+T29	Property 1860 1873	ambulatory BP
+T30	Company 1875 1884	Boso GmbH
+T31	BrandName 2023 2047	GenoType MTBDRplus assay
+T32	Company 2049 2070	Hain Lifescience GmbH
+T34	Substance 2586 2588	G1
+T36	Company 2633 2642	CASLO ApS
+T37	Substance 2694 2703	Galactose
+T38	Company 2913 2936	Ruskinn Technology Ltd.
+T40	Company 3153 3171	Leica Microsystems
+T41	Company 3173 3188	Heidelberg GmbH
+T43	Company 3449 3472	BD Biosciences Clontech
+T45	BrandName 3655 3661	SP3000
+T46	Company 3663 3687	Topcon Medical Europe BV
+T48	Company 3774 3801	Heidelberg Engineering GmbH
+T49	Procedure 3825 3844	confocal microscopy
+T50	BrandName 3846 3857	Confoscan 4
+T51	Company 3859 3877	Nidek Technologies
+T52	BrandName 3916 3927	Pentacam HR
+T53	Company 3929 3935	Oculus
+T55	Company 3991 4015	Topcon Medical Europe BV
+T56	Device 4059 4084	Zeiss Axioskop microscope
+T57	Device 4112 4126	digital camera
+T58	Company 4128 4143	Carl Zeiss GmbH
+T59	Property 4180 4192	Cellular ATP
+T60	Procedure 4221 4247	luciferin/luciferase assay
+T62	Substance 4316 4320	EDTA
+T63	Company 4322 4347	Sigma Aldrich Chemie GmbH
+T64	BrandName 4496 4503	C-Quant
+T65	Company 4505 4516	Oculus GmbH
+T66	Device 4836 4849	jet nebulizer
+T67	BrandName 4851 4869	PARI jet nebulizer
+T68	Company 4884 4898	Pari-Werk GmbH
+T69	Company 5066 5098	Boehringer-Ingelheim Pharma GmbH
+T71	Company 5152 5157	Banyu
+T74	Company 5346 5356	LiDCO Ltd.
+T75	Substance 28 33	PBS-T
+T76	Device 35 44	membranes
+T1	Substance 91 113	Horseradish Peroxidase
+T77	Substance 67 79	streptavidin
+R1	Produced_by Arg1:T1 Arg2:T2	
+T78	Substance 187 192	PBS-T
+T7	Company 477 505	Carl Zeiss MicroImaging GmbH
+R3	Produced_by Arg1:T6 Arg2:T7	
+T8	Substance 592 604	bIII tubulin
+T80	Device 527 547	neuronal cell bodies
+T81	Substance 662 675	buprenorphine
+R4	Produced_by Arg1:T81 Arg2:T9	
+T82	Procedure 746 760	subcutaneously
+T83	Substance 770 779	analgesic
+T84	Procedure 791 800	dosimetry
+R5	Used_for Arg1:T10 Arg2:T84	
+R6	Produced_by Arg1:T10 Arg2:T11	
+T85	Device 884 902	radiochromic films
+T86	Company 922 954	International Specialty Products
+R7	Produced_by Arg1:T12 Arg2:T86	
+R8	Produced_by Arg1:T85 Arg2:T86	
+R10	Produced_by Arg1:T14 Arg2:T15	
+R11	Produced_by Arg1:T13 Arg2:T15	
+T88	Substance 1099 1118	immunoglobulins/HRP
+R12	Produced_by Arg1:T88 Arg2:T16	
+R13	Produced_by Arg1:T18 Arg2:T20	
+T17	Device 1213 1242	ultrasonic cleaning bath 375H
+R14	Produced_by Arg1:T17 Arg2:T20	
+T19	Substance 1340 1351	supernatant
+T22	BrandName 1406 1429	SPD2010 SpeedVac System
+R15	Produced_by Arg1:T22 Arg2:T23	
+T89	Substance 1518 1526	methanol
+T90	Substance 1570 1573	HCl
+T91	Property 1605 1619	pupil diameter
+T25	Procedure 1635 1678	near-infrared TV (television) pupillography
+R16	Used_for Arg1:T27 Arg2:T25	
+R17	Measures Arg1:T27 Arg2:T91	
+R18	Produced_by Arg1:T27 Arg2:T28	
+R19	Produced_by Arg1:T31 Arg2:T32	
+T26	Procedure 2123 2129	assays
+T33	BrandName 2241 2262	INNO-LiPA Rif.TB test
+T96	Procedure 2382 2388	assays
+T97	Substance 2400 2406	probes
+T92	Property 2281 2290	mutations
+R20	Measures Arg1:T33 Arg2:T92	
+T35	Substance 2594 2623	alpha factor mating pheromone
+R21	Produced_by Arg1:T35 Arg2:T36	
+T93	Substance 2743 2752	G1-arrest
+T94	Procedure 2785 2807	anaerobically cultured
+T95	Device 2859 2876	anaerobic chamber
+T98	BrandName 2878 2911	Concept 400 Anaerobic Workstation
+R22	Produced_by Arg1:T95 Arg2:T38	
+R23	Produced_by Arg1:T98 Arg2:T38	
+T99	Substance 2952 2977	fastidious anaerobe broth
+T100	Property 3586 3614	best-corrected visual acuity
+T44	Procedure 3623 3653	noncontact specular microscopy
+T101	Substance 3049 3065	propidium iodide
+T102	Device 3132 3151	confocal microscope
+R26	Produced_by Arg1:T102 Arg2:T40	
+T42	Procedure 3355 3371	one-hybrid assay
+T104	Property 3231 3242	interaction
+T103	BrandName 3414 3447	Clontech Yeast Protocols Handbook
+R28	Produced_by Arg1:T103 Arg2:T43	
+T47	Procedure 3727 3772	anterior segment optical coherence tomography
+T105	Procedure 3895 3914	Scheimpflug imaging
+R24	Produced_by Arg1:T52 Arg2:T53	
+R25	Produced_by Arg1:T50 Arg2:T51	
+R29	Produced_by Arg1:T45 Arg2:T46	
+T54	Procedure 3960 3989	photo-slit-lamp biomicroscopy
+R30	Produced_by Arg1:T57 Arg2:T58	
+R31	Produced_by Arg1:T62 Arg2:T63	
+T61	Substance 4408 4414	medium
+R32	Produced_by Arg1:T64 Arg2:T65	
+T106	Procedure 4551 4596	psychophysical compensation comparison method
+R33	Produced_by Arg1:T66 Arg2:T68	
+R34	Produced_by Arg1:T67 Arg2:T68	
+T107	Substance 5041 5049	BIBO3304
+R35	Produced_by Arg1:T107 Arg2:T69	
+T70	Substance 5135 5142	L152804
+R36	Produced_by Arg1:T70 Arg2:T71	
+T72	Company 5159 5189	Banyu Pharmaceutical Co., Ltd.
+R37	Produced_by Arg1:T70 Arg2:T72	
+T73	Property 5212 5235	arterial blood pressure
+T108	Device 5263 5273	transducer
+T109	BrandName 5327 5344	LiDCOplus monitor
+R38	Produced_by Arg1:T109 Arg2:T74	
+T79	BrandName 252 262	Endo-Model
+R2	Produced_by Arg1:T79 Arg2:T5	
+R39	Produced_by Arg1:T4 Arg2:T5	
+T39	BrandName 3113 3131	Leica TCS SP2 AOBS
+R27	Produced_by Arg1:T39 Arg2:T40	
+R40	Of_type Arg1:T39 Arg2:T102	
+R41	Of_type Arg1:T79 Arg2:T4	

@@ -1,0 +1,178 @@
+T1	BrandName 31 63	SNAP Kombi Plus FeLV Antigen/FIV
+T2	Device 64 77	Antibody Test
+R1	Of_type Arg1:T1 Arg2:T2	
+T3	Company 79 89	IDEXX GmbH
+R2	Produced_by Arg1:T2 Arg2:T3	
+R3	Produced_by Arg1:T1 Arg2:T3	
+T4	Company 252 266	Chemicell GmBH
+T5	BrandName 193 200	PolyMAG
+R4	Produced_by Arg1:T5 Arg2:T4	
+T6	Substance 323 329	3T3-L1
+T7	Company 331 363	American Type Culture Collection
+R5	Produced_by Arg1:T6 Arg2:T7	
+T8	Property 379 407	Plasma glucose concentration
+T9	Procedure 428 455	enzymatic hexokinase method
+T10	Device 466 484	automatic analyzer
+T11	BrandName 485 495	Konelab 60
+T12	Company 497 525	Thermo Clinical Labsystem Oy
+R6	Of_type Arg1:T11 Arg2:T10	
+R7	Produced_by Arg1:T11 Arg2:T12	
+R8	Produced_by Arg1:T10 Arg2:T12	
+R9	Used_for Arg1:T11 Arg2:T9	
+R10	Measures Arg1:T11 Arg2:T8	
+T13	Substance 544 553	C-peptide
+T14	Substance 558 574	insulin in serum
+T15	Procedure 594 633	chemiluminescent immunometric technique
+T16	BrandName 660 683	Immulite 2000 C-peptide
+T17	BrandName 688 709	Immulite 2000 insulin
+T18	Company 711 714	DPC
+R11	Produced_by Arg1:T17 Arg2:T18	
+R12	Produced_by Arg1:T16 Arg2:T18	
+R13	Extracts Arg1:T16 Arg2:T13	
+R14	Extracts Arg1:T17 Arg2:T14	
+R15	Used_for Arg1:T16 Arg2:T15	
+R16	Used_for Arg1:T17 Arg2:T15	
+T19	BrandName 824 838	IR ZnSe window
+T20	Company 877 890	Crystran LTD.
+R17	Produced_by Arg1:T19 Arg2:T20	
+T21	Substance 1187 1197	Dispase II
+T22	Company 1199 1224	Boehringer Mannheim, GmbH
+R18	Produced_by Arg1:T21 Arg2:T22	
+T23	Substance 1247 1258	RPMI medium
+T24	Device 1326 1343	water bath shaker
+T25	Company 1345 1375	New Brunswick Scientific, Inc.
+R19	Produced_by Arg1:T24 Arg2:T25	
+T26	Company 1462 1475	Vascutek Ltd.
+T27	BrandName 1452 1460	Gelweave
+R20	Produced_by Arg1:T27 Arg2:T26	
+T28	Procedure 1548 1577	polyester interposition graft
+T29	BrandName 1586 1594	Gelweave
+T30	Company 1596 1609	Vascutek Ltd.
+R21	Produced_by Arg1:T29 Arg2:T30	
+R22	Used_for Arg1:T29 Arg2:T28	
+T31	Company 1694 1707	Eurogentec SA
+T32	Substance 1614 1618	PLPs
+T33	Substance 1630 1646	oligonucleotides
+R23	Produced_by Arg1:T33 Arg2:T31	
+R24	Produced_by Arg1:T32 Arg2:T31	
+T34	Device 2012 2027	ultracentrifuge
+T35	BrandName 2029 2042	Optima LE-80K
+T36	Company 2068 2088	Beckman Coulter GmbH
+R25	Of_type Arg1:T35 Arg2:T34	
+R26	Produced_by Arg1:T35 Arg2:T36	
+T37	BrandName 2201 2215	Varian 7 T DDR
+T38	Company 2482 2503	Rapid Biomedical GMBH
+R27	Produced_by Arg1:T37 Arg2:T38	
+T39	Substance 2764 2767	DNA
+T40	BrandName 2789 2801	Maxwell ® 16
+T41	BrandName 2819 2846	Maxwell ® 16 DNA Tissue DNA
+T42	Device 2847 2863	purification kit
+R28	Of_type Arg1:T41 Arg2:T42	
+T43	Company 2865 2883	Promega Biotech AB
+R29	Produced_by Arg1:T42 Arg2:T43	
+R30	Produced_by Arg1:T41 Arg2:T43	
+R31	Produced_by Arg1:T40 Arg2:T43	
+T44	Substance 2912 2930	DNA concentrations
+T45	Procedure 2947 2963	fluorometrically
+T46	BrandName 2965 2987	Qubit ® dsDNA HS assay
+T47	Company 2989 2999	Invitrogen
+R32	Produced_by Arg1:T46 Arg2:T47	
+R33	Used_for Arg1:T46 Arg2:T45	
+R34	Extracts Arg1:T46 Arg2:T44	
+T48	BrandName 3064 3074	Lipoid E80
+T49	BrandName 3129 3147	Phospholipon ® 90H
+T50	BrandName 3190 3201	Lipoid S100
+T51	BrandName 3235 3248	Soluthin® S90
+T52	Company 3332 3343	Lipoid GmbH
+R35	Produced_by Arg1:T51 Arg2:T52	
+R36	Produced_by Arg1:T50 Arg2:T52	
+R37	Produced_by Arg1:T49 Arg2:T52	
+R38	Produced_by Arg1:T48 Arg2:T52	
+T53	Company 3461 3471	Nortura AS
+T54	Substance 3495 3499	DMSO
+T55	Company 3519 3546	Sigma Chemical Company Ltd.
+R39	Produced_by Arg1:T54 Arg2:T55	
+T56	Procedure 3802 3822	photoplethysmography
+T57	BrandName 3824 3840	Pulse Trace 2000
+T58	Company 3842 3876	Cardinal Health/Micro Medical Ltd.
+R40	Produced_by Arg1:T57 Arg2:T58	
+R41	Used_for Arg1:T57 Arg2:T56	
+T59	Substance 4264 4267	DNA
+T60	Substance 4420 4423	DNA
+T61	BrandName 4434 4466	LightCycler SeptiFast Kit Mgrade
+T62	Company 4468 4490	Roche Diagnostics GmbH
+R42	Produced_by Arg1:T61 Arg2:T62	
+R43	Extracts Arg1:T61 Arg2:T60	
+T63	Substance 4636 4649	bacterial DNA
+T64	Substance 4726 4739	bacterial DNA
+T65	Property 4834 4852	RNA concentrations
+T66	Property 4857 4863	purity
+T67	BrandName 4926 4941	NanoDrop device
+T68	Company 4943 4969	Peqlab Biotechnologie GmbH
+R44	Produced_by Arg1:T67 Arg2:T68	
+R45	Measures Arg1:T67 Arg2:T66	
+R46	Measures Arg1:T67 Arg2:T65	
+T69	Substance 5005 5008	DNA
+T70	Procedure 5026 5047	reverse transcription
+T71	Substance 5432 5441	raffinose
+T72	Substance 5443 5452	stachyose
+T73	Substance 5454 5463	lactulose
+T74	Company 5465 5478	Sigma-Aldrich
+R47	Produced_by Arg1:T73 Arg2:T74	
+R48	Produced_by Arg1:T72 Arg2:T74	
+R49	Produced_by Arg1:T71 Arg2:T74	
+T75	Substance 5485 5491	inulin
+T76	BrandName 5493 5503	Frutafit s
+T77	Company 5506 5511	Hages
+R50	Produced_by Arg1:T75 Arg2:T77	
+R51	Of_type Arg1:T76 Arg2:T75	
+R52	Produced_by Arg1:T76 Arg2:T77	
+T78	Substance 5518 5520	OF
+T79	BrandName 5522 5537	Raftilose s P85
+R53	Of_type Arg1:T79 Arg2:T78	
+T80	Company 5547 5553	Orafti
+R54	Produced_by Arg1:T79 Arg2:T80	
+R55	Produced_by Arg1:T78 Arg2:T80	
+T81	Substance 5564 5587	galactooligosaccharides
+T82	BrandName 5589 5598	Vivinal s
+R56	Of_type Arg1:T82 Arg2:T81	
+T83	Company 5614 5625	Humana GmbH
+R57	Produced_by Arg1:T82 Arg2:T83	
+R58	Produced_by Arg1:T81 Arg2:T83	
+T84	Substance 5699 5721	Wilkins-Chalgren broth
+T85	Company 5723 5728	Oxoid
+R59	Produced_by Arg1:T84 Arg2:T85	
+T86	Substance 5771 5783	basal medium
+T87	Substance 5800 5808	tryptone
+T88	Substance 5817 5837	nutrient broth no. 2
+T89	Substance 5846 5854	tween 80
+T90	Substance 5863 5887	L-cysteine hydrochloride
+T91	Substance 5897 5912	distilled water
+T92	BrandName 6011 6016	DMRBE
+T93	Device 6023 6033	microscope
+R60	Of_type Arg1:T92 Arg2:T93	
+T94	Company 6035 6058	Leica Microsystems GmbH
+R61	Produced_by Arg1:T93 Arg2:T94	
+R62	Produced_by Arg1:T92 Arg2:T94	
+T95	BrandName 6088 6101	Infinity 1-5c
+T96	Device 6102 6108	camera
+T97	Company 6110 6122	Lumenera Co.
+R63	Produced_by Arg1:T96 Arg2:T97	
+R64	Produced_by Arg1:T95 Arg2:T97	
+R65	Of_type Arg1:T95 Arg2:T96	
+T99	Device 6159 6169	stimulator
+T98	Company 6206 6220	Biotronik GmbH
+R66	Produced_by Arg1:T99 Arg2:T98	
+T100	BrandName 6171 6177	UHS 20
+R67	Of_type Arg1:T100 Arg2:T99	
+R68	Produced_by Arg1:T100 Arg2:T98	
+T101	Substance 6430 6459	authentic amino acid sequence
+T102	BrandName 6461 6471	Genotropin
+T103	Company 6473 6499	Amersham Pharmacia Biotech
+R69	Of_type Arg1:T102 Arg2:T101	
+R70	Produced_by Arg1:T101 Arg2:T103	
+R71	Produced_by Arg1:T102 Arg2:T103	
+T104	Company 6505 6514	Upjohn AB
+T105	Substance 6534 6570	IL-3-dependent mouse pro B cell line
+T106	Company 6592 6607	RIKEN Cell Bank
+R72	Produced_by Arg1:T105 Arg2:T106	

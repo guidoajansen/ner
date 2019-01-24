@@ -1,0 +1,74 @@
+
+Serum LH, FSH, and testosterone concentrations were measured by chemiluminescent assay using an ACS:180 autoanalyzer (Bayer Corp. Diagnostics GmbH, Leverkusen, Germany). The concentrations of DHEA, dehydroepiandrosterone-sulfate (DHEAS) and androstenedione were determined by RIA methods (Immunotech, Marseille, France).
+
+
+The vendor-provided software CST Microwave Studio (CST MICROWAVE STUDIO, CST GmbH, Darmstadt, Germany) was used to compute the electromagnetic fields.
+
+
+The signals are amplified and converted into NIM (nuclear instrumentation module) standard pulses using an ATR19-8 amplifier/constant fraction discriminator (CFD) (Roentdek GmbH, Frankfurt, Germany). A TDC8HP time-to-digital converter (TDC) PCI card (Roentdek GmbH, Frankfurt, Germany) is used to feed the signal into a computer with a time resolution of 25 ps.
+
+
+Food was reweighed at 1, 2, 4, 6, and 24 h after injection, whereas body weight and water intake were measured 24 h after injection using a Fisher Scientific FP-300 series balance (Fisher Scientific Ltd., Leicester, UK). On each experimental occasion, the behavior of each hamster was monitored in its home cage for 5 sec in every minute for 1 h after lights off, as previously described (13,14,29).
+
+
+Photosynthesis and respiration versus temperature responses
+
+Cells grown at 10°C in logarithmic growth phase were collected by centrifugation, resuspended in a fresh BG11 medium (supplemented with 10 mM NaHCO 3 ) and transferred to the Clark oxygen electrode (Hansatech Instruments Ltd., Norfolk, UK) chamber. Photosynthesis under the saturation intensity (about 700 lmol photons m -2 s -1 ) and respiration versus temperature responses were measured at 5, 10, 15, 20, 25, 30 and 35°C, respectively.
+
+
+Methods: Animal Studies
+
+Animal Husbandry. C57Bl/6J female mice (Envigo Ltd, United Kingdom) were housed on a 12 hour lightdark cycle at 21-23 °C with free access to food (Beekay Rat and Mouse Diet, Bantin & Kingman, Hull, UK) and water.
+
+
+Samples were transferred into two low mass aluminum planchettes and high pressure frozen (Engineering Office M. Wohlwend GmbH, Sennwald, Switzerland) to maintain the native structure of the gel.
+
+
+P188
+
+Methods We assessed changes in fl uid balance and performed daily BIA (using a Maltron BioScan 920-II; Maltron International Ltd, UK) over 3 days in consecutive ICU admissions with LOS >72 hours.
+
+
+Data analysis
+
+Data were analyzed using Stats Direct (Stats Direct Ltd., Cheshire, UK). A Chi square analysis with untransformed data was used for sample comparison and differences were considered significant at P < 0.01.
+
+
+Reagents
+
+Dulbecco's modified Eagle medium (DMEM), penicillin, streptomycin, L-glutamine, Hank's calcium-and magnesium-free balanced salt solution (HBSS), and fetal calf serum (FCS) were purchased from GIBCO Life Technologies, Ltd., UK. Halothane was supplied by May and Baker, Ltd., Dagenham, UK, and alcoholic Betadine (povidine iodine) was supplied by Napp Laboratories, Ltd., Cambridge, UK.
+
+
+For sequencing, the 3L and 4L CEACAM1 PCR products were excised from the agarose gel, purified using the QIAquick Gel Extraction kit (Qiagen, VWR International AB, Stockholm, Sweden) and quantified using lambda DNA. The amplification was performed in 20 ml reactions containing BigDye mix (Applied Biosystems, Warrington, UK), 5-7 ml template and 3.2 mM of the forward CEACAM1 primer at 551C for 26 cycles.
+
+
+DNA sequencing
+
+For DNA sense and antisense sequencing, PCR products were purified from agarose gels using Quiaex II gel extraction kit (Quiagen GmbH, Hilden, Germany). Forward and reverse sequencing reactions were performed with the BigDye TM terminator cycle sequencing ready reaction kit (Applied Biosystems, Warrington, UK) on an ABI Prism TM 377 DNA sequencer (Applied Biosystems, Warrington, UK) in all subjects with abnormal DGGE mobility patterns.
+
+
+Thereafter, a slow infusion of 1.25 μl/ml fentanyl (Fentanyl, Pharmalink AB, Stockholm, Sweden) in buffered glucose (25 mg/ml) was started at a rate of 1.5 ml/min and adjusted as needed.
+
+
+The prepared specimens were mounted on aluminum stubs, gold-sputtered at 10 mA for 1 min (Unit E500, Polaron Equipment Ltd., Watford, UK) and analyzed under SEM (1430 VP, LEO Electron Microscopy Ltd., Cambridge, UK).
+
+
+The specimens were cut in half using a diamond disk adapted to a precision cutting machine (Isomet 4000, Buehler GmbH, 40599 Dusseldorf, Germany). The two fragments of each specimen were randomly assigned to the LM and SEM analysis groups.
+
+
+Primers were designed using the program Primer Premier (Premier Biosoft, USA) and synthesized using a DNA/RNA Synthesizer OligoMaker 48/6 (OligoMaker ApS, Denmark). The sequencing and phylogenetic analysis of these genes were performed as described for the 16S rDNA and ITS.
+
+
+The purity of selected fractions was verified by MALDI-TOF (Autoflex II TOF/TOF; Bruker Daltonics GmbH, Germany), analytical reverse-phase HPLC, and size exclusion chromatography as described previously (11).
+
+
+The p53 wild-type (SKW6.4 and JVM-2) and p53 mutated (BJAB, MAVER) B leukemic lines were purchased from DSMZ (Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH, Braunschweig, Germany). Leukemic cells were routinely cultured in RPMI-1640 medium (Gibco BRL, Grand Island, NY).
+
+
+For secondary PCR amplification of the D3S1581 marker, 12.5 ml of MegaMix-double (Microzone Ltd., Haywards Heath, UK), and 2 pmol of each forward and reverse D3S1581 primer were used in a 25 ml reaction.
+
+
+Measurement of hematological traits
+
+We measured Hb concentration in whole blood using a HemoCue Hb 201+ analyzer, following the manufacturer's protocol (HemoCue AB, Ängelholm, Sweden). We measured Hct as the volume of packed RBCs relative to total blood volume in a heparinized capillary tube that was spun at 13,600g for 5min in a ZIPocrit centrifuge (LW Scientific Inc., Lawrenceville, GA, USA).
+

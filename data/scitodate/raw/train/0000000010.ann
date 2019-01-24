@@ -1,0 +1,171 @@
+T1	BrandName 23 40	Elzone model 8OXY
+T2	Company 42 60	Particle Data Ltd.
+R1	Produced_by Arg1:T1 Arg2:T2	
+T3	Device 92 100	analyzer
+R2	Of_type Arg1:T1 Arg2:T3	
+T4	Procedure 331 396	Orthogonal projections to latent structures discriminant analysis
+T5	BrandName 424 431	SIMCA-P
+T6	Company 439 450	Umetrics AB
+R3	Used_for Arg1:T5 Arg2:T4	
+R4	Produced_by Arg1:T5 Arg2:T6	
+T7	Substance 572 591	double-stranded DNA
+T8	Substance 627 631	DAPI
+T9	Company 656 678	Roche Diagnostics GmbH
+R5	Produced_by Arg1:T8 Arg2:T9	
+T10	Substance 770 797	Fluorescent Mounting Medium
+T11	Company 799 807	DAKO Ltd
+R6	Produced_by Arg1:T10 Arg2:T11	
+T12	Procedure 832 846	Flow cytometry
+T13	BrandName 866 875	Dako CyAn
+T14	Device 876 888	ADP platform
+T15	Company 890 910	Beckman-Coulter Ltd.
+R7	Produced_by Arg1:T14 Arg2:T15	
+R8	Produced_by Arg1:T13 Arg2:T15	
+T16	BrandName 935 946	Summit v4.3
+T17	Device 947 955	software
+R9	Of_type Arg1:T16 Arg2:T17	
+T18	Substance 1089 1105	RPMI 1640 medium
+T19	Substance 1125 1173	granulocyte macrophage-colony stimulating factor
+T20	Procedure 1201 1215	chromatography
+T21	Substance 1217 1232	heparin-agarose
+T22	Company 1252 1257	Sigma
+R10	Produced_by Arg1:T21 Arg2:T22	
+T23	Substance 1263 1280	diethylaminoethyl
+T24	Substance 1301 1314	carboxymethyl
+T25	Company 1350 1362	Pharmacia AB
+R11	Produced_by Arg1:T24 Arg2:T25	
+R12	Produced_by Arg1:T23 Arg2:T25	
+T26	Procedure 1386 1414	immunohistochemical staining
+T27	Device 1419 1470	avidin-biotin-horseradish peroxidase complex system
+T28	BrandName 1472 1482	Vectastain
+T29	Company 1484 1495	Vector Lab.
+R13	Produced_by Arg1:T28 Arg2:T29	
+R14	Produced_by Arg1:T27 Arg2:T29	
+R15	Of_type Arg1:T28 Arg2:T27	
+R16	Used_for Arg1:T28 Arg2:T26	
+T30	Substance 1532 1548	diaminobenzidine
+T31	Company 1642 1663	Upstate Biotechnology
+T32	Substance 1572 1598	rabbit polyclonal antibody
+R17	Produced_by Arg1:T32 Arg2:T31	
+T33	Substance 1696 1722	rabbit polyclonal antibody
+T34	Device 1827 1852	fast photomultiplier tube
+T35	Company 1854 1863	Hamamatsu
+R18	Produced_by Arg1:T34 Arg2:T35	
+T36	Property 1757 1782	NIR fluorescence emission
+R19	Measures Arg1:T34 Arg2:T36	
+T37	Device 1892 1921	single photon counting system
+T38	Company 1923 1944	Becker and Hickl GmbH
+R20	Produced_by Arg1:T37 Arg2:T38	
+T39	Device 2021 2032	MRI scanner
+T40	BrandName 2058 2066	Tim Trio
+T41	Company 2068 2075	Siemens
+R21	Produced_by Arg1:T39 Arg2:T41	
+R22	Of_type Arg1:T40 Arg2:T39	
+R23	Produced_by Arg1:T40 Arg2:T41	
+T42	Substance 2107 2112	probe
+T43	BrandName 2701 2708	LAS4000
+T44	Device 2709 2723	image analyzer
+T45	Company 2725 2753	GE Healthcare Bio-Science AB
+R24	Of_type Arg1:T43 Arg2:T44	
+R25	Produced_by Arg1:T43 Arg2:T45	
+R26	Produced_by Arg1:T44 Arg2:T45	
+T46	Substance 2908 2927	human serum type AB
+T47	Company 2929 2940	Biochrom AG
+R27	Produced_by Arg1:T46 Arg2:T47	
+T48	Substance 2876 2882	medium
+T49	Substance 2977 2981	IL-2
+T50	BrandName 2983 2994	Proleukin S
+R28	Of_type Arg1:T50 Arg2:T49	
+T51	Company 2997 3016	ovartis Pharma GmbH
+R29	Produced_by Arg1:T50 Arg2:T51	
+R30	Produced_by Arg1:T49 Arg2:T51	
+T52	Substance 3051 3058	NK MACS
+T53	BrandName 3072 3092	NK MACS supplement ®
+T54	Company 3094 3109	Miltenyi Biotec
+R31	Produced_by Arg1:T53 Arg2:T54	
+T55	Device 3266 3296	laser Doppler perfusion imager
+T56	Device 3298 3302	LDPI
+T57	Company 3304 3326	Moor Instruments Ltd.,
+R32	Produced_by Arg1:T55 Arg2:T57	
+R33	Produced_by Arg1:T56 Arg2:T57	
+T58	BrandName 3428 3444	Blue Light Table
+T59	BrandName 3449 3462	Stain Clear G
+T60	Company 3489 3515	Serva Electrophoresis GmbH
+R34	Produced_by Arg1:T59 Arg2:T60	
+R35	Produced_by Arg1:T58 Arg2:T60	
+T61	Substance 3543 3559	oligonucleotides
+T62	Company 3580 3597	Eurofins Genomics
+R36	Produced_by Arg1:T61 Arg2:T62	
+T63	Device 3739 3750	luminometer
+T64	Property 3690 3704	Light emission
+R37	Measures Arg1:T63 Arg2:T64	
+T65	Company 3752 3778	Berthold Detection Systems
+R38	Produced_by Arg1:T63 Arg2:T65	
+T66	Procedure 3896 3913	mass spectrometry
+T67	BrandName 3947 3971	Electronspray MS-LCQDeca
+T68	Company 3973 3993	Thermo Finnigan Ltd.
+R39	Produced_by Arg1:T67 Arg2:T68	
+R40	Used_for Arg1:T67 Arg2:T66	
+T69	Device 4029 4046	mass spectrometer
+R41	Of_type Arg1:T67 Arg2:T69	
+R42	Produced_by Arg1:T69 Arg2:T68	
+T70	Substance 4092 4117	HPLC grade methanot/water
+T71	Substance 4141 4157	ammonium acetate
+T72	Substance 4243 4257	anti-human IgG
+T73	Company 4259 4279	The Binding Site Ltd
+R43	Produced_by Arg1:T72 Arg2:T73	
+T74	Substance 4297 4313	Serum IgG titres
+T75	BrandName 4420 4428	Titretek
+T76	Device 4429 4437	software
+R44	Of_type Arg1:T75 Arg2:T76	
+T77	Substance 4565 4568	CSA
+T78	Company 4570 4585	Novartis Pharma
+R45	Produced_by Arg1:T77 Arg2:T78	
+T79	Substance 4612 4616	Indo
+T80	Company 4618 4661	European Egyptian Pharmaceutical Industries
+R46	Produced_by Arg1:T79 Arg2:T80	
+T81	Substance 4683 4695	cremophor EL
+T82	Company 4697 4710	Sigma-Aldrich
+R47	Produced_by Arg1:T81 Arg2:T82	
+T83	Substance 4725 4742	thiopental sodium
+T84	Company 4744 4758	Biochemie GmbH
+R48	Produced_by Arg1:T83 Arg2:T84	
+T85	BrandName 4857 4880	Proteome Discoverer 1.4
+T86	Procedure 4819 4834	Data processing
+R49	Used_for Arg1:T85 Arg2:T86	
+T87	Company 4882 4899	Thermo Scientific
+R50	Produced_by Arg1:T85 Arg2:T87	
+T88	BrandName 4969 4986	Mascot Server 2.5
+T89	Company 4988 5007	Matrix Science Ltd.
+R51	Produced_by Arg1:T88 Arg2:T89	
+T90	BrandName 5436 5450	Tissue-Tek OCT
+T91	Company 5461 5475	Sakura Finetek
+R52	Produced_by Arg1:T90 Arg2:T91	
+T92	BrandName 5550 5574	Microm HM 500 M cryostat
+T93	Company 5576 5601	Microm International GmbH
+R53	Produced_by Arg1:T92 Arg2:T93	
+T94	BrandName 5650 5672	SuperFrost Plus slides
+T95	Company 5674 5691	Fisher Scientific
+R54	Produced_by Arg1:T94 Arg2:T95	
+T96	Substance 5738 5754	paraformaldehyde
+T97	Procedure 5824 5836	NMR analysis
+T98	BrandName 5858 5869	Advance 500
+T99	Company 5871 5890	Bruker Biospin GmbH
+R55	Produced_by Arg1:T98 Arg2:T99	
+R56	Used_for Arg1:T98 Arg2:T97	
+T100	Substance 6090 6098	CYP109D1
+T101	Device 6217 6225	arc lamp
+T102	Company 6226 6236	Philips bv
+R57	Produced_by Arg1:T101 Arg2:T102	
+T103	Device 6314 6347	blue-transmitting bandpass filter
+T104	Company 6348 6358	Philips bv
+R58	Produced_by Arg1:T103 Arg2:T104	
+T105	BrandName 6528 6535	BZ-8000
+T106	Device 6537 6559	luorescence microscope
+T107	Company 6561 6585	Keyence Deutschland GmbH
+R59	Of_type Arg1:T105 Arg2:T106	
+R60	Produced_by Arg1:T105 Arg2:T107	
+R61	Produced_by Arg1:T106 Arg2:T107	
+T108	BrandName 6613 6636	CellProfiler 2.0 r11710
+T109	Company 6638 6672	Broad Institute of MIT and Harvard
+R62	Produced_by Arg1:T108 Arg2:T109	

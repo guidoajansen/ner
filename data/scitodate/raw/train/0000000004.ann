@@ -1,0 +1,166 @@
+T1	BrandName 19 34	Sniffin' Sticks
+T2	Company 36 49	Burghart Gmbh
+T3	Procedure 184 188	HPLC
+T4	BrandName 197 243	Vydac® reverse phase HPLC C4 Mass Spec 214MS54
+T6	Company 252 269	Grace Silica GmbH
+R2	Produced_by Arg1:T4 Arg2:T6	
+R3	Used_for Arg1:T4 Arg2:T3	
+T7	Procedure 289 292	NMR
+T8	Procedure 362 365	NMR
+T9	Procedure 392 400	dialysis
+T10	Substance 415 438	sodium phosphate buffer
+T11	Substance 475 478	RNA
+T12	Procedure 494 520	Real Time RT-PCR Screening
+T13	Procedure 573 585	vortex-mixed
+T14	Procedure 590 601	centrifuged
+T15	Substance 651 662	supernatant
+T16	Substance 700 703	RNA
+T18	Company 760 771	Qiagen GmbH
+T19	BrandName 832 842	Transwells
+T20	Substance 861 892	DAPI fluorescent mounting media
+T21	Company 894 918	Vector Laboratories Ltd.
+R6	Produced_by Arg1:T20 Arg2:T21	
+T22	Device 988 1021	spinning disk confocal microscope
+T23	BrandName 1027 1044	Volocity software
+T24	Company 1059 1070	PerkinElmer
+R7	Produced_by Arg1:T23 Arg2:T24	
+T25	Substance 1102 1125	Penicillin-Streptomycin
+T28	Substance 1167 1181	Amphotericin B
+T29	Company 1183 1205	PAA, Laboratories GmbH
+T26	Company 1127 1149	PAA, Laboratories GmbH
+R8	Produced_by Arg1:T25 Arg2:T26	
+R9	Produced_by Arg1:T28 Arg2:T29	
+T27	BrandName 1315 1336	Nikon Ti-E microscope
+T30	Company 1337 1366	Nikon Instruments Europe B.V.
+R10	Produced_by Arg1:T27 Arg2:T30	
+T31	Device 1414 1431	APO-TIRFM lens 60
+T32	Device 1577 1614	TIRFM laser beam position manipulator
+T33	Property 1443 1451	aperture
+T34	BrandName 1637 1653	NIKON TI CONTROL
+T35	Device 1655 1663	software
+R11	Produced_by Arg1:T34 Arg2:T30	
+R12	Of_type Arg1:T34 Arg2:T35	
+T36	Substance 1796 1804	RNAlater
+T37	Company 1806 1817	Qiagen GmbH
+R13	Produced_by Arg1:T36 Arg2:T37	
+T38	Substance 2024 2041	ungal genomic DNA
+T39	Substance 2088 2099	plasmid DNA
+T40	BrandName 2121 2148	plasmid DNA preparation kit
+T41	Company 2150 2161	Qiagen GmbH
+R14	Produced_by Arg1:T40 Arg2:T41	
+R15	Extracts Arg1:T40 Arg2:T39	
+T42	Substance 2181 2199	Fungal genomic DNA
+T43	Substance 2204 2214	lambda DNA
+T44	BrandName 2234 2261	Amersham Hybond-N + filters
+T45	Company 2263 2284	GE Healthcare Limited
+R16	Produced_by Arg1:T44 Arg2:T45	
+T46	Substance 2326 2345	restriction enzymes
+T47	Substance 2374 2385	agarose gel
+T48	BrandName 2645 2650	Excel
+T49	BrandName 2652 2673	Microsoft Office 2003
+T50	Company 2675 2701	Microsoft Deutschland GmbH
+R17	Produced_by Arg1:T49 Arg2:T50	
+R18	Produced_by Arg1:T48 Arg2:T50	
+T51	Device 2868 2878	30° optics
+T52	Company 2880 2901	Karl Storz GmbH & Co.
+R19	Produced_by Arg1:T51 Arg2:T52	
+T53	Device 2930 2943	pneumatic arm
+T54	Device 2956 2965	endoscope
+T55	Company 2967 2978	Geyser S.A.
+R20	Produced_by Arg1:T54 Arg2:T55	
+T56	Substance 3034 3043	lysosomes
+T57	Property 3008 3010	NR
+T58	Substance 3091 3102	acetic acid
+T59	Substance 3111 3122	v/v ethanol
+T60	Device 3147 3164	horizontal shaker
+T61	BrandName 3166 3173	TiMix 2
+T62	Company 3175 3192	Johanna Otto GmbH
+R21	Produced_by Arg1:T61 Arg2:T62	
+R22	Produced_by Arg1:T60 Arg2:T62	
+T63	Property 3226 3241	NR fluorescence
+T64	Device 3319 3331	plate reader
+R23	Measures Arg1:T64 Arg2:T63	
+T65	BrandName 3399 3428	UltraTurrax ® T25 homogeniser
+T66	Company 3430 3453	IKA ® -Werke GmbH & Co.
+R24	Produced_by Arg1:T65 Arg2:T66	
+T67	Property 3552 3564	Droplet size
+T68	Substance 3583 3592	emulsions
+T69	Property 3611 3623	droplet size
+T70	Device 3633 3651	optical microscope
+R25	Measures Arg1:T70 Arg2:T69	
+T71	Device 3669 3689	USB 112 video camera
+T72	Company 3691 3698	Bresser
+R26	Produced_by Arg1:T71 Arg2:T72	
+T73	BrandName 3833 3852	SMI BeGaze software
+T74	Company 3854 3883	SensoMotoric Instruments GmbH
+R27	Produced_by Arg1:T73 Arg2:T74	
+T75	Substance 4133 4139	medium
+T76	Substance 4290 4295	xylan
+T77	Device 4301 4311	birch wood
+T78	Company 4313 4327	Carl Roth GmbH
+R28	Produced_by Arg1:T77 Arg2:T78	
+T79	Substance 4339 4346	glucose
+T80	Substance 4351 4357	xylose
+T81	Device 4368 4385	Erlenmeyer flasks
+T82	Substance 4432 4435	MPI
+T83	Substance 4469 4472	MPI
+T84	Substance 4518 4521	MPI
+T85	Substance 4536 4551	petroleum ether
+T86	BrandName 4568 4595	Soxtec 1043 extraction unit
+T87	Company 4597 4607	Tecator AB
+R29	Produced_by Arg1:T86 Arg2:T87	
+T88	Substance 4699 4714	BSEP antibodies
+T89	Company 4791 4807	AstraZeneca Ltd.
+T90	Substance 4813 4833	antibody clone H3310
+T91	Property 4849 4857	dilution
+R30	Produced_by Arg1:T90 Arg2:T89	
+T92	Device 4974 4998	electronic camera system
+T93	Company 5000 5010	Phase GmbH
+R31	Produced_by Arg1:T92 Arg2:T93	
+T94	Property 5060 5073	Spot staining
+T95	BrandName 5095 5124	Gel-Pro Analyzer 3.1 software
+R32	Measures Arg1:T95 Arg2:T94	
+T96	Company 5126 5143	Media Cybernetics
+R33	Produced_by Arg1:T95 Arg2:T96	
+T97	BrandName 5257 5294	ultrasound-based zebris CMS-HS system
+T98	Company 5296 5302	ZEBRIS
+R34	Produced_by Arg1:T97 Arg2:T98	
+T99	Property 5172 5192	Spatial co-ordinates
+R35	Measures Arg1:T97 Arg2:T99	
+T100	Substance 5424 5428	SF 6
+T101	Substance 5433 5437	CH 4
+T102	Device 5489 5506	gas chromatograph
+T103	BrandName 5508 5515	CP-9003
+T104	Company 5517 5533	Varian-Chrompack
+R36	Produced_by Arg1:T103 Arg2:T104	
+R37	Produced_by Arg1:T102 Arg2:T104	
+R38	Extracts Arg1:T102 Arg2:T101	
+R39	Of_type Arg1:T103 Arg2:T102	
+R40	Extracts Arg1:T102 Arg2:T100	
+T105	Device 5568 5593	electron capture detector
+T106	BrandName 5595 5608	Autosystem XL
+T107	Company 5610 5634	Perkin Elmer Instruments
+R41	Produced_by Arg1:T106 Arg2:T107	
+R42	Produced_by Arg1:T105 Arg2:T107	
+T109	Company 5722 5731	Interchim
+T110	Substance 5775 5779	SF 6
+T111	Device 5799 5824	flame-ionization detector
+T112	BrandName 5845 5873	Porapak N 80-100 mesh column
+T108	Device 5673 5702	Molecular Sieve 0.5-nm column
+R43	Produced_by Arg1:T108 Arg2:T109	
+T113	Company 5894 5913	Alltech France SARL
+R44	Produced_by Arg1:T112 Arg2:T113	
+T114	Substance 5958 5962	CH 4
+T115	Property 5969 5978	flow rate
+T116	Device 5986 5997	carrier gas
+T117	Substance 6023 6027	SF 6
+T118	Substance 6056 6060	CH 4
+T119	Device 6221 6245	PTR-ToF 8000  instrument
+T120	Company 6247 6268	Ionicon Analytik GmbH
+R45	Produced_by Arg1:T119 Arg2:T120	
+T5	Device 755 758	Kit
+T17	BrandName 733 754	QIAamp Viral RNA Mini
+R1	Of_type Arg1:T17 Arg2:T5	
+R4	Produced_by Arg1:T5 Arg2:T18	
+R5	Produced_by Arg1:T17 Arg2:T18	
+R47	Extracts Arg1:T17 Arg2:T16	

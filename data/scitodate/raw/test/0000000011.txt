@@ -1,0 +1,84 @@
+
+The high-resolution X-ray diffraction reciprocal space mapping (RSM) of the strain-free solar cell sample was analyzed by an X-ray diffractometer (Philips X'pert, PANalytical B.V., Almelo, The Netherlands).
+
+Rapid thermal annealing is performed on four samples in N 2 ambient in the temperature range of 700°C to 850°C for 2 min.
+
+
+Images were acquired using a Biospec tomograph (Bruker, Karlsruhe, Germany) equipped with a 4.7 Tesla (T), 33-cm bore horizontal magnet (Oxford Ltd., Oxford, United Kingdom). Axial multislice fast Spin Echo T2-weighted (RARE, TE Eff  Images were acquired before and at t ¼ 10.5 min, 21 min, and 31.5 min after injection of the Gd-DTPA (MagnevistV R , Schering, Germany) at 300 mmol/kg dosage.
+
+
+PFGE patterns were compared using published standard criteria , and analyzed by BioNumerics software (Version 4.0, Applied Maths BVBA, Belgium). Pulsotypes differed by six fragments or less were grouped into one cluster .
+
+
+Total RNA was isolated with the PAXgene blood RNA kit (Qiagen GmbH, Hilden, Germany). The manufacturer's protocol was modified by extending the proteinase K treatment time to 35 min.
+
+
+After processing, the specimens were polished using a polishing machine (Metaserv 2000, Bö ehler, UK, Ltd, Coventry, UK) to a final dimension of 65 · 10 · 3.3 mm, according to the International Organization for Standardization (ISO/FDIS 1567).
+
+
+The cell pellet was resuspended in 100 ml of Annexin-V-FLUOS labeling solution (Roche Diagnostics GmbH, Germany), containing 20 ml/ml of Annexin-V-FLUOS labeling reagent and 20 ml/ml of propidium iodide (PI) solution.
+
+
+Descriptive statistics (e.g. means and proportions) were derived using QPSMR Reflect Version 2007.1 g (QPSMR Ltd., Wallingford, UK).
+
+Results
+
+
+
+Physician and patient respondents
+
+A total of 1214 physicians were contacted and 348 (29%) participated in the survey.
+
+
+Paisley, UK) according to the manufacturer's instructions, purified with QIAGEN's RNeasy
+
+Total RNA Isolation kit (Qiagen GmbH, Germany) and quantified using Nanodrop ND-1000. The quality of the RNA was assessed by agaroseformaldehyde gel electrophoresis.
+
+
+The samples were placed in an oven (Memmert GmbH + CO.KG, Schwabach, Germany) at 105°C for 21 h, after which the samples were removed and weighed.
+
+
+Statistical analysis
+
+Statistical analyses were performed using MINITAB 16 software (Minitab Ltd., Coventry, UK). Incubation period and immunofluorescence analysis quantification data were tested for equal variances and analysed by two-sample t-test.
+
+
+The engineered peptide was synthesized by JPT Peptide Technologies GmbH (Berlin,
+
+10
+
+Germany). Peptide treatments were performed for 2h at 37ºC with orbital agitation, 50rpm.
+
+
+During the first postoperative week, the infants received a silicone contact lens (Silflex, Wöhlk Kontaktlinsen GmbH, Kiel, Germany) for optical correction, with the exception of patient 1, who received primary intraocular lens implantation (AcrySof lens, Alcon, Inc., Fort Worth, TX) in both eyes.
+
+
+The PARP-1 zinc binding domain (GRASCKKCSESIPKDSLRMAIMVQSPMFDGKVPHWYHFSCFWKV) was purchased from Peptide Specialty Laboratories GmbH (Heidelberg, Germany). Dithiothreitol (DTT; molecular biology grade) and zinc acetate dihydrate (p.a.) were obtained from Sigma-Aldrich.
+
+
+Peroxidase-conjugated donkey anti-goat Ab (Dianova GmbH, Hamburg, Germany) dissolved in PBS containing 5% milk powder and 0.1% Tween-20 (0.16 μg/mL, 10 mL) was then added to the membrane.
+
+
+Thermogravimetric analysis
+
+TGA of USPIONs was carried out using a STA 409 TGA analyzer (Netzsch GmbH, Selb, Germany). In a typical TGA run, 5 to 10 mg of USPIONs were weighed into a clay sample holder and the sample was heated from 50 to 650°C at a heating rate of 10°C/min in ambient atmosphere.
+
+
+During preparation, the synovial membrane was sharply removed from the fibrous tissue of the capsule The tissue was cleared from blood and fat using phosphate-buffered saline (PBS, Dulbecco's Phosphate Buffered Saline, Sigma-Aldrich Chemie GmbH, Steinheim, Germany) and digested in a water bath at 37°C with a mixture of type IV collagenase (1 mg/ml, Sigma-Aldrich Chemie GmbH, Steinheim, Germany), trypsin (2.5 mg/ml, Sigma-Aldrich Chemie GmbH, Steinheim, Germany), and DNase I (2 mg/ml, Applichem GmbH, Darmstadt, Germany).
+
+
+The heart rate was continuously recorded telemetrically (Sport Tester S 410, RS 400, Polar Electro, Oy, Kempele, Finland). The probands had their lipid and anthropometrical parameters and blood pressure determined at baseline and at the end of the study.
+
+
+We evaluated the extended data from 55 unrelated patients, 26 from the present study and 29 from previous reports from Korea, 9-21 and compared the data with three studies from the literature that provided a spectrum of VHL gene mutations in Japan 7,22 and China. 8 The data for the phenotype of 17 patients previously reported were also reviewed for this study. 11,16 We also compared the data from East Asian countries with those from Western countries, including North America and Europe. 7,23,24 With regard to its clinical manifestations, VHL is classified into two types: type 1 is without pheochromocytoma and type 2 is with pheochromocytoma. 25 In addition, type 2 VHL disease is subdivided into three categories depending on the absence of RCC (type 2A), presence of RCC (type 2B) and sole manifestation of pheochromocytoma without HAB or RCC (type 2C). 26 
+
+DNA sequencing
+
+Genomic DNA was purified from peripheral blood leukocytes using a QIAamp DNA Blood Mini Kit (Qiagen GmbH, Hilden, Germany) according to the manufacturer's instructions.
+
+
+Each rotorod had two wings, and on each wing a transparent microscope glass slide (Microscopes Plus Ltd., Hertfordshire, UK) and a double-sided sticky tape were attached (Fig. 1).
+
+
+Following tomographic imaging, the brain was coronally sectioned at 50 lm using a freezing microtome (Microm HM450, Microm Gmbh, Waldorf, Germany). Every fourth section was stained for myelin using a standard procedure modified from Woelche [Woelche, 1942].
+

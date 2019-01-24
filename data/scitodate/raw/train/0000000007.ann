@@ -1,0 +1,161 @@
+T1	Company 89 100	Retsch GmbH
+T2	Substance 193 202	cellulose
+T6	Company 424 446	Roche Diagnostics GmbH
+T7	Company 639 650	Labcon GmbH
+T9	Company 722 739	Diagnostica Stago
+T10	BrandName 807 832	Enzygnost ® TAT micro kit
+T11	Company 834 846	Siemens GmbH
+T16	Company 1027 1038	eBioscience
+T17	Substance 1185 1190	HEPES
+T18	Substance 1194 1198	NaCO
+T19	Substance 1203 1211	pyruvate
+T21	Substance 1264 1274	cefotaxime
+T22	Company 1288 1312	ACS Dobfar Generics S.A.
+T23	Substance 1372 1381	incubator
+T24	Property 1513 1536	oxygen consumption rate
+T25	Substance 1591 1598	Primers
+T26	Company 1710 1727	PrimerDesign Ltd.
+T27	Substance 1738 1745	primers
+T28	Substance 1794 1797	DNA
+T30	Substance 1895 1902	Albumin
+T31	Procedure 1956 1981	immunoturbidimetric assay
+T32	Substance 1993 2001	antibody
+T33	Substance 2021 2028	albumin
+T34	Company 2030 2053	Randox Laboratories Ltd
+T35	Company 2148 2165	Roche Diagnostics
+T39	BrandName 2490 2503	PFLCP 4.5/5.0
+T40	Company 2505 2517	Synthes GmbH
+T42	Substance 2851 2854	PBS
+T43	BrandName 2881 2910	Microsyringe injection needle
+T44	Company 2912 2941	Innovative Labor Systems GmbH
+T47	Company 3180 3187	Fritsch
+T49	Company 3365 3390	Innotrain Diagnostik GmbH
+T51	BrandName 3487 3507	Olerup SSP TM DQ kit
+T52	Company 3509 3522	Olerup SSP AB
+T53	Substance 3570 3576	primer
+T55	Procedure 3634 3645	Cannabidiol
+T56	Company 3686 3700	THC Pharm GmbH
+T58	Substance 3822 3826	DMSO
+T59	Substance 3832 3849	dimethylformamide
+T62	Substance 3958 3965	PMP-BSA
+T63	Substance 3978 3981	BSA
+T64	Company 3991 4003	Promega GmbH
+T65	Company 4056 4059	PCR
+T67	Company 4204 4227	Packard Instrument B.V.
+T68	Company 4299 4318	Cayman Chemical Co.
+T72	Company 4421 4433	ION-TOF GmbH
+T75	Device 4540 4552	BiMn emitter
+T77	Substance 4717 4721	NMDA
+T78	Substance 4732 4787	3-((R)-2-Carboxypiperazin-4-yl)-propyl-1phosphonic acid
+T79	Company 4801 4819	Tocris Cookson Ltd
+T81	Company 5079 5089	Epitest OY
+T82	Substance 5325 5341	ColiFin 1 2MIU/4
+T84	Company 5362 5378	PARI Pharma GmbH
+T86	Company 5439 5457	Profile Pharma Ltd
+T88	Company 5581 5595	Eurospital Spa
+T89	BrandName 5659 5682	Milli-Q Gradient system
+T92	Substance 5764 5779	Dichloromethane
+T93	Substance 5794 5806	acetonitrile
+T94	Substance 5822 5831	isooctane
+T96	Substance 6000 6012	D(+)-glucose
+T97	Company 6052 6065	sigma-Aldrich
+T99	Substance 6088 6117	β-Glucuronidase/arylsulfatase
+T101	Company 6153 6175	Roche Diagnostics GmbH
+T104	Device 6689 6703	sputter coater
+T105	BrandName 6705 6710	K500X
+T106	Company 6712 6735	Quorum Technologies Ltd
+T108	Procedure 6864 6867	SEM
+T109	BrandName 6869 6879	JSM-5600LV
+T111	Procedure 14 20	assays
+T112	BrandName 63 87	Retsch MM 200 Mixer Mill
+T3	Procedure 417 422	assay
+T4	Procedure 472 477	assay
+T5	Procedure 685 691	assays
+T8	BrandName 693 720	ASSERACHROM ® b-TG test kit
+R1	Produced_by Arg1:T8 Arg2:T9	
+R2	Produced_by Arg1:T112 Arg2:T1	
+R3	Produced_by Arg1:T10 Arg2:T11	
+T12	BrandName 896 921	TECHNOZYM ® D-dimer ELISA
+T13	Company 923 934	Technoclone
+R4	Produced_by Arg1:T12 Arg2:T13	
+T14	BrandName 993 1025	Human sP-selectin Platinum ELISA
+R5	Produced_by Arg1:T14 Arg2:T16	
+T15	Property 957 967	P-selectin
+R6	Measures Arg1:T14 Arg2:T15	
+T20	Substance 1220 1231	L-glutamine
+T29	Company 2277 2297	Limbs & Things, Ltd.
+T36	BrandName 2243 2275	Guildford MATTU TEP task trainer
+T37	Device 2446 2488	Proximal Femoral Locking Compression Plate
+R7	Produced_by Arg1:T37 Arg2:T40	
+R8	Produced_by Arg1:T39 Arg2:T40	
+R9	Produced_by Arg1:T36 Arg2:T29	
+R10	Produced_by Arg1:T33 Arg2:T34	
+T38	Substance 2756 2759	GSA
+T41	Substance 2824 2849	phosphate buffered saline
+R11	Produced_by Arg1:T43 Arg2:T44	
+T45	Device 2574 2595	stainless-steel plate
+T113	Device 2680 2695	proximal screws
+T46	Substance 2069 2079	Creatinine
+T114	Procedure 2110 2122	Jaffe method
+T115	Substance 3459 3467	HLA-DBR1
+T50	Substance 3472 3480	HLA-DQB1
+R12	Produced_by Arg1:T51 Arg2:T52	
+T54	Procedure 3577 3587	(SSP-) PCR
+T116	Substance 3813 3820	ethanol
+T117	Device 3788 3804	organic solvents
+T57	BrandName 4154 4166	Insta-Gel XF
+T66	BrandName 4171 4183	Ultima-Flo M
+R13	Produced_by Arg1:T66 Arg2:T67	
+R14	Produced_by Arg1:T57 Arg2:T67	
+T118	Device 3150 3162	cutting mill
+T119	BrandName 3163 3178	Pulverisette 19
+R15	Produced_by Arg1:T119 Arg2:T47	
+R16	Of_type Arg1:T119 Arg2:T118	
+R17	Produced_by Arg1:T118 Arg2:T47	
+T48	Substance 3294 3299	HLA-B
+T120	Procedure 3272 3290	Serological typing
+T121	Procedure 3333 3356	microlymphocytotoxicity
+T122	Substance 3723 3726	CBD
+T123	Property 3894 3904	reactivity
+T60	Substance 4254 4258	TxB2
+T61	Substance 4260 4267	12-HETE
+T124	Substance 4272 4278	12-HHT
+R18	Produced_by Arg1:T60 Arg2:T68	
+R19	Produced_by Arg1:T61 Arg2:T68	
+R20	Produced_by Arg1:T124 Arg2:T68	
+T69	BrandName 4399 4408	ToFSIMS V
+R21	Produced_by Arg1:T69 Arg2:T72	
+T70	Substance 4789 4792	CPP
+R22	Produced_by Arg1:T70 Arg2:T79	
+R23	Produced_by Arg1:T78 Arg2:T79	
+T71	BrandName 5062 5077	Finn Chambers Ò
+R24	Produced_by Arg1:T71 Arg2:T81	
+T73	BrandName 5114 5128	Scanpor Ò tape
+T74	Company 5130 5148	Norges plaster A/S
+R25	Produced_by Arg1:T73 Arg2:T74	
+T76	Substance 5265 5271	sodium
+T80	Substance 5285 5301	ColiFin 1 1MIU/3
+R26	Produced_by Arg1:T82 Arg2:T84	
+R27	Produced_by Arg1:T80 Arg2:T84	
+T83	Substance 5399 5416	Promixin 1 1MIU/1
+R28	Produced_by Arg1:T83 Arg2:T86	
+T85	Substance 5510 5537	Physiologic saline solution
+R29	Produced_by Arg1:T85 Arg2:T88	
+T87	Company 5684 5693	Millipore
+R30	Produced_by Arg1:T89 Arg2:T87	
+T90	Substance 5845 5870	aqueous hydrochloric acid
+R31	Produced_by Arg1:T96 Arg2:T97	
+R32	Produced_by Arg1:T92 Arg2:T97	
+R33	Produced_by Arg1:T93 Arg2:T97	
+R34	Produced_by Arg1:T94 Arg2:T97	
+R35	Produced_by Arg1:T90 Arg2:T97	
+T91	Substance 5901 5924	Dess-Martin periodinane
+R36	Produced_by Arg1:T91 Arg2:T97	
+R37	Produced_by Arg1:T99 Arg2:T101	
+T95	Company 6339 6349	biotage Ab
+T98	Device 6380 6396	gelatin capsules
+R38	Produced_by Arg1:T104 Arg2:T106	
+R39	Produced_by Arg1:T105 Arg2:T106	
+R40	Of_type Arg1:T105 Arg2:T104	
+T100	Company 6881 6885	JEOL
+R41	Produced_by Arg1:T109 Arg2:T100	

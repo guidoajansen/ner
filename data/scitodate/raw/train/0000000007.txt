@@ -1,0 +1,84 @@
+
+For the marc assays, marc was ground to a fine powder using a Retsch MM 200 Mixer Mill (Retsch GmbH, Haan, Germany) and was substituted at the same mass percentage (35% total diet DW) for the cellulose in the diet.
+
+
+Inhibition of cell proliferation by TQ was evaluated 6 h post-treatment using a colorimetric WST-1 (4-[3-(4-iodophenyl)-2-(4-nitrophenyl)-2 H-5-tetrazolio]-1,3-benzenedisulfonate) cell proliferation assay (Roche Diagnostics GmbH, Mannheim, Germany). The assay measures the ability of viable cells to cleave, by mitochondrial dehydrogenases, the WST-1 tetrazolium salt to formazan.
+
+
+All other parameters were analyzed by Labcon GmbH (Vienna, Austria) using validated assays: ASSERACHROM ® b-TG test kit (Diagnostica Stago, Asniéres, France) for b-TG assessment, TAT was assessed using the Enzygnost ® TAT micro kit (Siemens GmbH, Munich, Germany), D-dimer was analyzed with the TECHNOZYM ® D-dimer ELISA (Technoclone, Vienna, Austria) and P-selectin was determined using the Human sP-selectin Platinum ELISA (eBioscience, CA).
+
+
+After incubation, bacteria were removed by washing twice and finally resuspending cells in 600 ml of respiratory media (RPMI 1640 without HEPES or NaCO 3 , pyruvate (2 mM), L-glutamine (2 mM), pH 7.5), containing 10% cefotaxime (100 mg/ml) (ACS Dobfar Generics S.A., Luxembourg, Belgium). Cells were incubated in a CO 2 free incubator at 37 8C for 1 h to allow temperature and pH equilibration, where after the microplate with cells was loaded into the XF24 and the oxygen consumption rate of each well was measured over a period of 100 min.
+
+
+Primers were custom designed and synthesized, taking basic secondary structure into account during the design process (PrimerDesign Ltd., UK). All primers were validated against a standard complementary DNA (cDNA) biobank (PrimerDesign) to ensure adequate amplification and single melt-curve products.
+
+
+Albumin was measured in urine using a commercially available immunoturbidimetric assay containing antibody specific for human albumin (Randox Laboratories Ltd, Crumlin, UK). Creatinine was measured using a modified Jaffe method as previously described (Roche Diagnostics, Indianapolis, IN) (22).
+
+
+The simulator used was the commercially available Guildford MATTU TEP task trainer (Limbs & Things, Ltd., Bristol, UK), 12 which consists of an inanimate, box-trainer type simulator replicating the preperitoneal anatomy of a right groin.
+
+
+In 2007, the Proximal Femoral Locking Compression Plate (PFLCP 4.5/5.0; Synthes GmbH, Zuchwil, Switzerland) was introduced as a precontoured stainless-steel plate, available for left and right femurs, with a fix angled locking interface for the 3 proximal screws (958, 1208 and 1358) and combi-holes in the distal part .
+
+
+GSA in different dosages (37.5 nmol; 75 nmol or 150 nmol/0.5 AL) or phosphate buffered saline (PBS) was injected i.h. with a Microsyringe injection needle (Innovative Labor Systems GmbH, Stqtzerbach, Germany). The first day mice were i.h. injected unilaterally (left) and the next day in the contralateral (right) hippocampus.
+
+
+Subsequently, the plant material was homogenized to powder using cutting mill Pulverisette 19 (Fritsch, GmbH, Idar-Oberstein, Germany) and stored in plastic bags prior to the analyses.
+
+
+Serological typing of HLA-B was performed using the standard microlymphocytotoxicity method (Innotrain Diagnostik GmbH, Kronberg, Germany). HLA-DQB1 and HLA-DRB1 alleles were detected by HLA-DBR1 and HLA-DQB1 kits (Olerup SSP TM DQ kit, Olerup SSP AB, Saltsjöbaden, Sweden) using sequence specific primer (SSP-) PCR method.
+
+
+Materials and methods
+
+
+
+Materials
+
+Cannabidiol (CBD) (purity 99.4%) was purchased from THC Pharm GmbH (Frankfurt, Germany). CBD is practically insoluble in water (0.1 mg/mL) but soluble in organic solvents such as ethanol, DMSO, and dimethylformamide (certificate of analysis).
+
+
+At 50 pmol/cup reactivity of the polyclonal phage was observed selectively for PMP-BSA but not for BSA. BstO I (Promega GmbH, Mannheim, Germany) restriction digest of 20 colony PCR products indicated the presence of seven different clones (4 type A, 10 B, 2 C, and 1 D-G).
+
+
+Insta-Gel XF and Ultima-Flo M were purchased from Packard Instrument B.V. (Groningen, Netherlands). TxB2, 12-HETE and 12-HHT were purchased from Cayman Chemical Co.
+
+
+ToF-SIMS analysis
+
+Ion images and spectra measurements were performed using a ToFSIMS V instrument (ION-TOF GmbH, Münster, Germany) with a 30 keV nano-bismuth primary ion beam source (Bi x y+ -cluster ion source with a BiMn emitter of the latest generation; lateral resolution in imaging mode 70 nm, depth resolution 9 nm).
+
+
+Chemical used in the study included the competitive antagonist of the NMDA receptors 3-((R)-2-Carboxypiperazin-4-yl)-propyl-1phosphonic acid (CPP, 10 μM; Tocris Cookson Ltd, UK).
+
+Recordings and data processing
+
+Recordings started approximately two hours after the slices were placed in the recording chamber and continued for at least three hours afterwards.
+
+
+Patches were applied for 2D to the upper back, using Finn Chambers Ò (Epitest OY, Helsinki, Finland) and Scanpor Ò tape (Norges plaster A/S, Oslo, Norway).
+
+
+Materials and methods
+
+
+
+Materials
+
+Three different formulations for inhalation of colistimethate sodium were tested: ColiFin 1 1MIU/3 ml (Batch 1751691) and ColiFin 1 2MIU/4 ml (Batch 1832597) (PARI Pharma GmbH, Starnberg, DE) and Promixin 1 1MIU/1 ml (Batch 3K08PM-IT) (Profile Pharma Ltd, Chichester, UK). 1MIU corresponds to 80 mg of CSM. Physiologic saline solution (sodium chloride 0.9% w/v) was obtained by Eurospital Spa (Trieste, IT); purified water was produced by reverse osmosis (Milli-Q Gradient system, Millipore, Molsheim, FR).
+
+
+Materials and methods
+
+
+
+chemicals and consumables
+
+Dichloromethane (DcM; >99 %), acetonitrile (Mecn; >99 %), isooctane (>99 %), and aqueous hydrochloric acid ≥98.5 %; sum of enantiomers], Dess-Martin periodinane [1,1,1-tris(acetyloxy)-1,1-dihydro-1,2-benziodoxol-3-(1H)- one, 97 %], and D(+)-glucose (glucose; ≥99.5 %) were purchased from sigma-Aldrich (steinheim, Germany). β-Glucuronidase/arylsulfatase from Helix pomatia was supplied by Roche Diagnostics GmbH (Mannheim, Germany). Modified diatomaceous earth solid-supported liquid-liquid extraction (sslle) sorbent material (Isolute HM-n, bulk material) was obtained from biotage Ab (Uppsala, sweden). empty hard gelatin capsules (size 0, Ph.eur. quality) were obtained from the University Hospital Pharmacy of erlangen-nuremberg.
+
+
+After critical point drying, the protoplasts were mounted over the stubs with double-sided conductivity tape, and a thin layer of gold metal was applied over the samples using an automated sputter coater (K500X, Quorum Technologies Ltd, United Kingdom). The samples were examined under the condition of low vacuum with a secondary electron detector at 15 kV using SEM (JSM-5600LV, JEOL, Japan) at various magnifications ( Wang et al., 2010a).
+

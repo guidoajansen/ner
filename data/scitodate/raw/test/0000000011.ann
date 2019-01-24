@@ -1,0 +1,155 @@
+T1	Device 126 146	X-ray diffractometer
+T2	BrandName 148 162	Philips X'pert
+T3	Company 164 180	PANalytical B.V.
+R1	Produced_by Arg1:T2 Arg2:T3	
+R2	Of_type Arg1:T2 Arg2:T1	
+R3	Produced_by Arg1:T1 Arg2:T3	
+T4	Procedure 21 63	X-ray diffraction reciprocal space mapping
+R4	Used_for Arg1:T2 Arg2:T4	
+T5	Device 362 379	Biospec tomograph
+T6	Company 381 387	Bruker
+R5	Produced_by Arg1:T5 Arg2:T6	
+T7	Company 470 481	Oxford Ltd.
+T8	Device 462 468	magnet
+R6	Produced_by Arg1:T8 Arg2:T7	
+T9	Substance 660 667	Gd-DTPA
+T10	BrandName 669 681	MagnevistV R
+T11	Company 684 692	Schering
+R7	Produced_by Arg1:T9 Arg2:T11	
+R8	Produced_by Arg1:T10 Arg2:T11	
+R9	Of_type Arg1:T10 Arg2:T9	
+T12	BrandName 808 819	BioNumerics
+T13	Device 820 828	software
+T14	Company 843 861	Applied Maths BVBA
+R10	Of_type Arg1:T12 Arg2:T13	
+R11	Produced_by Arg1:T13 Arg2:T14	
+R12	Produced_by Arg1:T12 Arg2:T14	
+T15	Substance 958 961	RNA
+T16	BrandName 984 991	PAXgene
+T17	Device 992 1005	blood RNA kit
+T18	Company 1007 1018	Qiagen GmbH
+R13	Produced_by Arg1:T17 Arg2:T18	
+R14	Of_type Arg1:T16 Arg2:T17	
+R15	Produced_by Arg1:T16 Arg2:T18	
+T19	Procedure 1096 1118	proteinase K treatment
+T20	Device 1191 1208	polishing machine
+T21	BrandName 1210 1223	Metaserv 2000
+T22	Company 1225 1242	Bö ehler, UK, Ltd
+R16	Produced_by Arg1:T20 Arg2:T22	
+R17	Of_type Arg1:T21 Arg2:T20	
+R18	Produced_by Arg1:T21 Arg2:T22	
+T23	BrandName 1428 1443	Annexin-V-FLUOS
+T25	Company 1463 1485	Roche Diagnostics GmbH
+T26	BrandName 1520 1535	Annexin-V-FLUOS
+R22	Produced_by Arg1:T23 Arg2:T25	
+T28	Substance 1569 1585	propidium iodide
+T24	BrandName 1674 1704	QPSMR Reflect Version 2007.1 g
+T27	Company 1706 1716	QPSMR Ltd.
+R19	Produced_by Arg1:T24 Arg2:T27	
+T29	Property 1603 1625	Descriptive statistics
+R20	Measures Arg1:T24 Arg2:T29	
+T30	BrandName 1951 1957	RNeasy
+T31	Company 1942 1948	QIAGEN
+R21	Produced_by Arg1:T30 Arg2:T31	
+T32	Device 1965 1982	RNA Isolation kit
+T33	Company 1984 1995	Qiagen GmbH
+R23	Produced_by Arg1:T32 Arg2:T33	
+T34	BrandName 2027 2043	Nanodrop ND-1000
+T35	Procedure 2010 2020	quantified
+R24	Used_for Arg1:T34 Arg2:T35	
+T36	Substance 2064 2067	RNA
+T37	Substance 2084 2123	agaroseformaldehyde gel electrophoresis
+T38	Device 2157 2161	oven
+T39	Company 2163 2183	Memmert GmbH + CO.KG
+R25	Produced_by Arg1:T38 Arg2:T39	
+T40	BrandName 2340 2350	MINITAB 16
+T41	Device 2351 2359	software
+T42	Company 2361 2373	Minitab Ltd.
+R26	Of_type Arg1:T40 Arg2:T41	
+R27	Produced_by Arg1:T41 Arg2:T42	
+R28	Produced_by Arg1:T40 Arg2:T42	
+T43	Procedure 2298 2318	Statistical analyses
+R29	Used_for Arg1:T40 Arg2:T43	
+T44	Company 2571 2600	JPT Peptide Technologies GmbH
+T45	Substance 2544 2551	peptide
+R30	Produced_by Arg1:T45 Arg2:T44	
+T46	Procedure 2625 2643	Peptide treatments
+T47	Device 2767 2788	silicone contact lens
+T48	BrandName 2790 2797	Silflex
+T49	Company 2799 2823	Wöhlk Kontaktlinsen GmbH
+R31	Produced_by Arg1:T47 Arg2:T49	
+R32	Of_type Arg1:T48 Arg2:T47	
+R33	Produced_by Arg1:T48 Arg2:T49	
+T50	Device 2910 2947	primary intraocular lens implantation
+T51	BrandName 2949 2961	AcrySof lens
+T52	Company 2963 2974	Alcon, Inc.
+R34	Produced_by Arg1:T51 Arg2:T52	
+R35	Produced_by Arg1:T50 Arg2:T52	
+R36	Of_type Arg1:T51 Arg2:T50	
+T53	Company 3105 3140	Peptide Specialty Laboratories GmbH
+T54	Substance 3164 3178	Dithiothreitol
+T55	Substance 3214 3236	zinc acetate dihydrate
+T56	Company 3263 3276	Sigma-Aldrich
+R37	Produced_by Arg1:T55 Arg2:T56	
+R38	Produced_by Arg1:T54 Arg2:T56	
+T57	Substance 3280 3321	Peroxidase-conjugated donkey anti-goat Ab
+T58	Company 3323 3335	Dianova GmbH
+R39	Produced_by Arg1:T57 Arg2:T58	
+T59	Substance 3368 3371	PBS
+T60	BrandName 3537 3544	STA 409
+T61	Device 3545 3557	TGA analyzer
+T62	Company 3559 3571	Netzsch GmbH
+R40	Produced_by Arg1:T61 Arg2:T62	
+R41	Of_type Arg1:T60 Arg2:T61	
+R42	Produced_by Arg1:T60 Arg2:T62	
+T63	Procedure 3498 3501	TGA
+R43	Used_for Arg1:T60 Arg2:T63	
+T64	Procedure 3602 3605	TGA
+T65	Substance 3505 3512	USPIONs
+T66	Substance 3625 3632	USPIONs
+T67	Device 3794 3811	synovial membrane
+T68	Substance 3919 3944	phosphate-buffered saline
+T69	Substance 3946 3949	PBS
+T70	BrandName 3951 3987	Dulbecco's Phosphate Buffered Saline
+R44	Of_type Arg1:T70 Arg2:T69	
+R45	Of_type Arg1:T70 Arg2:T68	
+T71	Company 3989 4014	Sigma-Aldrich Chemie GmbH
+R46	Produced_by Arg1:T70 Arg2:T71	
+R47	Produced_by Arg1:T69 Arg2:T71	
+R48	Produced_by Arg1:T68 Arg2:T71	
+T72	Substance 4091 4110	type IV collagenase
+T73	Company 4121 4146	Sigma-Aldrich Chemie GmbH
+R49	Produced_by Arg1:T72 Arg2:T73	
+T74	Substance 4169 4176	trypsin
+T75	Company 4189 4214	Sigma-Aldrich Chemie GmbH
+R50	Produced_by Arg1:T74 Arg2:T75	
+T76	Substance 4241 4248	DNase I
+T77	Company 4259 4273	Applichem GmbH
+R51	Produced_by Arg1:T76 Arg2:T77	
+T78	Property 4302 4312	heart rate
+T79	Procedure 4339 4353	telemetrically
+T80	BrandName 4355 4373	Sport Tester S 410
+T81	Company 4383 4400	Polar Electro, Oy
+R52	Used_for Arg1:T80 Arg2:T79	
+R53	Measures Arg1:T80 Arg2:T78	
+R54	Produced_by Arg1:T80 Arg2:T81	
+T82	Property 4486 4500	blood pressure
+T83	Substance 5447 5450	DNA
+T84	BrandName 5505 5511	QIAamp
+T85	Device 5512 5530	DNA Blood Mini Kit
+T86	Company 5532 5543	Qiagen GmbH
+R55	Of_type Arg1:T84 Arg2:T85	
+R56	Produced_by Arg1:T85 Arg2:T86	
+R57	Produced_by Arg1:T84 Arg2:T86	
+T87	Procedure 5455 5463	purified
+R58	Used_for Arg1:T84 Arg2:T87	
+T88	Device 5657 5691	transparent microscope glass slide
+T89	Company 5693 5714	Microscopes Plus Ltd.
+R59	Produced_by Arg1:T88 Arg2:T89	
+T90	Procedure 5802 5821	tomographic imaging
+T91	Device 5874 5892	freezing microtome
+T92	BrandName 5894 5906	Microm HM450
+T93	Company 5908 5919	Microm Gmbh
+R60	Produced_by Arg1:T91 Arg2:T93	
+R61	Of_type Arg1:T92 Arg2:T91	
+R62	Produced_by Arg1:T92 Arg2:T93	
