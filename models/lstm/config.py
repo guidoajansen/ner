@@ -1,5 +1,5 @@
 import os
-from .utils import get_logger, get_trimmed_glove_vectors, load_vocab, get_processing_word
+from .utils import get_logger, get_trimmed_embedding_vectors, load_vocab, get_processing_word
 
 class Config():
     def __init__(self, load=True):
@@ -38,7 +38,7 @@ class Config():
                                                   lowercase=False, allow_unk=False)
 
         # 3. get pre-trained embeddings
-        self.embeddings = (get_trimmed_glove_vectors(self.filename_trimmed)
+        self.embeddings = (get_trimmed_embedding_vectors(self.filename_trimmed)
                            if self.use_pretrained else None)
 
     # general config
@@ -47,27 +47,27 @@ class Config():
     path_log   = dir_output + "log.txt"
 
     # embeddings
-    dim_word = 300
     dim_char = 100
 
-    # glove files
-    # filename_glove = "data/embeddings/glove.6B.{}d.txt".format(dim_word)
-    # trimmed embeddings (created from glove_filename with build_data.py)
-    # filename_trimmed = "data/embeddings/glove.6B.{}d.trimmed.npz".format(dim_word)
+    # filename_dev = "data/conll/valid.txt"
+    # filename_test = "data/conll/test.txt"
+    # filename_train = "data/conll/train.txt"
 
-    dim_word = 200
-    filename_glove = "data/embeddings/bionlp/PubMed-shuffle-win-30.txt".format(dim_word)
-    filename_trimmed = "data/embeddings/bionlp/PubMed.trimmed.npz".format(dim_word)
-
-    use_pretrained = True
-
-    # dataset
     filename_dev = "data/scitodate/valid.txt"
     filename_test = "data/scitodate/test.txt"
     filename_train = "data/scitodate/train.txt"
 
+    # dim_word = 200
+    # filename_embedding = "data/embeddings/bionlp/PubMed-shuffle-win-30.txt".format(dim_word)
+    # filename_trimmed = "data/embeddings/bionlp/PubMed-shuffle-win-30.trimmed.npz".format(dim_word)
+
+    dim_word = 300
+    filename_embedding = "data/embeddings/glove/glove.6B.{}d.txt".format(dim_word)
+    filename_trimmed = "data/embeddings/glove/glove.6B.{}d.trimmed.npz".format(dim_word)
+
     # filename_dev = filename_test = filename_train = "data/test.txt"  # test
 
+    use_pretrained = True
     max_iter = None  # if not None, max number of examples in Dataset
 
     # vocab (created from dataset with build_data.py)
@@ -77,14 +77,19 @@ class Config():
 
     # training
     train_embeddings = False
-    nepochs = 20
-    dropout = 0.8
-    batch_size = 20
+    nepochs = 30
+    dropout = 0.5
+    batch_size = 10
     lr_method = "adam"
     lr = 0.001
     lr_decay = 0.9
     clip = -1  # if negative, no clipping
-    nepoch_no_imprv = 10
+    nepoch_no_imprv = 15
+
+    # attention specific
+    num_heads = 8
+    attention_size = None
+    is_train = False
 
     # model hyperparameters
     hidden_size_char = 100  # lstm on chars

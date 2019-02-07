@@ -1,7 +1,7 @@
 from models.lstm.config import Config
 from models.lstm.utils import CoNLLDataset, get_vocabs, UNK, NUM, \
-    get_glove_vocab, write_vocab, load_vocab, get_char_vocab, \
-    export_trimmed_glove_vectors, get_processing_word
+    get_embedding_vocab, write_vocab, load_vocab, get_char_vocab, \
+    export_trimmed_embedding_vectors, get_processing_word
 
 
 def main():
@@ -17,7 +17,6 @@ def main():
 
     Args:
         config: (instance of Config) has attributes like hyper-params...
-
     """
     # get config and processing of words
     config = Config(load=False)
@@ -30,7 +29,7 @@ def main():
 
     # Build Word and Tag vocab
     vocab_words, vocab_tags = get_vocabs([train, dev, test])
-    vocab_glove = get_glove_vocab(config.filename_glove)
+    vocab_glove = get_embedding_vocab(config.filename_embedding)
 
     vocab = vocab_words & vocab_glove
     vocab.add(UNK)
@@ -42,7 +41,7 @@ def main():
 
     # Trim GloVe Vectors
     vocab = load_vocab(config.filename_words)
-    export_trimmed_glove_vectors(vocab, config.filename_glove,
+    export_trimmed_embedding_vectors(vocab, config.filename_embedding,
                                 config.filename_trimmed, config.dim_word)
 
     # Build and save char vocab

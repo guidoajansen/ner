@@ -2,6 +2,7 @@ import numpy as np
 import os
 import tensorflow as tf
 
+import pandas as pd
 
 from .utils import minibatches, pad_sequences, get_chunks, Progbar
 from models.template import Template
@@ -14,7 +15,6 @@ class Model(Template):
         super(Model, self).__init__(config)
         self.idx_to_tag = {idx: tag for tag, idx in
                            self.config.vocab_tags.items()}
-
 
     def add_placeholders(self):
         """Define placeholders = entries to computational graph"""
@@ -43,7 +43,6 @@ class Model(Template):
                         name="dropout")
         self.lr = tf.placeholder(dtype=tf.float32, shape=[],
                         name="lr")
-
 
     def get_feed_dict(self, words, labels=None, lr=None, dropout=None):
         """Given some data, pad it and build a feed dictionary
@@ -89,7 +88,6 @@ class Model(Template):
             feed[self.dropout] = dropout
 
         return feed, sequence_lengths
-
 
     def add_word_embeddings_op(self):
         """Defines self.word_embeddings
@@ -147,11 +145,10 @@ class Model(Template):
 
                 # shape = (batch size, max sentence length, char hidden size)
                 output = tf.reshape(output,
-                        shape=[s[0], s[1], 2*self.config.hidden_size_char])
+                        shape=[s[0], s[1], 2 * self.config.hidden_size_char])
                 word_embeddings = tf.concat([word_embeddings, output], axis=-1)
 
         self.word_embeddings =  tf.nn.dropout(word_embeddings, self.dropout)
-
 
     def add_logits_op(self):
         """Defines self.logits
@@ -166,7 +163,47 @@ class Model(Template):
                     cell_fw, cell_bw, self.word_embeddings,
                     sequence_length=self.sequence_lengths, dtype=tf.float32)
             output = tf.concat([output_fw, output_bw], axis=-1)
-            output = tf.nn.dropout(output, self.dropout)
+            # output = tf.nn.dropout(output, self.dropout)
+
+        with tf.variable_scope("self_attention"):
+
+            attention_size = output.get_shape().as_list()[-1]
+            # linear projections, shape=(batch_size, max_time, attention_size)
+            query = tf.layers.dense(output, attention_size, activation=tf.nn.relu, name="query_project")
+            key = tf.layers.dense(output, attention_size, activation=tf.nn.relu, name="key_project")
+            value = tf.layers.dense(output, attention_size, activation=tf.nn.relu, name="value_project")
+
+            # split and concatenation, shape=(batch_size * num_heads, max_time, attention_size / num_heads)
+            query_ = tf.concat(tf.split(query, self.config.num_heads, axis=2), axis=0)
+            key_ = tf.concat(tf.split(key, self.config.num_heads, axis=2), axis=0)
+            value_ = tf.concat(tf.split(value, self.config.num_heads, axis=2), axis=0)
+
+            # multiplication
+            attn_outs = tf.matmul(query_, tf.transpose(key_, [0, 2, 1]))
+            # scale
+            attn_outs = attn_outs / (key_.get_shape().as_list()[-1] ** 0.5)
+            # key masking
+            key_masks = tf.sign(tf.abs(tf.reduce_sum(output, axis=-1)))  # shape=(batch_size, max_time)
+            key_masks = tf.tile(key_masks, [self.config.num_heads, 1])  # shape=(batch_size * num_heads, max_time)
+            # shape=(batch_size * num_heads, max_time, max_time)
+            key_masks = tf.tile(tf.expand_dims(key_masks, 1), [1, tf.shape(output)[1], 1])
+            paddings = tf.ones_like(attn_outs) * (-2 ** 32 + 1)
+            # shape=(batch_size, max_time, attention_size)
+            attn_outs = tf.where(tf.equal(key_masks, 0), paddings, attn_outs)
+            # activation
+            attn_outs = tf.nn.softmax(attn_outs)
+            # query masking
+            query_masks = tf.sign(tf.abs(tf.reduce_sum(output, axis=-1)))
+            query_masks = tf.tile(query_masks, [self.config.num_heads, 1])
+            query_masks = tf.tile(tf.expand_dims(query_masks, -1), [1, 1, tf.shape(output)[1]])
+            attn_outs *= query_masks
+            # dropout
+            self.attn_outs = tf.layers.dropout(attn_outs, self.config.dropout)
+            # weighted sum
+            output = tf.matmul(self.attn_outs, value_)
+            # restore shape
+            output = tf.concat(tf.split(output, self.config.num_heads, axis=0), axis=2)
+            output += output  # residual connection
 
         with tf.variable_scope("logits"):
             W = tf.get_variable("W", dtype=tf.float32,
@@ -180,7 +217,6 @@ class Model(Template):
             pred = tf.matmul(output, W) + b
             self.logits = tf.reshape(pred, [-1, nsteps, self.config.ntags])
 
-
     def add_pred_op(self):
         """Defines self.labels_pred
 
@@ -193,7 +229,6 @@ class Model(Template):
         if not self.config.use_crf:
             self.labels_pred = tf.cast(tf.argmax(self.logits, axis=-1),
                     tf.int32)
-
 
     def add_loss_op(self):
         """ Add loss operation """
@@ -212,7 +247,6 @@ class Model(Template):
         """ Add summary """
         tf.summary.scalar("loss", self.loss)
 
-
     def build(self):
         """ Run functions for each model component """
         self.add_placeholders()
@@ -225,7 +259,6 @@ class Model(Template):
         self.add_train_op(self.config.lr_method, self.lr, self.loss,
                 self.config.clip)
         self.initialize_session()
-
 
     def predict_batch(self, words):
         """
@@ -242,9 +275,8 @@ class Model(Template):
         if self.config.use_crf:
             # get tag scores and transition params of CRF
             viterbi_sequences = []
-            logits, trans_params = self.sess.run(
-                    [self.logits, self.trans_params], feed_dict=fd)
-
+            logits, attn, trans_params = self.sess.run(
+                    [self.logits, self.attn_outs, self.trans_params], feed_dict=fd)
             # iterate over the sentences because no batching in vitervi_decode
             for logit, sequence_length in zip(logits, sequence_lengths):
                 logit = logit[:sequence_length] # keep only the valid steps
@@ -252,13 +284,12 @@ class Model(Template):
                         logit, trans_params)
                 viterbi_sequences += [viterbi_seq]
 
-            return viterbi_sequences, sequence_lengths
+            return viterbi_sequences, attn, sequence_lengths
 
         else:
             labels_pred = self.sess.run(self.labels_pred, feed_dict=fd)
 
             return labels_pred, sequence_lengths
-
 
     def run_epoch(self, train, dev, epoch):
         """Performs one complete pass over the train set and evaluate on dev
@@ -311,7 +342,6 @@ class Model(Template):
 
         return metrics["F1"]
 
-
     def run_evaluate(self, test):
         """Evaluates performance on test set
 
@@ -325,7 +355,7 @@ class Model(Template):
         accs = []
         correct_preds, total_correct, total_preds = 0., 0., 0.
         for words, labels in minibatches(test, self.config.batch_size):
-            labels_pred, sequence_lengths = self.predict_batch(words)
+            labels_pred, attn, sequence_lengths = self.predict_batch(words)
 
             for lab, lab_pred, length in zip(labels, labels_pred,
                                              sequence_lengths):
@@ -348,7 +378,6 @@ class Model(Template):
 
         return {"Accuracy": 100*acc, "Precision": 100*p, "Recall": 100*r, "F1": 100*f1}
 
-
     def predict(self, words_raw):
         """Returns list of tags
 
@@ -362,7 +391,7 @@ class Model(Template):
         words = [self.config.processing_word(w) for w in words_raw]
         if type(words[0]) == tuple:
             words = zip(*words)
-        pred_ids, _ = self.predict_batch([words])
+        pred_ids, attn, _ = self.predict_batch([words])
         preds = [self.idx_to_tag[idx] for idx in list(pred_ids[0])]
 
-        return preds
+        return preds, attn

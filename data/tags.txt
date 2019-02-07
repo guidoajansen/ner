@@ -1,4 +1,7 @@
+I-BRAND
 O
-Brandname
-Device
-Company
+B-BRAND
+I-DEV
+I-COM
+B-DEV
+B-COM

@@ -2,6 +2,10 @@ from models.lstm.utils import CoNLLDataset
 from models.lstm.model import Model
 from models.lstm.config import Config
 
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 def align_data(data):
     """Given dict with lists, creates aligned strings
@@ -31,8 +35,6 @@ def align_data(data):
 
     return data_aligned
 
-
-
 def interactive_shell(model):
     """Creates interactive shell to play with model
 
@@ -59,11 +61,34 @@ input> I love Paris""")
         if words_raw == ["exit"]:
             break
 
-        preds = model.predict(words_raw)
-        to_print = align_data({"input": words_raw, "output": preds})
+        preds, attn = model.predict(words_raw)
+        corr_labels = []
 
-        for key, seq in to_print.items():
-            model.logger.info(seq)
+        for idx, word in enumerate(words_raw):
+            # model.logger.info(word + '\t\t\t' + preds[idx])
+            corr_labels.append(word + '  (' + preds[idx] + ')')
+
+        if len(words_raw) > 1:
+
+            attn_matrix = pd.DataFrame(attn[7], index=corr_labels, columns=corr_labels)
+
+            f, ax = plt.subplots(figsize=(20, 20))
+            corr = attn_matrix.corr()
+            ax.xaxis.set_ticks_position('top')
+
+            sns.set(font_scale=.6)
+
+            sns.heatmap(corr, cmap="Blues", ax=ax)
+
+            plt.show()
+
+        else:
+            print("Can not show correlations for single word sentences")
+
+        # to_print = align_data({"input": words_raw, "output": preds})
+
+        # for key, seq in to_print.items():
+        #     model.logger.info(seq)
 
 
 def main():

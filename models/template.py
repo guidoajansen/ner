@@ -1,5 +1,6 @@
 import os
 import time
+import numpy as np
 import tensorflow as tf
 
 
@@ -19,13 +20,11 @@ class Template(object):
         self.sess   = None
         self.saver  = None
 
-
     def reinitialize_weights(self, scope_name):
         """Reinitializes the weights of a given layer"""
         variables = tf.contrib.framework.get_variables(scope_name)
         init = tf.variables_initializer(variables)
         self.sess.run(init)
-
 
     def add_train_op(self, lr_method, lr, loss, clip=-1):
         """Defines self.train_op that performs an update on a batch
@@ -58,14 +57,12 @@ class Template(object):
             else:
                 self.train_op = optimizer.minimize(loss)
 
-
     def initialize_session(self):
         """Defines self.sess and initialize the variables"""
         self.logger.info("Initializing tf session")
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
         self.saver = tf.train.Saver()
-
 
     def restore_session(self, dir_model):
         """Reload weights into session
@@ -78,18 +75,15 @@ class Template(object):
         self.logger.info("Reloading the latest trained model...")
         self.saver.restore(self.sess, dir_model)
 
-
     def save_session(self):
         """Saves session = weights"""
         if not os.path.exists(self.config.dir_model):
             os.makedirs(self.config.dir_model)
         self.saver.save(self.sess, self.config.dir_model)
 
-
     def close_session(self):
         """Closes the session"""
         self.sess.close()
-
 
     def add_summary(self):
         """Defines variables for Tensorboard
@@ -118,7 +112,6 @@ class Template(object):
         self.file_writer = tf.summary.FileWriter(self.config.dir_output + session,
                 self.sess.graph)
 
-
     def train(self, train, dev):
         """Performs training with early stopping and lr exponential decay
 
@@ -130,6 +123,11 @@ class Template(object):
         best_score = 0
         nepoch_no_imprv = 0 # for early stopping
         self.add_summary() # tensorboard
+
+        train = train.sample(324)
+        dev = dev.sample(27)
+
+        self.logger.info('Training on ' + str(len(train)) + ' sentences.')
 
         for epoch in range(self.config.nepochs):
             self.logger.info("Epoch {:} out of {:}".format(epoch + 1,
@@ -151,7 +149,6 @@ class Template(object):
                             "improvement".format(nepoch_no_imprv))
                     break
 
-
     def evaluate(self, test):
         """Evaluate model on test set
 
@@ -159,7 +156,9 @@ class Template(object):
             test: instance of class Dataset
 
         """
-        self.logger.info("Testing model over test set")
+        # self.logger.info("Testing model over test set")
+        self.logger.info('Testing on ' + str(len(test)) + ' sentences.')
+
         metrics = self.run_evaluate(test)
         msg = " - ".join(["{} {:04.2f}".format(k, v)
                 for k, v in metrics.items()])

@@ -4,7 +4,7 @@
 
 # Usage:
 # 1) Install the pycorenlp package
-# 2) Run CoreNLP server (change CORENLP_SERVER_ADDRESS if needed)
+# 2) Go to the installation directory and Run CoreNLP server, example: java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 # 3) Place .ann and .txt files from brat in the location specified in DATA_DIRECTORY
 # 4) Run this script
 
@@ -18,11 +18,12 @@ from os.path import isfile, join
 DEFAULT_OTHER_ANNO = 'O'
 STANDOFF_ENTITY_PREFIX = 'T'
 STANDOFF_RELATION_PREFIX = 'R'
-DATA_DIRECTORY = '../data/scitodate/raw/valid'
+DATA_DIRECTORY = '../data/scitodate/raw/train'
 OUTPUT_DIRECTORY = '../data/scitodate/'
 CORENLP_SERVER_ADDRESS = 'http://localhost:9000'
+RELATIONS = False
 
-NER_TRAINING_DATA_OUTPUT_PATH = join(OUTPUT_DIRECTORY, 'valid.txt')
+NER_TRAINING_DATA_OUTPUT_PATH = join(OUTPUT_DIRECTORY, 'train.txt')
 RE_TRAINING_DATA_OUTPUT_PATH = join(OUTPUT_DIRECTORY, 're-training-data.corp')
 
 if os.path.exists(OUTPUT_DIRECTORY):
@@ -39,6 +40,21 @@ nlp = StanfordCoreNLP(CORENLP_SERVER_ADDRESS)
 # looping through .ann files in the data directory
 ann_data_files = [f for f in listdir(DATA_DIRECTORY) if isfile(join(DATA_DIRECTORY, f)) and f.split('.')[1] == 'ann']
 
+labels= {
+    'Device': {
+        'beginning': 'B-DEV',
+        'inside': 'I-DEV'
+    },
+    'BrandName': {
+        'beginning': 'B-BRAND',
+        'inside': 'I-BRAND'
+    },
+    'Company': {
+        'beginning': 'B-COM',
+        'inside': 'I-COM'
+    }
+}
+
 for file in ann_data_files:
     entities = []
     relations = []
@@ -46,18 +62,34 @@ for file in ann_data_files:
     # process .ann file - place entities and relations into 2 seperate lists of tuples
     with open(join(DATA_DIRECTORY, file), 'r') as document_anno_file:
         lines = document_anno_file.readlines()
+        standoff_id = 1
+
         for line in lines:
             standoff_line = line.split()
             if standoff_line[0][0] == STANDOFF_ENTITY_PREFIX and standoff_line[1] in ['Device', 'BrandName', 'Company']:
-                entity = {}
-                entity['standoff_id'] = int(standoff_line[0][1:])
-                entity['entity_type'] = standoff_line[1].capitalize()
-                entity['offset_start'] = int(standoff_line[2]) - 1
-                entity['offset_end'] = int(standoff_line[3]) - 1
-                entity['word'] = standoff_line[4]
-                entities.append(entity)
 
-            elif standoff_line[0][0] == STANDOFF_RELATION_PREFIX:
+                entity_start = (int(standoff_line[2]) - 1)
+
+                for idx, word in enumerate(standoff_line[4:]):
+                    entity = {}
+                    entity['standoff_id'] = standoff_id
+                    if idx == 0:
+                        entity['entity_type'] = labels[standoff_line[1]]['beginning']
+                        entity['offset_start'] = entity_start
+                        entity['offset_end'] = entity_start + len(word)
+                    else:
+                        entity['entity_type'] = labels[standoff_line[1]]['inside']
+                        entity['offset_start'] = entity_start
+                        entity['offset_end'] = entity_start + len(word)
+
+                    entity['word'] = word
+
+                    entities.append(entity)
+                    # Update entity_start with word length and a space
+                    entity_start += (len(word) + 1)
+                    standoff_id  += 1
+
+            elif RELATIONS and standoff_line[0][0] == STANDOFF_RELATION_PREFIX:
                 relation = {}
                 relation['standoff_id'] = int(standoff_line[0][1:])
                 relation['name'] = standoff_line[1]
@@ -75,10 +107,11 @@ for file in ann_data_files:
         'outputFormat': 'json'
     })
 
+
+    training_data_length = 0
     # write text and annotations into NER and RE output files
     with open(NER_TRAINING_DATA_OUTPUT_PATH, 'a') as ner_training_data, open(RE_TRAINING_DATA_OUTPUT_PATH,
                                                                              'a') as re_training_data:
-        print(len(output['sentences']))
         ner_training_data.write("-DOCSTART- O")
         ner_training_data.write("\n\n")
 
@@ -86,45 +119,50 @@ for file in ann_data_files:
             entities_in_sentence = {}
             sentence_re_rows = []
 
-            for token in sentence['tokens']:
-                offset_start = int(token['characterOffsetBegin'])
-                offset_end = int(token['characterOffsetEnd'])
+            if len(sentence['tokens']) > 5:
+                training_data_length += 1
 
-                re_row = {}
-                entity_found = False
-                ner_anno = DEFAULT_OTHER_ANNO
 
-                # searching for token in annotated entities
-                for entity in entities:
-                    if offset_start >= entity['offset_start'] and offset_end <= entity['offset_end']:
-                        ner_anno = entity['entity_type']
 
-                    # multi-token entities for RE need to be handled differently than NER
-                    if offset_start == entity['offset_start'] and offset_end <= entity['offset_end']:
-                        entities_in_sentence[entity['standoff_id']] = len(sentence_re_rows)
-                        re_row['entity_type'] = entity['entity_type']
+                for token in sentence['tokens']:
+                    offset_start = int(token['characterOffsetBegin'])
+                    offset_end = int(token['characterOffsetEnd'])
+
+                    re_row = {}
+                    entity_found = False
+                    ner_anno = DEFAULT_OTHER_ANNO
+
+                    # searching for token in annotated entities
+                    for entity in entities:
+                        if offset_start >= entity['offset_start'] and offset_end <= entity['offset_end']:
+                            ner_anno = entity['entity_type']
+
+                        # multi-token entities for RE need to be handled differently than NER
+                        if offset_start == entity['offset_start'] and offset_end <= entity['offset_end']:
+                            entities_in_sentence[entity['standoff_id']] = len(sentence_re_rows)
+                            re_row['entity_type'] = entity['entity_type']
+                            re_row['pos_tag'] = token['pos']
+                            re_row['word'] = token['word']
+
+                            sentence_re_rows.append(re_row)
+                            entity_found = True
+                            break
+                        elif offset_start > entity['offset_start'] and offset_end <= entity['offset_end'] and len(
+                                sentence_re_rows) > 0:
+                            sentence_re_rows[-1]['pos_tag'] += '/{}'.format(token['pos'])
+                            sentence_re_rows[-1]['word'] += '/{}'.format(token['word'])
+                            entity_found = True
+                            break
+
+                    if not entity_found:
+                        re_row['entity_type'] = DEFAULT_OTHER_ANNO
                         re_row['pos_tag'] = token['pos']
                         re_row['word'] = token['word']
 
                         sentence_re_rows.append(re_row)
-                        entity_found = True
-                        break
-                    elif offset_start > entity['offset_start'] and offset_end <= entity['offset_end'] and len(
-                            sentence_re_rows) > 0:
-                        sentence_re_rows[-1]['pos_tag'] += '/{}'.format(token['pos'])
-                        sentence_re_rows[-1]['word'] += '/{}'.format(token['word'])
-                        entity_found = True
-                        break
 
-                if not entity_found:
-                    re_row['entity_type'] = DEFAULT_OTHER_ANNO
-                    re_row['pos_tag'] = token['pos']
-                    re_row['word'] = token['word']
-
-                    sentence_re_rows.append(re_row)
-
-                # writing tagged tokens to NER training data
-                ner_training_data.write('{}\t{}\n'.format(token['word'], ner_anno))
+                    # writing tagged tokens to NER training data
+                    ner_training_data.write('{}\t{}\n'.format(token['word'], ner_anno))
 
             # writing tagged tokens to RE training data
             token_count = 0
@@ -153,4 +191,5 @@ for file in ann_data_files:
 
         ner_training_data.write('\n')
 
+    print(training_data_length)
     print('Processed file pair: {} and {}'.format(file, file.replace('.ann', '.txt')))

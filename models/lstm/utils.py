@@ -2,6 +2,7 @@ import time
 import sys
 import logging
 import numpy as np
+import random
 
 # shared global variables to be imported from model also
 UNK = "$UNK$"
@@ -52,8 +53,13 @@ class CoNLLDataset(object):
                         yield words, tags
                         words, tags = [], []
                 else:
-                    ls = line.split('\t')
-                    word, tag = ls[0],ls[1]
+                    if 'scitodate' in self.filename:
+                        ls = line.split('\t')
+                        word, tag = ls[0],ls[1]
+                    if 'conll' in self.filename:
+                        ls = line.split(' ')
+                        word, tag = ls[0],ls[3]
+
                     if self.processing_word is not None:
                         word = self.processing_word(word)
                     if self.processing_tag is not None:
@@ -70,6 +76,14 @@ class CoNLLDataset(object):
                 self.length += 1
 
         return self.length
+
+    def sample(self, number):
+        sentences = []
+        for _ in self:
+            sentences.append(_)
+
+        random.seed(123)
+        return random.sample(sentences, number)
 
 class Progbar(object):
     """Progbar class copied from keras (https://github.com/fchollet/keras/)
@@ -182,7 +196,6 @@ class Progbar(object):
     def add(self, n, values=[]):
         self.update(self.seen_so_far+n, values)
 
-
 def get_logger(filename):
     """Return a logger instance that writes in filename
 
@@ -224,7 +237,6 @@ def get_vocabs(datasets):
     print("- done. {} tokens".format(len(vocab_words)))
     return vocab_words, vocab_tags
 
-
 def get_char_vocab(dataset):
     """Build char vocabulary from an iterable of datasets objects
 
@@ -242,12 +254,11 @@ def get_char_vocab(dataset):
 
     return vocab_char
 
-
-def get_glove_vocab(filename):
+def get_embedding_vocab(filename):
     """Load vocab from file
 
     Args:
-        filename: path to the glove vectors
+        filename: path to the embedding vectors
 
     Returns:
         vocab: set() of strings
@@ -260,7 +271,6 @@ def get_glove_vocab(filename):
             vocab.add(word)
     print("- done. {} tokens".format(len(vocab)))
     return vocab
-
 
 def write_vocab(vocab, filename):
     """Writes a vocab to a file
@@ -284,7 +294,6 @@ def write_vocab(vocab, filename):
                 f.write(word)
     print("- done. {} tokens".format(len(vocab)))
 
-
 def load_vocab(filename):
     """Loads vocab from a file
 
@@ -306,19 +315,18 @@ def load_vocab(filename):
         raise MyIOError(filename)
     return d
 
-
-def export_trimmed_glove_vectors(vocab, glove_filename, trimmed_filename, dim):
-    """Saves glove vectors in numpy array
+def export_trimmed_embedding_vectors(vocab, filename, trimmed_filename, dim):
+    """Saves embedding vectors in numpy array
 
     Args:
         vocab: dictionary vocab[word] = index
-        glove_filename: a path to a glove file
+        filename: a path to a embedding file
         trimmed_filename: a path where to store a matrix in npy
         dim: (int) dimension of embeddings
 
     """
     embeddings = np.zeros([len(vocab), dim])
-    with open(glove_filename) as f:
+    with open(filename) as f:
         for line in f:
             line = line.strip().split(' ')
             word = line[0]
@@ -329,8 +337,7 @@ def export_trimmed_glove_vectors(vocab, glove_filename, trimmed_filename, dim):
 
     np.savez_compressed(trimmed_filename, embeddings=embeddings)
 
-
-def get_trimmed_glove_vectors(filename):
+def get_trimmed_embedding_vectors(filename):
     """
     Args:
         filename: path to the npz file
@@ -345,7 +352,6 @@ def get_trimmed_glove_vectors(filename):
 
     except IOError:
         raise MyIOError(filename)
-
 
 def get_processing_word(vocab_words=None, vocab_chars=None,
                     lowercase=False, chars=False, allow_unk=True):
@@ -384,7 +390,7 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                 if allow_unk:
                     word = vocab_words[UNK]
                 else:
-                    raise Exception("Unknow key is not allowed. Check that "\
+                    raise Exception("Unknown key is not allowed. Check that "\
                                     "your vocab (tags?) is correct")
 
         # 3. return tuple char ids, word id
@@ -394,7 +400,6 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
             return word
 
     return f
-
 
 def _pad_sequences(sequences, pad_tok, max_length):
     """
@@ -414,7 +419,6 @@ def _pad_sequences(sequences, pad_tok, max_length):
         sequence_length += [min(len(seq), max_length)]
 
     return sequence_padded, sequence_length
-
 
 def pad_sequences(sequences, pad_tok, nlevels=1):
     """
@@ -450,7 +454,6 @@ def pad_sequences(sequences, pad_tok, nlevels=1):
 
     return sequence_padded, sequence_length
 
-
 def minibatches(data, minibatch_size):
     """
     Args:
@@ -475,7 +478,6 @@ def minibatches(data, minibatch_size):
     if len(x_batch) != 0:
         yield x_batch, y_batch
 
-
 def get_chunk_type(tok, idx_to_tag):
     """
     Args:
@@ -490,7 +492,6 @@ def get_chunk_type(tok, idx_to_tag):
     tag_class = tag_name.split('-')[0]
     tag_type = tag_name.split('-')[-1]
     return tag_class, tag_type
-
 
 def get_chunks(seq, tags):
     """Given a sequence of tags, group entities and their position
