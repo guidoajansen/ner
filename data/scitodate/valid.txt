@@ -935,9 +935,9 @@ liberation	O
 and	O
 shortened	O
 survival	O
--LSB-	O
+[	O
 10,12	O
--RSB-	O
+]-	O
 .	O
 
 RNA	O

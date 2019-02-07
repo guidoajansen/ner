@@ -1158,11 +1158,11 @@ procedure	O
 modified	O
 from	O
 Woelche	O
--LSB-	O
+[	O
 Woelche	O
 ,	O
 1942	O
--RSB-	O
+]-	O
 .	O
 
 

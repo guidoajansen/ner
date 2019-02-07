@@ -14,10 +14,7 @@ def main():
 
     tags = { idx: tag for tag, idx in config.vocab_tags.items() }
     words = { idx: tag for tag, idx in config.vocab_words.items() }
-    # counts = config.count_words
-    # print(counts)
-
-    print(config.vocab_words)
+    counts = config.word_counts
 
     dataset = dataset.sample(324)
 
@@ -35,21 +32,46 @@ def main():
         tokens = [ words[token[-1]] for token in sample[0] ]
         raw.append(tokens)
 
+        # Unique
+        unique_tokens = []
+        unique = 0
+        for token in tokens:
+            if token == "$UNK$" or token == "$NUM$":
+                continue
+
+            print(counts[token])
+
+            if counts[token] == "1":
+                unique += 1
+                unique_tokens.append(token)
+
+        raw.append(unique)
+
         # Average Token Length
         avg_token_len = sum(map(len, tokens)) / len(tokens)
         raw.append(avg_token_len)
 
         # Entities
         entities = []
+        unique = 0
+        unique_tokens = []
         single_tag_counter = [0 for i in range(len(tags))]
 
         for idx, tag in enumerate(sample[1]):
-            if tag != 4:
-                entities.append(words[sample[0][idx][-1]])
+            if tag != 3:
+                word = words[sample[0][idx][-1]]
+                entities.append(word)
+                if word == "$UNK$" or word == "$NUM$":
+                    continue
+
+                if counts[word] == "1":
+                    unique += 1
+                    unique_tokens.append(word)
 
             single_tag_counter[tag] += 1
 
         raw.append(entities)
+        raw.append(unique)
 
         # Average Entity Length
         if len(entities) > 0:
@@ -75,17 +97,17 @@ def main():
 
         # Append Single Entities in Order
         raw.append(single_tag_counter[1]) # B-COM
-        raw.append(single_tag_counter[0]) # I-COM
-        raw.append(single_tag_counter[5]) # B-BRAND
-        raw.append(single_tag_counter[2]) # I-BRAND
-        raw.append(single_tag_counter[3]) # B-DEV
-        raw.append(single_tag_counter[6]) # I-DEV
-        raw.append(single_tag_counter[4]) # O
+        raw.append(single_tag_counter[2]) # I-COM
+        raw.append(single_tag_counter[0]) # B-BRAND
+        raw.append(single_tag_counter[4]) # I-BRAND
+        raw.append(single_tag_counter[6]) # B-DEV
+        raw.append(single_tag_counter[5]) # I-DEV
+        raw.append(single_tag_counter[3]) # O
 
         data.append(raw)
 
     # analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Avg Token Length", "Entities", "Avg Entity Length", "Density", "B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG", "B-MISC", "I-MISC", "O"])
-    analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Avg Token Length", "Entities", "Avg Entity Length", "Density", "B-COM", "I-COM", "B-BRAND", "I-BRAND", "B-DEV", "I-DEV", "O"])
+    analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-COM", "I-COM", "B-BRAND", "I-BRAND", "B-DEV", "I-DEV", "O"])
 
     print(analysis.head())
 

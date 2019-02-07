@@ -1,7 +1,7 @@
 from models.lstm.config import Config
 from models.lstm.utils import CoNLLDataset, get_vocabs, UNK, NUM, \
     get_embedding_vocab, write_vocab, load_vocab, get_char_vocab, \
-    export_trimmed_embedding_vectors, get_processing_word
+    export_trimmed_embedding_vectors, get_processing_word, write_counts
 
 
 def main():
@@ -38,6 +38,7 @@ def main():
     # Save vocab
     write_vocab(vocab, config.filename_words)
     write_vocab(vocab_tags, config.filename_tags)
+    write_counts(count_words, config.filename_counts)
 
     # Trim GloVe Vectors
     vocab = load_vocab(config.filename_words)

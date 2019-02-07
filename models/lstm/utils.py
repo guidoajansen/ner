@@ -244,6 +244,7 @@ def get_vocabs(datasets):
                     count_words[word.lower()] = 1
 
     print("- done. {} tokens".format(len(vocab_words)))
+
     return vocab_words, count_words, vocab_tags
 
 def get_char_vocab(dataset):
@@ -303,6 +304,26 @@ def write_vocab(vocab, filename):
                 f.write(word)
     print("- done. {} tokens".format(len(vocab)))
 
+def write_counts(vocab, filename):
+    """Writes a vocab to a file
+
+    Writes one word per line.
+
+    Args:
+        vocab: iterable that yields word
+        filename: path to vocab file
+
+    Returns:
+        write a word per line
+
+    """
+    print("Writing vocab...")
+    with open(filename, "w") as f:
+        for i, word in enumerate(vocab):
+            f.write("{}, {}\n".format(word, vocab[word]))
+
+    print("- done. {} tokens".format(len(vocab)))
+
 def load_vocab(filename):
     """Loads vocab from a file
 
@@ -323,6 +344,28 @@ def load_vocab(filename):
     except IOError:
         raise MyIOError(filename)
     return d
+
+def load_counts(filename):
+    """Loads counts from a file
+
+    Args:
+        filename: (string) the format of the file must be one word per line.
+
+    Returns:
+        d: dict[word] = count
+
+    """
+    try:
+        d = dict()
+        with open(filename) as f:
+            for word in f:
+                word, count = word.split(', ')
+                d[word] = count.strip()
+
+    except IOError:
+        raise MyIOError(filename)
+    return d
+
 
 def export_trimmed_embedding_vectors(vocab, filename, trimmed_filename, dim):
     """Saves embedding vectors in numpy array
@@ -438,7 +481,6 @@ def pad_sequences(sequences, pad_tok, nlevels=1):
 
     Returns:
         a list of list where each sublist has same length
-
     """
     if nlevels == 1:
         max_length = max(map(lambda x : len(x), sequences))

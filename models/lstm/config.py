@@ -1,5 +1,5 @@
 import os
-from .utils import get_logger, get_trimmed_embedding_vectors, load_vocab, get_processing_word
+from .utils import get_logger, get_trimmed_embedding_vectors, load_vocab, load_counts, get_processing_word
 
 class Config():
     def __init__(self, load=True):
@@ -26,6 +26,7 @@ class Config():
         self.vocab_words = load_vocab(self.filename_words)
         self.vocab_tags = load_vocab(self.filename_tags)
         self.vocab_chars = load_vocab(self.filename_chars)
+        self.word_counts = load_counts(self.filename_counts)
 
         self.nwords = len(self.vocab_words)
         self.nchars = len(self.vocab_chars)
@@ -74,6 +75,7 @@ class Config():
     filename_words = "data/words.txt"
     filename_tags = "data/tags.txt"
     filename_chars = "data/chars.txt"
+    filename_counts = "data/counts.txt"
 
     # training
     train_embeddings = False
