@@ -14,6 +14,10 @@ def main():
 
     tags = { idx: tag for tag, idx in config.vocab_tags.items() }
     words = { idx: tag for tag, idx in config.vocab_words.items() }
+    # counts = config.count_words
+    # print(counts)
+
+    print(config.vocab_words)
 
     dataset = dataset.sample(324)
 
@@ -40,7 +44,7 @@ def main():
         single_tag_counter = [0 for i in range(len(tags))]
 
         for idx, tag in enumerate(sample[1]):
-            if tag != 1:
+            if tag != 4:
                 entities.append(words[sample[0][idx][-1]])
 
             single_tag_counter[tag] += 1
@@ -70,13 +74,13 @@ def main():
         # raw.append(single_tag_counter[7]) # O
 
         # Append Single Entities in Order
-        raw.append(single_tag_counter[6]) # B-COM
-        raw.append(single_tag_counter[4]) # I-COM
-        raw.append(single_tag_counter[2]) # B-BRAND
-        raw.append(single_tag_counter[0]) # I-BRAND
-        raw.append(single_tag_counter[5]) # B-DEV
-        raw.append(single_tag_counter[3]) # I-DEV
-        raw.append(single_tag_counter[1]) # O
+        raw.append(single_tag_counter[1]) # B-COM
+        raw.append(single_tag_counter[0]) # I-COM
+        raw.append(single_tag_counter[5]) # B-BRAND
+        raw.append(single_tag_counter[2]) # I-BRAND
+        raw.append(single_tag_counter[3]) # B-DEV
+        raw.append(single_tag_counter[6]) # I-DEV
+        raw.append(single_tag_counter[4]) # O
 
         data.append(raw)
 

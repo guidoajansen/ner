@@ -229,13 +229,22 @@ def get_vocabs(datasets):
     """
     print("Building vocab...")
     vocab_words = set()
+    count_words = dict()
     vocab_tags = set()
+
     for dataset in datasets:
         for words, tags in dataset:
             vocab_words.update(words)
             vocab_tags.update(tags)
+
+            for word in words:
+                if word.lower() in count_words:
+                    count_words[word.lower()] += 1
+                else:
+                    count_words[word.lower()] = 1
+
     print("- done. {} tokens".format(len(vocab_words)))
-    return vocab_words, vocab_tags
+    return vocab_words, count_words, vocab_tags
 
 def get_char_vocab(dataset):
     """Build char vocabulary from an iterable of datasets objects

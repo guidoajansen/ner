@@ -5,7 +5,7 @@
 Kyunggi-do	O
 ,	O
 Korea	O
--RRB-	O
+)	O
 and	O
 the	O
 SNAP	B-BRAND
@@ -15,14 +15,14 @@ FeLV	I-BRAND
 Antigen/FIV	I-BRAND
 Antibody	B-DEV
 Test	I-DEV
--LRB-	O
+(	O
 IDEXX	B-COM
 GmbH	I-COM
 ,	O
 Ludwigsburg	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 ,	O
 according	O
 to	O
@@ -44,12 +44,12 @@ instructions	O
 of	O
 the	O
 manufacturer	O
--LRB-	O
+(	O
 Chemicell	B-COM
 GmBH	I-COM
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 Cell	O
@@ -58,7 +58,7 @@ and	O
 adipogenic	O
 differentiation	O
 3T3-L1	O
--LRB-	O
+(	O
 American	B-COM
 Type	I-COM
 Culture	I-COM
@@ -84,7 +84,7 @@ automatic	B-DEV
 analyzer	I-DEV
 Konelab	B-BRAND
 60	I-BRAND
--LRB-	O
+(	O
 Thermo	B-COM
 Clinical	I-COM
 Labsystem	I-COM
@@ -93,7 +93,7 @@ Oy	I-COM
 Espoo	O
 ,	O
 Finland	O
--RRB-	O
+)	O
 .	O
 
 C-peptide	O
@@ -119,14 +119,14 @@ and	O
 Immulite	B-BRAND
 2000	I-BRAND
 insulin	I-BRAND
--LRB-	O
+(	O
 DPC	B-COM
 ,	O
 Los	O
 Angeles	O
 ,	O
 CA	O
--RRB-	O
+)	O
 .	O
 
 It	O
@@ -151,7 +151,7 @@ an	O
 IR	B-BRAND
 ZnSe	I-BRAND
 window	I-BRAND
--LRB-	O
+(	O
 8.0	O
 mm	O
 diam.	O
@@ -166,7 +166,7 @@ LTD.	I-COM
 .	I-COM
 
 UK	O
--RRB-	O
+)	O
 within	O
 a	O
 home-designed	O
@@ -210,7 +210,7 @@ cut	O
 into	O
 small	O
 pieces	O
--LRB-	O
+(	O
 maximum	O
 size	O
 of	O
@@ -220,7 +220,7 @@ of	O
 ¥	O
 5	O
 mm	O
--RRB-	O
+)	O
 ,	O
 and	O
 placed	O
@@ -231,24 +231,24 @@ in	O
 U/ml	O
 Dispase	O
 II	O
--LRB-	O
+(	O
 Boehringer	B-COM
 Mannheim	I-COM
 ,	I-COM
 GmbH	I-COM
 ,	O
 Germany	O
--RRB-	O
+)	O
 in	O
 complete	O
 RPMI	O
 medium	O
--LRB-	O
+(	O
 3	O
 ml	O
 per	O
 piece	O
--RRB-	O
+)	O
 .	O
 
 The	O
@@ -262,7 +262,7 @@ a	O
 water	B-DEV
 bath	I-DEV
 shaker	I-DEV
--LRB-	O
+(	O
 New	B-COM
 Brunswick	I-COM
 Scientific	I-COM
@@ -274,7 +274,7 @@ Edison	O
 NJ	O
 ,	O
 USA	O
--RRB-	O
+)	O
 for	O
 2	O
 h	O
@@ -305,7 +305,7 @@ Inchinnan	O
 Scotland	O
 ,	O
 UK	O
--RRB-	O
+)	O
 .	O
 
 The	O
@@ -318,7 +318,7 @@ a	O
 polyester	O
 interposition	O
 graft	O
--LRB-	O
+(	O
 10	O
 mm	O
 ;	O
@@ -326,7 +326,7 @@ Gelweave	B-BRAND
 ,	O
 Vascutek	B-COM
 Ltd.	I-COM
--RRB-	O
+)	O
 .	O
 
 PLPs	O
@@ -346,11 +346,11 @@ synthesized	O
 by	O
 Eurogentec	B-COM
 SA	I-COM
--LRB-	O
+(	O
 Seraing	O
 ,	O
 Belgium	O
--RRB-	O
+)	O
 .	O
 
 Padlock	O
@@ -377,7 +377,7 @@ ClustalW	O
 implemented	O
 in	O
 BioEdit	O
--LRB-	O
+(	O
 http://www.mbio.ncsu	O
 .	O
 
@@ -394,7 +394,7 @@ subjected	O
 to	O
 an	O
 ultracentrifuge	B-DEV
--LRB-	O
+(	O
 Optima	B-BRAND
 LE-80K	I-BRAND
 ,	O
@@ -409,7 +409,7 @@ GmbH	I-COM
 Krefeld	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 and	O
 centrifuged	O
 at	O
@@ -483,7 +483,7 @@ with	O
 an	O
 integrated	O
 preamp	O
--LRB-	O
+(	O
 Rapid	B-COM
 Biomedical	I-COM
 GMBH	I-COM
@@ -491,7 +491,7 @@ GMBH	I-COM
 Rimpar	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 A	O
@@ -522,7 +522,7 @@ bore	O
 
 ,	O
 2010	O
--RRB-	O
+)	O
 at	O
 both	O
 9	O
@@ -555,13 +555,13 @@ Tissue	I-BRAND
 DNA	I-BRAND
 purification	B-DEV
 kit	I-DEV
--LRB-	O
+(	O
 Promega	B-COM
 Biotech	I-COM
 AB	I-COM
 ,	O
 Sweden	O
--RRB-	O
+)	O
 .	O
 
 In	O
@@ -574,7 +574,7 @@ concentrations	O
 were	O
 determined	O
 fluorometrically	O
--LRB-	O
+(	O
 Qubit	B-BRAND
 ®	I-BRAND
 dsDNA	I-BRAND
@@ -582,7 +582,7 @@ HS	I-BRAND
 assay	I-BRAND
 ;	O
 Invitrogen	B-COM
--RRB-	O
+)	O
 and	O
 adjusted	O
 to	O
@@ -601,7 +601,7 @@ qPCR	O
 
 Lipoid	B-BRAND
 E80	I-BRAND
--LRB-	O
+(	O
 egg	O
 lecithin	O
 ,	O
@@ -609,15 +609,15 @@ approx.	O
 80	O
 %	O
 phosphatidylcholine	O
--LRB-	O
+(	O
 PC	O
--RRB-	O
--RRB-	O
+)	O
+)	O
 ,	O
 Phospholipon	B-BRAND
 ®	I-BRAND
 90H	I-BRAND
--LRB-	O
+(	O
 hydrogenated	O
 soy	O
 lecithin	O
@@ -628,11 +628,11 @@ min	O
 90	O
 %	O
 PC	O
--RRB-	O
+)	O
 ,	O
 Lipoid	B-BRAND
 S100	I-BRAND
--LRB-	O
+(	O
 soy	O
 lecithin	O
 ,	O
@@ -642,13 +642,13 @@ min	O
 94	O
 %	O
 PC	O
--RRB-	O
+)	O
 ,	O
 and	O
 Soluthin	B-BRAND
 ®	B-BRAND
 S90	I-BRAND
--LRB-	O
+(	O
 soy	O
 lechitin	O
 ,	O
@@ -662,18 +662,18 @@ associated	O
 with	O
 calcium	O
 chloride	O
--RRB-	O
+)	O
 were	O
 kindly	O
 provided	O
 by	O
 Lipoid	B-COM
 GmbH	I-COM
--LRB-	O
+(	O
 Ludwigshafen	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 The	O
@@ -693,11 +693,11 @@ purchased	O
 from	O
 Nortura	B-COM
 AS	I-COM
--LRB-	O
+(	O
 Bardufoss	O
 ,	O
 Norway	O
--RRB-	O
+)	O
 .	O
 
 DMSO	O
@@ -708,12 +708,12 @@ Sigma	B-COM
 Chemical	I-COM
 Company	I-COM
 Ltd.	I-COM
--LRB-	O
+(	O
 Poole	O
 ,	O
 United	O
 Kingdom	O
--RRB-	O
+)	O
 .	O
 
 
@@ -758,7 +758,7 @@ arterial	O
 stiffness	O
 ,	O
 photoplethysmography	O
--LRB-	O
+(	O
 Pulse	B-BRAND
 Trace	I-BRAND
 2000	I-BRAND
@@ -770,7 +770,7 @@ Ltd.	I-COM
 ,	O
 United	O
 Kingdom	O
--RRB-	O
+)	O
 was	O
 used	O
 .	O
@@ -793,21 +793,21 @@ stiffness	O
 index	O
 .	O
 
--LRB-	O
+(	O
 v	O
--RRB-	O
+)	O
 SBP	O
 as	O
 defined	O
 by	O
 gold	O
 standard	O
--LRB-	O
+(	O
 >	O
 250	O
 PMN/mm	O
 3	O
--RRB-	O
+)	O
 or	O
 positive	O
 cultures	O
@@ -847,9 +847,9 @@ DNA	O
 positivity	O
 ,	O
 and	O
--LRB-	O
+(	O
 vi	O
--RRB-	O
+)	O
 standard	O
 definition	O
 of	O
@@ -879,7 +879,7 @@ LightCycler	B-BRAND
 SeptiFast	I-BRAND
 Kit	I-BRAND
 Mgrade	I-BRAND
--LRB-	O
+(	O
 Roche	B-COM
 Diagnostics	I-COM
 GmbH	I-COM
@@ -887,7 +887,7 @@ GmbH	I-COM
 Grenzach-Wyhlen	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 was	O
 not	O
 .	O
@@ -956,7 +956,7 @@ with	O
 a	O
 NanoDrop	B-BRAND
 device	I-BRAND
--LRB-	O
+(	O
 Peqlab	B-COM
 Biotechnologie	I-COM
 GmbH	I-COM
@@ -964,7 +964,7 @@ GmbH	I-COM
 Erlangen	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 Complementary	O
@@ -991,9 +991,9 @@ the	O
 Contract	O
 Research	O
 Organisation	O
--LRB-	O
+(	O
 CRO	O
--RRB-	O
+)	O
 Pharmalog	O
 Institut	O
 f	O
@@ -1044,24 +1044,24 @@ raffinose	O
 stachyose	O
 ,	O
 lactulose	O
--LRB-	O
+(	O
 Sigma-Aldrich	B-COM
 ,	O
 CZ	O
--RRB-	O
+)	O
 ,	O
 inulin	O
--LRB-	O
+(	O
 Frutafit	B-BRAND
 s	I-BRAND
 ,	O
 Hages	B-COM
 ,	O
 SK	O
--RRB-	O
+)	O
 ,	O
 OF	O
--LRB-	O
+(	O
 Raftilose	B-BRAND
 s	I-BRAND
 P85	I-BRAND
@@ -1071,11 +1071,11 @@ P95	O
 Orafti	B-COM
 ,	O
 BE	O
--RRB-	O
+)	O
 ,	O
 and	O
 galactooligosaccharides	O
--LRB-	O
+(	O
 Vivinal	B-BRAND
 s	I-BRAND
 ,	O
@@ -1085,7 +1085,7 @@ Humana	B-COM
 GmbH	I-COM
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 Overnight	O
@@ -1098,62 +1098,62 @@ grown	O
 in	O
 Wilkins-Chalgren	O
 broth	O
--LRB-	O
+(	O
 Oxoid	B-COM
 ,	O
 UK	O
--RRB-	O
+)	O
 were	O
 injected	O
--LRB-	O
+(	O
 0.3	O
 mL	O
--RRB-	O
+)	O
 into	O
 10	O
 mL	O
 of	O
 basal	O
 medium	O
--LRB-	O
+(	O
 BM	O
--RRB-	O
+)	O
 containing	O
 tryptone	O
--LRB-	O
+(	O
 10	O
 g	O
--RRB-	O
+)	O
 ,	O
 nutrient	O
 broth	O
 no.	O
 2	O
--LRB-	O
+(	O
 10	O
 g	O
--RRB-	O
+)	O
 ,	O
 tween	O
 80	O
--LRB-	O
+(	O
 1	O
 mL	O
--RRB-	O
+)	O
 ,	O
 L-cysteine	O
 hydrochloride	O
--LRB-	O
+(	O
 0.5	O
 g	O
--RRB-	O
+)	O
 ,	O
 distilled	O
 water	O
--LRB-	O
+(	O
 1	O
 L	O
--RRB-	O
+)	O
 ,	O
 pH	O
 1/4	O
@@ -1175,7 +1175,7 @@ light	O
 DMRBE	B-BRAND
 Leica	O
 microscope	B-DEV
--LRB-	O
+(	O
 Leica	B-COM
 Microsystems	I-COM
 GmbH	I-COM
@@ -1183,14 +1183,14 @@ GmbH	I-COM
 Wetzlar	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 ,	O
 using	O
 an	O
 Infinity	B-BRAND
 1-5c	I-BRAND
 camera	B-DEV
--LRB-	O
+(	O
 Lumenera	B-COM
 Co.	I-COM
 ,	O
@@ -1199,13 +1199,13 @@ Ottawa	O
 ON	O
 ,	O
 Canada	O
--RRB-	O
+)	O
 .	O
 
 A	O
 Biotronik	O
 stimulator	B-DEV
--LRB-	O
+(	O
 UHS	B-BRAND
 20	I-BRAND
 universal	O
@@ -1218,7 +1218,7 @@ GmbH	I-COM
 Berlin	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 was	O
 used	O
 to	O
@@ -1256,7 +1256,7 @@ authentic	O
 amino	O
 acid	O
 sequence	O
--LRB-	O
+(	O
 Genotropin	B-BRAND
 ,	O
 Amersham	B-COM
@@ -1268,7 +1268,7 @@ Upjohn	B-COM
 AB	I-COM
 ,	O
 Sweden	O
--RRB-	O
+)	O
 was	O
 used	O
 .	O
@@ -1279,20 +1279,20 @@ pro	O
 B	O
 cell	O
 line	O
--LRB-	O
+(	O
 Ba/F3	O
--RRB-	O
+)	O
 was	O
 from	O
 the	O
 RIKEN	B-COM
 Cell	I-COM
 Bank	I-COM
--LRB-	O
+(	O
 Ibaraki	O
 ,	O
 Japan	O
--RRB-	O
+)	O
 .	O
 
 

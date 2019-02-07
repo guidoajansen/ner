@@ -7,9 +7,9 @@ diffraction	O
 reciprocal	O
 space	O
 mapping	O
--LRB-	O
+(	O
 RSM	O
--RRB-	O
+)	O
 of	O
 the	O
 strain-free	O
@@ -22,7 +22,7 @@ by	O
 an	O
 X-ray	B-DEV
 diffractometer	I-DEV
--LRB-	O
+(	O
 Philips	B-BRAND
 X'pert	I-BRAND
 ,	O
@@ -33,7 +33,7 @@ Almelo	O
 ,	O
 The	O
 Netherlands	O
--RRB-	O
+)	O
 .	O
 
 Rapid	O
@@ -70,27 +70,27 @@ using	O
 a	O
 Biospec	B-DEV
 tomograph	I-DEV
--LRB-	O
+(	O
 Bruker	B-COM
 ,	O
 Karlsruhe	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 equipped	O
 with	O
 a	O
 4.7	O
 Tesla	O
--LRB-	O
+(	O
 T	O
--RRB-	O
+)	O
 ,	O
 33-cm	O
 bore	O
 horizontal	O
 magnet	B-DEV
--LRB-	O
+(	O
 Oxford	B-COM
 Ltd.	I-COM
 ,	O
@@ -98,7 +98,7 @@ Oxford	O
 ,	O
 United	O
 Kingdom	O
--RRB-	O
+)	O
 .	O
 
 Axial	O
@@ -107,7 +107,7 @@ fast	O
 Spin	O
 Echo	O
 T2-weighted	O
--LRB-	O
+(	O
 RARE	O
 ,	O
 TE	O
@@ -134,14 +134,14 @@ injection	O
 of	O
 the	O
 Gd-DTPA	O
--LRB-	O
+(	O
 MagnevistV	B-BRAND
 R	I-BRAND
 ,	O
 Schering	B-COM
 ,	O
 Germany	O
--RRB-	O
+)	O
 at	O
 300	O
 mmol/kg	O
@@ -162,7 +162,7 @@ analyzed	O
 by	O
 BioNumerics	B-BRAND
 software	B-DEV
--LRB-	O
+(	O
 Version	O
 4.0	O
 ,	O
@@ -171,7 +171,7 @@ Maths	I-COM
 BVBA	I-COM
 ,	O
 Belgium	O
--RRB-	O
+)	O
 .	O
 
 Pulsotypes	O
@@ -198,14 +198,14 @@ PAXgene	B-BRAND
 blood	B-DEV
 RNA	I-DEV
 kit	I-DEV
--LRB-	O
+(	O
 Qiagen	B-COM
 GmbH	I-COM
 ,	O
 Hilden	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 The	O
@@ -237,7 +237,7 @@ using	O
 a	O
 polishing	B-DEV
 machine	I-DEV
--LRB-	O
+(	O
 Metaserv	B-BRAND
 2000	I-BRAND
 ,	O
@@ -251,7 +251,7 @@ Ltd	I-COM
 Coventry	O
 ,	O
 UK	O
--RRB-	O
+)	O
 to	O
 a	O
 final	O
@@ -271,10 +271,10 @@ International	O
 Organization	O
 for	O
 Standardization	O
--LRB-	O
+(	O
 ISO/FDIS	O
 1567	O
--RRB-	O
+)	O
 .	O
 
 The	O
@@ -289,13 +289,13 @@ of	O
 Annexin-V-FLUOS	B-BRAND
 labeling	O
 solution	O
--LRB-	O
+(	O
 Roche	B-COM
 Diagnostics	I-COM
 GmbH	I-COM
 ,	O
 Germany	O
--RRB-	O
+)	O
 ,	O
 containing	O
 20	O
@@ -310,20 +310,20 @@ ml/ml	O
 of	O
 propidium	O
 iodide	O
--LRB-	O
+(	O
 PI	O
--RRB-	O
+)	O
 solution	O
 .	O
 
 Descriptive	O
 statistics	O
--LRB-	O
+(	O
 e.g.	O
 means	O
 and	O
 proportions	O
--RRB-	O
+)	O
 were	O
 derived	O
 using	O
@@ -332,14 +332,14 @@ Reflect	I-BRAND
 Version	I-BRAND
 2007.1	I-BRAND
 g	I-BRAND
--LRB-	O
+(	O
 QPSMR	B-COM
 Ltd.	I-COM
 ,	O
 Wallingford	O
 ,	O
 UK	O
--RRB-	O
+)	O
 .	O
 
 Results	O
@@ -356,10 +356,10 @@ were	O
 contacted	O
 and	O
 348	O
--LRB-	O
+(	O
 29	O
 %	O
--RRB-	O
+)	O
 participated	O
 in	O
 the	O
@@ -369,7 +369,7 @@ survey	O
 Paisley	O
 ,	O
 UK	O
--RRB-	O
+)	O
 according	O
 to	O
 the	O
@@ -386,12 +386,12 @@ Total	O
 RNA	B-DEV
 Isolation	I-DEV
 kit	I-DEV
--LRB-	O
+(	O
 Qiagen	B-COM
 GmbH	I-COM
 ,	O
 Germany	O
--RRB-	O
+)	O
 and	O
 quantified	O
 using	O
@@ -419,7 +419,7 @@ placed	O
 in	O
 an	O
 oven	B-DEV
--LRB-	O
+(	O
 Memmert	B-COM
 GmbH	I-COM
 +	I-COM
@@ -428,7 +428,7 @@ CO.KG	I-COM
 Schwabach	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 at	O
 105	O
 °C	O
@@ -456,14 +456,14 @@ using	O
 MINITAB	B-BRAND
 16	I-BRAND
 software	B-DEV
--LRB-	O
+(	O
 Minitab	B-COM
 Ltd.	I-COM
 ,	O
 Coventry	O
 ,	O
 UK	O
--RRB-	O
+)	O
 .	O
 
 Incubation	O
@@ -495,12 +495,12 @@ JPT	B-COM
 Peptide	I-COM
 Technologies	I-COM
 GmbH	I-COM
--LRB-	O
+(	O
 Berlin	O
 ,	O
 10	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 Peptide	O
@@ -531,7 +531,7 @@ a	O
 silicone	B-DEV
 contact	I-DEV
 lens	I-DEV
--LRB-	O
+(	O
 Silflex	B-BRAND
 ,	O
 Wöhlk	B-COM
@@ -541,7 +541,7 @@ GmbH	I-COM
 Kiel	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 for	O
 optical	O
 correction	O
@@ -559,7 +559,7 @@ primary	B-DEV
 intraocular	I-DEV
 lens	I-DEV
 implantation	I-DEV
--LRB-	O
+(	O
 AcrySof	B-BRAND
 lens	I-BRAND
 ,	O
@@ -571,7 +571,7 @@ Fort	O
 Worth	O
 ,	O
 TX	O
--RRB-	O
+)	O
 in	O
 both	O
 eyes	O
@@ -582,9 +582,9 @@ PARP-1	O
 zinc	O
 binding	O
 domain	O
--LRB-	O
+(	O
 GRASCKKCSESIPKDSLRMAIMVQSPMFDGKVPHWYHFSCFWKV	O
--RRB-	O
+)	O
 was	O
 purchased	O
 from	O
@@ -592,28 +592,28 @@ Peptide	B-COM
 Specialty	I-COM
 Laboratories	I-COM
 GmbH	I-COM
--LRB-	O
+(	O
 Heidelberg	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 Dithiothreitol	O
--LRB-	O
+(	O
 DTT	O
 ;	O
 molecular	O
 biology	O
 grade	O
--RRB-	O
+)	O
 and	O
 zinc	O
 acetate	O
 dihydrate	O
--LRB-	O
+(	O
 p.a.	O
--RRB-	O
+)	O
 were	O
 obtained	O
 from	O
@@ -624,14 +624,14 @@ Peroxidase-conjugated	O
 donkey	O
 anti-goat	O
 Ab	O
--LRB-	O
+(	O
 Dianova	B-COM
 GmbH	I-COM
 ,	O
 Hamburg	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 dissolved	O
 in	O
 PBS	O
@@ -644,13 +644,13 @@ and	O
 0.1	O
 %	O
 Tween-20	O
--LRB-	O
+(	O
 0.16	O
 μg/mL	O
 ,	O
 10	O
 mL	O
--RRB-	O
+)	O
 was	O
 then	O
 added	O
@@ -673,14 +673,14 @@ STA	B-BRAND
 409	I-BRAND
 TGA	B-DEV
 analyzer	I-DEV
--LRB-	O
+(	O
 Netzsch	B-COM
 GmbH	I-COM
 ,	O
 Selb	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 In	O
@@ -753,7 +753,7 @@ fat	O
 using	O
 phosphate-buffered	O
 saline	O
--LRB-	O
+(	O
 PBS	O
 ,	O
 Dulbecco	B-BRAND
@@ -769,7 +769,7 @@ GmbH	I-COM
 Steinheim	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 and	O
 digested	O
 in	O
@@ -786,7 +786,7 @@ of	O
 type	O
 IV	O
 collagenase	O
--LRB-	O
+(	O
 1	O
 mg/ml	O
 ,	O
@@ -797,10 +797,10 @@ GmbH	I-COM
 Steinheim	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 ,	O
 trypsin	O
--LRB-	O
+(	O
 2.5	O
 mg/ml	O
 ,	O
@@ -811,12 +811,12 @@ GmbH	I-COM
 Steinheim	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 ,	O
 and	O
 DNase	O
 I	O
--LRB-	O
+(	O
 2	O
 mg/ml	O
 ,	O
@@ -826,7 +826,7 @@ GmbH	I-COM
 Darmstadt	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 The	O
@@ -836,7 +836,7 @@ was	O
 continuously	O
 recorded	O
 telemetrically	O
--LRB-	O
+(	O
 Sport	B-BRAND
 Tester	I-BRAND
 S	I-BRAND
@@ -853,7 +853,7 @@ Oy	I-COM
 Kempele	O
 ,	O
 Finland	O
--RRB-	O
+)	O
 .	O
 
 The	O
@@ -1017,18 +1017,18 @@ the	O
 absence	O
 of	O
 RCC	O
--LRB-	O
+(	O
 type	O
 2A	O
--RRB-	O
+)	O
 ,	O
 presence	O
 of	O
 RCC	O
--LRB-	O
+(	O
 type	O
 2B	O
--RRB-	O
+)	O
 and	O
 sole	O
 manifestation	O
@@ -1038,10 +1038,10 @@ without	O
 HAB	O
 or	O
 RCC	O
--LRB-	O
+(	O
 type	O
 2C	O
--RRB-	O
+)	O
 .	O
 
 26	O
@@ -1062,14 +1062,14 @@ DNA	B-DEV
 Blood	I-DEV
 Mini	I-DEV
 Kit	I-DEV
--LRB-	O
+(	O
 Qiagen	B-COM
 GmbH	I-COM
 ,	O
 Hilden	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 according	O
 to	O
 the	O
@@ -1093,7 +1093,7 @@ transparent	B-DEV
 microscope	I-DEV
 glass	I-DEV
 slide	I-DEV
--LRB-	O
+(	O
 Microscopes	B-COM
 Plus	I-COM
 Ltd.	I-COM
@@ -1101,7 +1101,7 @@ Ltd.	I-COM
 Hertfordshire	O
 ,	O
 UK	O
--RRB-	O
+)	O
 and	O
 a	O
 double-sided	O
@@ -1109,10 +1109,10 @@ sticky	O
 tape	O
 were	O
 attached	O
--LRB-	O
+(	O
 Fig.	O
 1	O
--RRB-	O
+)	O
 .	O
 
 Following	O
@@ -1131,7 +1131,7 @@ using	O
 a	O
 freezing	B-DEV
 microtome	I-DEV
--LRB-	O
+(	O
 Microm	B-BRAND
 HM450	I-BRAND
 ,	O
@@ -1141,7 +1141,7 @@ Gmbh	I-COM
 Waldorf	O
 ,	O
 Germany	O
--RRB-	O
+)	O
 .	O
 
 Every	O
