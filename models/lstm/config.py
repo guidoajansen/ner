@@ -50,13 +50,13 @@ class Config():
     # embeddings
     dim_char = 100
 
-    # filename_dev = "data/conll/valid.txt"
-    # filename_test = "data/conll/test.txt"
-    # filename_train = "data/conll/train.txt"
-
-    filename_dev = "data/scitodate/valid.txt"
-    filename_test = "data/scitodate/test.txt"
-    filename_train = "data/scitodate/train.txt"
+    filename_dev = "data/conll/valid.txt"
+    filename_test = "data/conll/test.txt"
+    filename_train = "data/conll/train.txt"
+    #
+    # filename_dev = "data/scitodate/valid.txt"
+    # filename_test = "data/scitodate/test.txt"
+    # filename_train = "data/scitodate/train.txt"
 
     # dim_word = 200
     # filename_embedding = "data/embeddings/bionlp/PubMed-shuffle-win-30.txt".format(dim_word)

@@ -6,11 +6,11 @@ from models.lstm.utils import CoNLLDataset
 def main():
     config = Config()
 
-    # dataset = CoNLLDataset("data/conll/train.txt", config.processing_word,
-    #                      config.processing_tag, config.max_iter)
-
-    dataset = CoNLLDataset("data/scitodate/train.txt", config.processing_word,
+    dataset = CoNLLDataset("data/conll/train.txt", config.processing_word,
                          config.processing_tag, config.max_iter)
+
+    # dataset = CoNLLDataset("data/scitodate/train.txt", config.processing_word,
+    #                      config.processing_tag, config.max_iter)
 
     tags = { idx: tag for tag, idx in config.vocab_tags.items() }
     words = { idx: tag for tag, idx in config.vocab_words.items() }
@@ -39,8 +39,6 @@ def main():
             if token == "$UNK$" or token == "$NUM$":
                 continue
 
-            print(counts[token])
-
             if counts[token] == "1":
                 unique += 1
                 unique_tokens.append(token)
@@ -58,7 +56,7 @@ def main():
         single_tag_counter = [0 for i in range(len(tags))]
 
         for idx, tag in enumerate(sample[1]):
-            if tag != 3:
+            if tag != 0:
                 word = words[sample[0][idx][-1]]
                 entities.append(word)
                 if word == "$UNK$" or word == "$NUM$":
@@ -84,35 +82,33 @@ def main():
         density = len(entities) / length * 100
         raw.append(density)
 
-        # # Append Single Entities in Order
-        # raw.append(single_tag_counter[2]) # B-PER
-        # raw.append(single_tag_counter[5]) # I-PER
-        # raw.append(single_tag_counter[8]) # B-LOC
-        # raw.append(single_tag_counter[6]) # I-LOC
-        # raw.append(single_tag_counter[4]) # B-ORG
-        # raw.append(single_tag_counter[1]) # I-ORG
-        # raw.append(single_tag_counter[3]) # B-MISC
-        # raw.append(single_tag_counter[0]) # I-MISC
-        # raw.append(single_tag_counter[7]) # O
+        # Append Single Entities in Order
+        raw.append(single_tag_counter[1]) # B-PER
+        raw.append(single_tag_counter[5]) # I-PER
+        raw.append(single_tag_counter[4]) # B-LOC
+        raw.append(single_tag_counter[2]) # I-LOC
+        raw.append(single_tag_counter[3]) # B-ORG
+        raw.append(single_tag_counter[8]) # I-ORG
+        raw.append(single_tag_counter[7]) # B-MISC
+        raw.append(single_tag_counter[6]) # I-MISC
+        raw.append(single_tag_counter[0]) # O
 
         # Append Single Entities in Order
-        raw.append(single_tag_counter[1]) # B-COM
-        raw.append(single_tag_counter[2]) # I-COM
-        raw.append(single_tag_counter[0]) # B-BRAND
-        raw.append(single_tag_counter[4]) # I-BRAND
-        raw.append(single_tag_counter[6]) # B-DEV
-        raw.append(single_tag_counter[5]) # I-DEV
-        raw.append(single_tag_counter[3]) # O
+        # raw.append(single_tag_counter[1]) # B-COM
+        # raw.append(single_tag_counter[2]) # I-COM
+        # raw.append(single_tag_counter[0]) # B-BRAND
+        # raw.append(single_tag_counter[4]) # I-BRAND
+        # raw.append(single_tag_counter[6]) # B-DEV
+        # raw.append(single_tag_counter[5]) # I-DEV
+        # raw.append(single_tag_counter[3]) # O
 
         data.append(raw)
 
-    # analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Avg Token Length", "Entities", "Avg Entity Length", "Density", "B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG", "B-MISC", "I-MISC", "O"])
-    analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-COM", "I-COM", "B-BRAND", "I-BRAND", "B-DEV", "I-DEV", "O"])
+    analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG", "B-MISC", "I-MISC", "O"])
+    # analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-COM", "I-COM", "B-BRAND", "I-BRAND", "B-DEV", "I-DEV", "O"])
 
-    print(analysis.head())
-
-    # analysis.to_csv("data/analysis/conll.tsv", sep='\t')
-    analysis.to_csv("data/analysis/scito.tsv", sep='\t')
+    analysis.to_csv("data/analysis/conll.tsv", sep='\t')
+    # analysis.to_csv("data/analysis/scito.tsv", sep='\t')
 
 
 if __name__ == "__main__":
