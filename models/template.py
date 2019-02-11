@@ -93,7 +93,7 @@ class Template(object):
 
         """
         self.merged      = tf.summary.merge_all()
-        session = "T" + str(self.config.ntags) + " E" + str(self.config.nepochs) + " D" + str(self.config.dropout) + " LR" + str(self.config.lr) + " B" + str(self.config.batch_size)
+        session = "T" + str(self.config.ntags) + " E" + str(self.config.nepochs) + " D" + str(self.config.dropout) + " LR" + str(self.config.lr) + " B" + str(self.config.batch_size) + " " + self.config.embedding
 
         self.accuracy = tf.placeholder(tf.float32, shape=None, name='Accuracy')
         accuracy_sum = tf.summary.scalar('Accuracy', self.accuracy)
