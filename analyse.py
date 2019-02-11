@@ -56,7 +56,7 @@ def main():
         single_tag_counter = [0 for i in range(len(tags))]
 
         for idx, tag in enumerate(sample[1]):
-            if tag != 0:
+            if tags[tag] != "O":
                 word = words[sample[0][idx][-1]]
                 entities.append(word)
                 if word == "$UNK$" or word == "$NUM$":
