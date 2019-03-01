@@ -50,13 +50,13 @@ class Config():
     # embeddings
     dim_char = 100
 
-    # filename_dev = "data/conll/valid.txt"
-    # filename_test = "data/conll/test.txt"
-    # filename_train = "data/conll/train.txt"
+    filename_dev = "data/conll/valid.txt"
+    filename_test = "data/conll/test.txt"
+    filename_train = "data/conll/train.txt"
 
-    filename_dev = "data/scitodate 2/dev.txt"
-    filename_test = "data/scitodate 2/test.txt"
-    filename_train = "data/scitodate 2/train.txt"
+    # filename_dev = "data/scitodate 2/dev.txt"
+    # filename_test = "data/scitodate 2/test.txt"
+    # filename_train = "data/scitodate 2/train.txt"
 
     # filename_dev = "data/scitodate/valid.txt"
     # filename_test = "data/scitodate/test.txt"
