@@ -9,14 +9,14 @@ def main():
     # dataset = CoNLLDataset("data/conll/train.txt", config.processing_word,
     #                      config.processing_tag, config.max_iter)
 
-    dataset = CoNLLDataset("data/scitodate/train.txt", config.processing_word,
+    dataset = CoNLLDataset("data/scitodate 2/train.txt", config.processing_word,
                          config.processing_tag, config.max_iter)
 
     tags = { idx: tag for tag, idx in config.vocab_tags.items() }
     words = { idx: tag for tag, idx in config.vocab_words.items() }
     counts = config.word_counts
 
-    dataset = dataset.sample(324)
+    # dataset = dataset.sample(324)
 
     data = []
 
@@ -82,25 +82,26 @@ def main():
         density = len(entities) / length * 100
         raw.append(density)
 
-        # # Append Single Entities in Order
-        # raw.append(single_tag_counter[1]) # B-PER
-        # raw.append(single_tag_counter[5]) # I-PER
-        # raw.append(single_tag_counter[4]) # B-LOC
-        # raw.append(single_tag_counter[2]) # I-LOC
-        # raw.append(single_tag_counter[3]) # B-ORG
-        # raw.append(single_tag_counter[8]) # I-ORG
-        # raw.append(single_tag_counter[7]) # B-MISC
-        # raw.append(single_tag_counter[6]) # I-MISC
-        # raw.append(single_tag_counter[0]) # O
-
         # Append Single Entities in Order
-        raw.append(single_tag_counter[2]) # B-COM
-        raw.append(single_tag_counter[4]) # I-COM
-        raw.append(single_tag_counter[5]) # B-BRAND
-        raw.append(single_tag_counter[1]) # I-BRAND
-        raw.append(single_tag_counter[6]) # B-DEV
-        raw.append(single_tag_counter[0]) # I-DEV
-        raw.append(single_tag_counter[3]) # O
+        # raw.append(single_tag_counter[1]) # B-PER
+        # raw.append(single_tag_counter[2]) # I-PER
+        # raw.append(single_tag_counter[8]) # B-LOC
+        # raw.append(single_tag_counter[0]) # I-LOC
+        # raw.append(single_tag_counter[4]) # B-ORG
+        # raw.append(single_tag_counter[6]) # I-ORG
+        # raw.append(single_tag_counter[7]) # B-MISC
+        # raw.append(single_tag_counter[5]) # I-MISC
+        # raw.append(single_tag_counter[3]) # O
+
+
+        # # Append Single Entities in Order
+        raw.append(single_tag_counter[0]) # B-COM
+        raw.append(single_tag_counter[3]) # I-COM
+        raw.append(single_tag_counter[2]) # B-BRAND
+        raw.append(single_tag_counter[4]) # I-BRAND
+        raw.append(single_tag_counter[5]) # B-DEV
+        raw.append(single_tag_counter[6]) # I-DEV
+        raw.append(single_tag_counter[1]) # O
 
         data.append(raw)
 
@@ -108,8 +109,8 @@ def main():
     analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-COM", "I-COM", "B-BRAND", "I-BRAND", "B-DEV", "I-DEV", "O"])
 
     # analysis.to_csv("data/analysis/conll.tsv", sep='\t')
-    # analysis.to_csv("data/analysis/scito.tsv", sep='\t')
-    analysis.to_csv("data/analysis/pubmed.tsv", sep='\t')
+    analysis.to_csv("data/analysis/scito2.tsv", sep='\t')
+    # analysis.to_csv("data/analysis/pubmed.tsv", sep='\t')
 
 
 if __name__ == "__main__":

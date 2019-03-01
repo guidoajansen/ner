@@ -54,23 +54,27 @@ class Config():
     # filename_test = "data/conll/test.txt"
     # filename_train = "data/conll/train.txt"
 
-    filename_dev = "data/scitodate/valid.txt"
-    filename_test = "data/scitodate/test.txt"
-    filename_train = "data/scitodate/train.txt"
+    filename_dev = "data/scitodate 2/dev.txt"
+    filename_test = "data/scitodate 2/test.txt"
+    filename_train = "data/scitodate 2/train.txt"
 
-    dim_word = 200
-    embedding = "pubmed"
-    filename_embedding = "data/embeddings/bionlp/PubMed-shuffle-win-30.txt".format(dim_word)
-    filename_trimmed = "data/embeddings/bionlp/PubMed-shuffle-win-30.trimmed.npz".format(dim_word)
+    # filename_dev = "data/scitodate/valid.txt"
+    # filename_test = "data/scitodate/test.txt"
+    # filename_train = "data/scitodate/train.txt"
 
-    # dim_word = 300
-    # embedding = glove
-    # filename_embedding = "data/embeddings/glove/glove.6B.{}d.txt".format(dim_word)
-    # filename_trimmed = "data/embeddings/glove/glove.6B.{}d.trimmed.npz".format(dim_word)
+    # dim_word = 200
+    # embedding = "pubmed"
+    # filename_embedding = "data/embeddings/bionlp/PubMed-shuffle-win-30.txt".format(dim_word)
+    # filename_trimmed = "data/embeddings/bionlp/PubMed-shuffle-win-30.trimmed.npz".format(dim_word)
+
+    dim_word = 300
+    embedding = 'glove'
+    filename_embedding = "data/embeddings/glove/glove.6B.{}d.txt".format(dim_word)
+    filename_trimmed = "data/embeddings/glove/glove.6B.{}d.trimmed.npz".format(dim_word)
 
     # filename_dev = filename_test = filename_train = "data/test.txt"  # test
 
-    use_pretrained = True
+    use_pretrained = False
     max_iter = None  # if not None, max number of examples in Dataset
 
     # vocab (created from dataset with build_data.py)
@@ -80,7 +84,9 @@ class Config():
     filename_counts = "data/counts.txt"
 
     # training
-    train_embeddings = False
+    train_embeddings = True
+    embedding = "custom"
+
     nepochs = 30
     dropout = 0.5
     batch_size = 10
