@@ -16,7 +16,9 @@ def main():
     words = { idx: tag for tag, idx in config.vocab_words.items() }
     counts = config.word_counts
 
-    dataset = dataset.sample(1246)
+    samples = 324
+
+    dataset = dataset.sample(samples)
 
     data = []
 
@@ -108,7 +110,7 @@ def main():
     analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG", "B-MISC", "I-MISC", "O"])
     # analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-COM", "I-COM", "B-BRAND", "I-BRAND", "B-DEV", "I-DEV", "O"])
 
-    analysis.to_csv("data/analysis/conll.tsv", sep='\t')
+    analysis.to_csv("data/analysis/conll" + str(samples) + ".tsv", sep='\t')
     # analysis.to_csv("data/analysis/scito2.tsv", sep='\t')
     # analysis.to_csv("data/analysis/pubmed.tsv", sep='\t')
 
