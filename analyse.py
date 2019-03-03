@@ -6,7 +6,7 @@ from models.lstm.utils import CoNLLDataset
 def main():
     config = Config()
 
-    dataset = CoNLLDataset("data/conll/train.txt", config.processing_word,
+    dataset = CoNLLDataset("data/conll/324/train.txt", config.processing_word,
                          config.processing_tag, config.max_iter)
 
     # dataset = CoNLLDataset("data/scitodate 2/train.txt", config.processing_word,
@@ -16,9 +16,9 @@ def main():
     words = { idx: tag for tag, idx in config.vocab_words.items() }
     counts = config.word_counts
 
-    samples = 324
-
-    dataset = dataset.sample(samples)
+    # samples = 324
+    #
+    # dataset = dataset.sample(samples)
 
     data = []
 
@@ -85,14 +85,14 @@ def main():
         raw.append(density)
 
         # Append Single Entities in Order
-        raw.append(single_tag_counter[7]) # B-PER
-        raw.append(single_tag_counter[8]) # I-PER
-        raw.append(single_tag_counter[4]) # B-LOC
-        raw.append(single_tag_counter[5]) # I-LOC
-        raw.append(single_tag_counter[0]) # B-ORG
-        raw.append(single_tag_counter[6]) # I-ORG
-        raw.append(single_tag_counter[2]) # B-MISC
-        raw.append(single_tag_counter[3]) # I-MISC
+        raw.append(single_tag_counter[0]) # B-PER
+        raw.append(single_tag_counter[2]) # I-PER
+        raw.append(single_tag_counter[6]) # B-LOC
+        raw.append(single_tag_counter[3]) # I-LOC
+        raw.append(single_tag_counter[4]) # B-ORG
+        raw.append(single_tag_counter[8]) # I-ORG
+        raw.append(single_tag_counter[7]) # B-MISC
+        raw.append(single_tag_counter[5]) # I-MISC
         raw.append(single_tag_counter[1]) # O
 
 
@@ -110,8 +110,8 @@ def main():
     analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG", "B-MISC", "I-MISC", "O"])
     # analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-COM", "I-COM", "B-BRAND", "I-BRAND", "B-DEV", "I-DEV", "O"])
 
-    analysis.to_csv("data/analysis/conll" + str(samples) + ".tsv", sep='\t')
-    # analysis.to_csv("data/analysis/scito2.tsv", sep='\t')
+    analysis.to_csv("data/analysis/conll324.tsv", sep='\t')
+    # analysis.to_csv("data/analysis/scito1246.tsv", sep='\t')
     # analysis.to_csv("data/analysis/pubmed.tsv", sep='\t')
 
 

@@ -17,8 +17,10 @@ def main():
     # create datasets
     dev   = CoNLLDataset(config.filename_dev, config.processing_word,
                          config.processing_tag, config.max_iter)
+    print(len(dev))
     train = CoNLLDataset(config.filename_train, config.processing_word,
                          config.processing_tag, config.max_iter)
+    print(len(train))
 
     # train model
     model.train(train, dev)

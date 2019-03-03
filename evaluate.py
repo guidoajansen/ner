@@ -95,14 +95,17 @@ def main():
     # create instance of config
     config = Config()
 
+    # create dataset
+    test  = CoNLLDataset(config.filename_test, config.processing_word,
+                         config.processing_tag, config.max_iter)
+    print(len(test))
+
     # build model
     model = Model(config)
     model.build()
     model.restore_session(config.dir_model)
 
-    # create dataset
-    test  = CoNLLDataset(config.filename_test, config.processing_word,
-                         config.processing_tag, config.max_iter)
+
 
     # evaluate and interact
     model.evaluate(test)
