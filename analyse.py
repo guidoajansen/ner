@@ -6,7 +6,7 @@ from models.lstm.utils import CoNLLDataset
 def main():
     config = Config()
 
-    dataset = CoNLLDataset("data/conll/324/train.txt", config.processing_word,
+    dataset = CoNLLDataset("data/conll/1246/train.txt", config.processing_word,
                          config.processing_tag, config.max_iter)
 
     # dataset = CoNLLDataset("data/scitodate 2/train.txt", config.processing_word,
@@ -110,7 +110,7 @@ def main():
     analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG", "B-MISC", "I-MISC", "O"])
     # analysis = pd.DataFrame(data=data, columns=["Length", "Tokens", "Unique Tokens", "Avg Token Length", "Entities", "Unique Entities", "Avg Entity Length", "Density", "B-COM", "I-COM", "B-BRAND", "I-BRAND", "B-DEV", "I-DEV", "O"])
 
-    analysis.to_csv("data/analysis/conll324.tsv", sep='\t')
+    analysis.to_csv("data/analysis/conll1246.tsv", sep='\t')
     # analysis.to_csv("data/analysis/scito1246.tsv", sep='\t')
     # analysis.to_csv("data/analysis/pubmed.tsv", sep='\t')
 
